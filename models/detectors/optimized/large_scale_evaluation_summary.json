@@ -1,0 +1,875 @@
+{
+  "binary": {
+    "logistic_regression": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision": 0.9701492537313433,
+        "recall": 1.0,
+        "f1": 0.9848484848484849,
+        "f1_macro": 0.9922100179169588,
+        "f1_weighted": 0.999172801277557,
+        "confusion_matrix": [
+          [
+            4666,
+            4
+          ],
+          [
+            0,
+            130
+          ]
+        ],
+        "true_negatives": 4666,
+        "false_positives": 4,
+        "false_negatives": 0,
+        "true_positives": 130,
+        "false_positive_rate": 0.0008565310492505353,
+        "false_negative_rate": 0.0,
+        "roc_auc": 0.9999258771207379,
+        "pr_auc": 0.9970869968455561
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9953846153846154,
+        "precision": 0.9912280701754386,
+        "recall": 0.8692307692307693,
+        "f1": 0.9262295081967213,
+        "f1_macro": 0.9619236476928551,
+        "f1_weighted": 0.9952381778892466,
+        "confusion_matrix": [
+          [
+            7538,
+            2
+          ],
+          [
+            34,
+            226
+          ]
+        ],
+        "true_negatives": 7538,
+        "false_positives": 2,
+        "false_negatives": 34,
+        "true_positives": 226,
+        "false_positive_rate": 0.0002652519893899204,
+        "false_negative_rate": 0.13076923076923078,
+        "roc_auc": 0.999309324627627,
+        "pr_auc": 0.989023112301694,
+        "optimal_threshold": 0.3639731654279491,
+        "at_optimal_threshold": {
+          "accuracy": 0.9960256410256411,
+          "precision": 0.9872340425531915,
+          "recall": 0.8923076923076924,
+          "f1": 0.9373737373737374,
+          "f1_macro": 0.9676607184055049,
+          "f1_weighted": 0.9959285673684879,
+          "confusion_matrix": [
+            [
+              7537,
+              3
+            ],
+            [
+              28,
+              232
+            ]
+          ],
+          "true_negatives": 7537,
+          "false_positives": 3,
+          "false_negatives": 28,
+          "true_positives": 232,
+          "false_positive_rate": 0.0003978779840848806,
+          "false_negative_rate": 0.1076923076923077,
+          "roc_auc": 0.999309324627627,
+          "pr_auc": 0.989023112301694
+        },
+        "brier_score": 0.003190706170711735
+      },
+      "latency": {
+        "mean_latency_us": 572.779001086019,
+        "median_latency_us": 552.849960513413,
+        "p95_latency_us": 736.4349585259333,
+        "p99_latency_us": 788.8399506919088,
+        "throughput_samples_sec": 1745.8740598100621
+      },
+      "footprint": {
+        "disk_size_kb": 4.474609375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_logistic_regression.joblib"
+    },
+    "random_forest": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision": 1.0,
+        "recall": 0.9692307692307692,
+        "f1": 0.984375,
+        "f1_macro": 0.9919734589041096,
+        "f1_weighted": 0.9991603346175799,
+        "confusion_matrix": [
+          [
+            4670,
+            0
+          ],
+          [
+            4,
+            126
+          ]
+        ],
+        "true_negatives": 4670,
+        "false_positives": 0,
+        "false_negatives": 4,
+        "true_positives": 126,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.03076923076923077,
+        "roc_auc": 0.99997199802339,
+        "pr_auc": 0.9990294389332139
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9961538461538462,
+        "precision": 1.0,
+        "recall": 0.8846153846153846,
+        "f1": 0.9387755102040817,
+        "f1_macro": 0.9683950350490957,
+        "f1_weighted": 0.9960399249044423,
+        "confusion_matrix": [
+          [
+            7540,
+            0
+          ],
+          [
+            30,
+            230
+          ]
+        ],
+        "true_negatives": 7540,
+        "false_positives": 0,
+        "false_negatives": 30,
+        "true_positives": 230,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.11538461538461539,
+        "roc_auc": 0.9995460110181595,
+        "pr_auc": 0.9950462511075625,
+        "optimal_threshold": 0.4171403363509449,
+        "at_optimal_threshold": {
+          "accuracy": 0.9965384615384615,
+          "precision": 1.0,
+          "recall": 0.8961538461538462,
+          "f1": 0.9452332657200812,
+          "f1_macro": 0.9717230073884049,
+          "f1_weighted": 0.9964467662788404,
+          "confusion_matrix": [
+            [
+              7540,
+              0
+            ],
+            [
+              27,
+              233
+            ]
+          ],
+          "true_negatives": 7540,
+          "false_positives": 0,
+          "false_negatives": 27,
+          "true_positives": 233,
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.10384615384615385,
+          "roc_auc": 0.9995460110181595,
+          "pr_auc": 0.9950462511075625
+        },
+        "brier_score": 0.0029483944578006173
+      },
+      "latency": {
+        "mean_latency_us": 44333.89999670908,
+        "median_latency_us": 46551.300038117915,
+        "p95_latency_us": 49796.739951125346,
+        "p99_latency_us": 50308.1120067509,
+        "throughput_samples_sec": 22.556102668031244
+      },
+      "footprint": {
+        "disk_size_kb": 2124.380859375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_random_forest.joblib"
+    },
+    "mlp": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision": 0.9846153846153847,
+        "recall": 0.9846153846153847,
+        "f1": 0.9846153846153847,
+        "f1_macro": 0.9920935595453797,
+        "f1_weighted": 0.9991666666666666,
+        "confusion_matrix": [
+          [
+            4668,
+            2
+          ],
+          [
+            2,
+            128
+          ]
+        ],
+        "true_negatives": 4668,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "true_positives": 128,
+        "false_positive_rate": 0.00042826552462526765,
+        "false_negative_rate": 0.015384615384615385,
+        "roc_auc": 0.999965409323011,
+        "pr_auc": 0.9988309785925723
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9974358974358974,
+        "precision": 0.9761904761904762,
+        "recall": 0.9461538461538461,
+        "f1": 0.9609375,
+        "f1_macro": 0.9798059716330859,
+        "f1_weighted": 0.9974165451572995,
+        "confusion_matrix": [
+          [
+            7534,
+            6
+          ],
+          [
+            14,
+            246
+          ]
+        ],
+        "true_negatives": 7534,
+        "false_positives": 6,
+        "false_negatives": 14,
+        "true_positives": 246,
+        "false_positive_rate": 0.0007957559681697613,
+        "false_negative_rate": 0.05384615384615385,
+        "roc_auc": 0.9995679453172822,
+        "pr_auc": 0.9945534750622038,
+        "optimal_threshold": 0.9884957739015086,
+        "at_optimal_threshold": {
+          "accuracy": 0.9941025641025641,
+          "precision": 1.0,
+          "recall": 0.823076923076923,
+          "f1": 0.9029535864978903,
+          "f1_macro": 0.9499562326248542,
+          "f1_weighted": 0.9938253690100205,
+          "confusion_matrix": [
+            [
+              7540,
+              0
+            ],
+            [
+              46,
+              214
+            ]
+          ],
+          "true_negatives": 7540,
+          "false_positives": 0,
+          "false_negatives": 46,
+          "true_positives": 214,
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.17692307692307693,
+          "roc_auc": 0.9995679453172822,
+          "pr_auc": 0.9945534750622038
+        },
+        "brier_score": 0.0020857696177970526
+      },
+      "latency": {
+        "mean_latency_us": 701.4940015505999,
+        "median_latency_us": 698.1499609537423,
+        "p95_latency_us": 753.5699725849554,
+        "p99_latency_us": 799.1370232775813,
+        "throughput_samples_sec": 1425.5289393630949
+      },
+      "footprint": {
+        "disk_size_kb": 204.833984375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_mlp.joblib"
+    },
+    "xgboost": {
+      "in_domain_test": {
+        "accuracy": 0.999375,
+        "precision": 1.0,
+        "recall": 0.9769230769230769,
+        "f1": 0.9883268482490273,
+        "f1_macro": 0.9940028761206605,
+        "f1_weighted": 0.9993714524825803,
+        "confusion_matrix": [
+          [
+            4670,
+            0
+          ],
+          [
+            3,
+            127
+          ]
+        ],
+        "true_negatives": 4670,
+        "false_positives": 0,
+        "false_negatives": 3,
+        "true_positives": 127,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.023076923076923078,
+        "roc_auc": 0.9999094053697909,
+        "pr_auc": 0.9971517748383123
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9984615384615385,
+        "precision": 1.0,
+        "recall": 0.9538461538461539,
+        "f1": 0.9763779527559056,
+        "f1_macro": 0.9877914147559014,
+        "f1_weighted": 0.9984439792892308,
+        "confusion_matrix": [
+          [
+            7540,
+            0
+          ],
+          [
+            12,
+            248
+          ]
+        ],
+        "true_negatives": 7540,
+        "false_positives": 0,
+        "false_negatives": 12,
+        "true_positives": 248,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.046153846153846156,
+        "roc_auc": 0.999922974903081,
+        "pr_auc": 0.9980636935904819,
+        "optimal_threshold": 0.23056308364592368,
+        "at_optimal_threshold": {
+          "accuracy": 0.9984615384615385,
+          "precision": 1.0,
+          "recall": 0.9538461538461539,
+          "f1": 0.9763779527559056,
+          "f1_macro": 0.9877914147559014,
+          "f1_weighted": 0.9984439792892308,
+          "confusion_matrix": [
+            [
+              7540,
+              0
+            ],
+            [
+              12,
+              248
+            ]
+          ],
+          "true_negatives": 7540,
+          "false_positives": 0,
+          "false_negatives": 12,
+          "true_positives": 248,
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.046153846153846156,
+          "roc_auc": 0.999922974903081,
+          "pr_auc": 0.9980636935904819
+        },
+        "brier_score": 0.0016040927970146686
+      },
+      "latency": {
+        "mean_latency_us": 1693.1089980062097,
+        "median_latency_us": 1662.4500276520848,
+        "p95_latency_us": 1862.2599745867774,
+        "p99_latency_us": 2028.6100084194923,
+        "throughput_samples_sec": 590.6294285705121
+      },
+      "footprint": {
+        "disk_size_kb": 401.927734375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_xgboost.joblib"
+    },
+    "voting_ensemble": {
+      "in_domain_test": {
+        "accuracy": 0.999375,
+        "precision": 0.9922480620155039,
+        "recall": 0.9846153846153847,
+        "f1": 0.9884169884169884,
+        "f1_macro": 0.9940479118297338,
+        "f1_weighted": 0.9993738268909556,
+        "confusion_matrix": [
+          [
+            4669,
+            1
+          ],
+          [
+            2,
+            128
+          ]
+        ],
+        "true_negatives": 4669,
+        "false_positives": 1,
+        "false_negatives": 2,
+        "true_positives": 128,
+        "false_positive_rate": 0.00021413276231263382,
+        "false_negative_rate": 0.015384615384615385,
+        "roc_auc": 0.9999901169494317,
+        "pr_auc": 0.9996494191958888
+      },
+      "cross_topology_test": {
+        "accuracy": 0.997948717948718,
+        "precision": 0.9919354838709677,
+        "recall": 0.9461538461538461,
+        "f1": 0.968503937007874,
+        "f1_macro": 0.9837218863412018,
+        "f1_weighted": 0.9979253057189744,
+        "confusion_matrix": [
+          [
+            7538,
+            2
+          ],
+          [
+            14,
+            246
+          ]
+        ],
+        "true_negatives": 7538,
+        "false_positives": 2,
+        "false_negatives": 14,
+        "true_positives": 246,
+        "false_positive_rate": 0.0002652519893899204,
+        "false_negative_rate": 0.05384615384615385,
+        "roc_auc": 0.999555702917772,
+        "pr_auc": 0.9952570047095219,
+        "optimal_threshold": 0.6576045910254071,
+        "at_optimal_threshold": {
+          "accuracy": 0.9971794871794872,
+          "precision": 1.0,
+          "recall": 0.9153846153846154,
+          "f1": 0.9558232931726908,
+          "f1_macro": 0.9771832662393715,
+          "f1_weighted": 0.9971192411016069,
+          "confusion_matrix": [
+            [
+              7540,
+              0
+            ],
+            [
+              22,
+              238
+            ]
+          ],
+          "true_negatives": 7540,
+          "false_positives": 0,
+          "false_negatives": 22,
+          "true_positives": 238,
+          "false_positive_rate": 0.0,
+          "false_negative_rate": 0.08461538461538462,
+          "roc_auc": 0.999555702917772,
+          "pr_auc": 0.9952570047095219
+        },
+        "brier_score": 0.0015511121629611048
+      },
+      "latency": {
+        "mean_latency_us": 3082.4620003113523,
+        "median_latency_us": 3055.74998492375,
+        "p95_latency_us": 3230.7700312230736,
+        "p99_latency_us": 3585.6979916570717,
+        "throughput_samples_sec": 324.41600250027165
+      },
+      "footprint": {
+        "disk_size_kb": 606.611328125
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_voting_ensemble.joblib"
+    }
+  },
+  "multiclass": {
+    "logistic_regression": {
+      "in_domain_test": {
+        "accuracy": 0.99875,
+        "precision_macro": 0.9948306595365419,
+        "precision_weighted": 0.9987551990493166,
+        "recall_macro": 0.9666666666666667,
+        "recall_weighted": 0.99875,
+        "f1_macro": 0.9799958082330957,
+        "f1_weighted": 0.9987221322052304,
+        "confusion_matrix": [
+          [
+            4670,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            5,
+            0,
+            45,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            29
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.009668016194331984,
+        "false_negative_rate": 0.03333333333333333,
+        "roc_auc": 0.9998910331255582
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9874358974358974,
+        "precision_macro": 0.9919227085884766,
+        "precision_weighted": 0.9874706723037989,
+        "recall_macro": 0.7533333333333334,
+        "recall_weighted": 0.9874358974358974,
+        "f1_macro": 0.8350668754708257,
+        "f1_weighted": 0.9854887160583182,
+        "confusion_matrix": [
+          [
+            7540,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            50,
+            0,
+            0
+          ],
+          [
+            47,
+            0,
+            53,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            59
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.09330169830169831,
+        "false_negative_rate": 0.24666666666666667,
+        "roc_auc": 0.9953287769259918
+      },
+      "latency": {
+        "mean_latency_us": 624.8200009576976,
+        "median_latency_us": 619.7000038810074,
+        "p95_latency_us": 661.9150313781574,
+        "p99_latency_us": 666.0770060261713,
+        "throughput_samples_sec": 1600.460930295513
+      },
+      "footprint": {
+        "disk_size_kb": 6.943359375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_multiclass_logistic_regression.joblib"
+    },
+    "random_forest": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision_macro": 0.9997860504920839,
+        "precision_weighted": 0.999167379831693,
+        "recall_macro": 0.98,
+        "recall_weighted": 0.9991666666666666,
+        "f1_macro": 0.9896888978194017,
+        "f1_weighted": 0.999158341632886,
+        "confusion_matrix": [
+          [
+            4670,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            48,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.007692307692307693,
+        "false_negative_rate": 0.02,
+        "roc_auc": 0.9999833430718948
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9966666666666667,
+        "precision_macro": 0.9937717765026506,
+        "precision_weighted": 0.996653321763426,
+        "recall_macro": 0.9399336870026526,
+        "recall_weighted": 0.9966666666666667,
+        "f1_macro": 0.9651273891302583,
+        "f1_weighted": 0.9965694943805885,
+        "confusion_matrix": [
+          [
+            7538,
+            0,
+            2,
+            0
+          ],
+          [
+            14,
+            86,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            90,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.023141858141858145,
+        "false_negative_rate": 0.060066312997347486,
+        "roc_auc": 0.9976024433789021
+      },
+      "latency": {
+        "mean_latency_us": 38535.1720021572,
+        "median_latency_us": 35820.100019918755,
+        "p95_latency_us": 47561.33496412076,
+        "p99_latency_us": 48703.88701732737,
+        "throughput_samples_sec": 25.950318839734777
+      },
+      "footprint": {
+        "disk_size_kb": 2506.302734375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_multiclass_random_forest.joblib"
+    },
+    "mlp": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision_macro": 0.9898889320182034,
+        "precision_weighted": 0.9991664999333066,
+        "recall_macro": 0.9898929336188437,
+        "recall_weighted": 0.9991666666666666,
+        "f1_macro": 0.9898419285183336,
+        "f1_weighted": 0.9991645414541452,
+        "confusion_matrix": [
+          [
+            4668,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            48,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.003951417004048583,
+        "false_negative_rate": 0.010107066381156318,
+        "roc_auc": 0.999979225134158
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9973076923076923,
+        "precision_macro": 0.9895363940683186,
+        "precision_weighted": 0.99731680903167,
+        "recall_macro": 0.9549005305039788,
+        "recall_weighted": 0.9973076923076923,
+        "f1_macro": 0.9706920046147455,
+        "f1_weighted": 0.9972331512866548,
+        "confusion_matrix": [
+          [
+            7537,
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            97,
+            0,
+            0
+          ],
+          [
+            14,
+            1,
+            85,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.016476023976023976,
+        "false_negative_rate": 0.04509946949602122,
+        "roc_auc": 0.9994672347546353
+      },
+      "latency": {
+        "mean_latency_us": 664.3970008008182,
+        "median_latency_us": 659.800018183887,
+        "p95_latency_us": 698.8050183281302,
+        "p99_latency_us": 728.235014830716,
+        "throughput_samples_sec": 1505.1241935088044
+      },
+      "footprint": {
+        "disk_size_kb": 208.068359375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_multiclass_mlp.joblib"
+    },
+    "xgboost": {
+      "in_domain_test": {
+        "accuracy": 0.9991666666666666,
+        "precision_macro": 0.9997860504920839,
+        "precision_weighted": 0.999167379831693,
+        "recall_macro": 0.98,
+        "recall_weighted": 0.9991666666666666,
+        "f1_macro": 0.9896357681639157,
+        "f1_weighted": 0.9991561278972407,
+        "confusion_matrix": [
+          [
+            4670,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            49,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            47,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.007692307692307693,
+        "false_negative_rate": 0.02,
+        "roc_auc": 0.9999819712351212
+      },
+      "cross_topology_test": {
+        "accuracy": 0.9983333333333333,
+        "precision_macro": 0.9995697074010327,
+        "precision_weighted": 0.9983362019506599,
+        "recall_macro": 0.9675,
+        "recall_weighted": 0.9983333333333333,
+        "f1_macro": 0.9829025228609511,
+        "f1_weighted": 0.9983016333859653,
+        "confusion_matrix": [
+          [
+            7540,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            91,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            96,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.0125,
+        "false_negative_rate": 0.0325,
+        "roc_auc": 0.9998258266932007
+      },
+      "latency": {
+        "mean_latency_us": 2246.3980020256713,
+        "median_latency_us": 2241.1499521695077,
+        "p95_latency_us": 2346.1300268536434,
+        "p99_latency_us": 2507.797984289938,
+        "throughput_samples_sec": 445.15709108459765
+      },
+      "footprint": {
+        "disk_size_kb": 1254.880859375
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_multiclass_xgboost.joblib"
+    }
+  }
+}

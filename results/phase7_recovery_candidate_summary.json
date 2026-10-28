@@ -1,0 +1,476 @@
+{
+  "experiment_name": "Phase 7 Candidate Recovery Strategy Generator Benchmark",
+  "taxonomy_actions_supported": [
+    "NO_ACTION",
+    "RATE_LIMITING",
+    "DYNAMIC_REROUTING",
+    "NODE_ISOLATION",
+    "POWER_ADJUSTMENT",
+    "NODE_REBOOT",
+    "COMPOSITE"
+  ],
+  "key_epochs_evaluated": [
+    50.0,
+    70.0,
+    95.0,
+    115.0
+  ],
+  "strategy_pools": {
+    "epoch_50s": {
+      "timestamp": 50.0,
+      "candidate_count": 3,
+      "generation_latency_us": 130.9,
+      "candidates": [
+        {
+          "strategy_id": "STRAT_NO_ACTION",
+          "action_type": "NO_ACTION",
+          "target_nodes": [],
+          "affected_nodes": [],
+          "parameters": {},
+          "estimated_cost": 0.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 0.0,
+          "rationale": "Maintain nominal operation without active intervention; continuous monitoring."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_2",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            2
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 2 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_5",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 5 via 0 alternative loop-free paths."
+        }
+      ]
+    },
+    "epoch_70s": {
+      "timestamp": 70.0,
+      "candidate_count": 8,
+      "generation_latency_us": 439.5,
+      "candidates": [
+        {
+          "strategy_id": "STRAT_NO_ACTION",
+          "action_type": "NO_ACTION",
+          "target_nodes": [],
+          "affected_nodes": [],
+          "parameters": {},
+          "estimated_cost": 0.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 0.0,
+          "rationale": "Maintain nominal operation without active intervention; continuous monitoring."
+        },
+        {
+          "strategy_id": "STRAT_ISO_3",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 3 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_3",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 3 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_3",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 3 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_ISO_5",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 5 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_5",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 5 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_5",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 5 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_2",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            2
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 2 via 0 alternative loop-free paths."
+        }
+      ]
+    },
+    "epoch_95s": {
+      "timestamp": 95.0,
+      "candidate_count": 8,
+      "generation_latency_us": 280.2,
+      "candidates": [
+        {
+          "strategy_id": "STRAT_NO_ACTION",
+          "action_type": "NO_ACTION",
+          "target_nodes": [],
+          "affected_nodes": [],
+          "parameters": {},
+          "estimated_cost": 0.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 0.0,
+          "rationale": "Maintain nominal operation without active intervention; continuous monitoring."
+        },
+        {
+          "strategy_id": "STRAT_ISO_3",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 3 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_3",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 3 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_3",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 3 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_ISO_4",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 4 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_4",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 4 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_4",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 4 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_ISO_5",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 5 by severing 0 links. WARNING: Induces 5 partitioned components."
+        }
+      ]
+    },
+    "epoch_115s": {
+      "timestamp": 115.0,
+      "candidate_count": 8,
+      "generation_latency_us": 203.8,
+      "candidates": [
+        {
+          "strategy_id": "STRAT_NO_ACTION",
+          "action_type": "NO_ACTION",
+          "target_nodes": [],
+          "affected_nodes": [],
+          "parameters": {},
+          "estimated_cost": 0.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 0.0,
+          "rationale": "Maintain nominal operation without active intervention; continuous monitoring."
+        },
+        {
+          "strategy_id": "STRAT_ISO_3",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 3 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_3",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 3 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_3",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            3
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 3 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_ISO_4",
+          "action_type": "NODE_ISOLATION",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "severed_links": []
+          },
+          "estimated_cost": 6.0,
+          "is_topology_partitioning": true,
+          "expected_recovery_time_s": 1.0,
+          "rationale": "Isolate compromised/failing Node 4 by severing 0 links. WARNING: Induces 5 partitioned components."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_4",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 4 via 0 alternative loop-free paths."
+        },
+        {
+          "strategy_id": "STRAT_REBOOT_4",
+          "action_type": "NODE_REBOOT",
+          "target_nodes": [
+            4
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "reboot_duration_s": 8.0,
+            "flush_buffers": true,
+            "reset_registers": true
+          },
+          "estimated_cost": 5.0,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 8.0,
+          "rationale": "Power cycle and reset volatile memory on Node 4 with 8.0s soft reboot."
+        },
+        {
+          "strategy_id": "STRAT_REROUTE_5",
+          "action_type": "DYNAMIC_REROUTING",
+          "target_nodes": [
+            5
+          ],
+          "affected_nodes": [],
+          "parameters": {
+            "bypass_routes": {}
+          },
+          "estimated_cost": 2.5,
+          "is_topology_partitioning": false,
+          "expected_recovery_time_s": 2.0,
+          "rationale": "Reroute transit traffic around Node 5 via 0 alternative loop-free paths."
+        }
+      ]
+    }
+  },
+  "scalability_latency_benchmark": [
+    {
+      "nodes": 6,
+      "mean_latency_us": 52.65,
+      "p95_latency_us": 60.89,
+      "candidates_generated": 7
+    },
+    {
+      "nodes": 10,
+      "mean_latency_us": 56.36,
+      "p95_latency_us": 56.97,
+      "candidates_generated": 7
+    },
+    {
+      "nodes": 16,
+      "mean_latency_us": 51.16,
+      "p95_latency_us": 55.52,
+      "candidates_generated": 7
+    },
+    {
+      "nodes": 25,
+      "mean_latency_us": 52.9,
+      "p95_latency_us": 63.14,
+      "candidates_generated": 7
+    }
+  ],
+  "partition_avoidance_validated": true
+}

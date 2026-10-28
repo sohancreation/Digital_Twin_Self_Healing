@@ -1,0 +1,379 @@
+{
+  "scale_profiles": [
+    {
+      "num_nodes": 6,
+      "layout": "mesh",
+      "num_edges": 7,
+      "avg_degree": 2.33,
+      "network_diameter": 3,
+      "clustering_coefficient": 0.0,
+      "communication_range_m": 36.0
+    },
+    {
+      "num_nodes": 12,
+      "layout": "mesh",
+      "num_edges": 16,
+      "avg_degree": 2.67,
+      "network_diameter": 6,
+      "clustering_coefficient": 0.0,
+      "communication_range_m": 36.0
+    },
+    {
+      "num_nodes": 24,
+      "layout": "mesh",
+      "num_edges": 34,
+      "avg_degree": 2.83,
+      "network_diameter": 12,
+      "clustering_coefficient": 0.0,
+      "communication_range_m": 36.0
+    },
+    {
+      "num_nodes": 48,
+      "layout": "mesh",
+      "num_edges": 70,
+      "avg_degree": 2.92,
+      "network_diameter": 24,
+      "clustering_coefficient": 0.0,
+      "communication_range_m": 42.0
+    },
+    {
+      "num_nodes": 100,
+      "layout": "mesh",
+      "num_edges": 148,
+      "avg_degree": 2.96,
+      "network_diameter": 50,
+      "clustering_coefficient": 0.0,
+      "communication_range_m": 48.0
+    }
+  ],
+  "computational_profiles": [
+    {
+      "num_nodes": 6,
+      "topology_layout": "mesh",
+      "num_candidates_evaluated": 4,
+      "lookahead_horizon_s": 30,
+      "sync_latency_ms": 0.748,
+      "trust_eval_latency_ms": 1.955,
+      "candidate_gen_latency_ms": 0.394,
+      "sandbox_sim_latency_ms": 7.556,
+      "optimization_latency_ms": 7.217,
+      "total_cycle_latency_ms": 17.871,
+      "memory_footprint_mb": 228.07,
+      "memory_delta_mb": 0.28,
+      "cpu_percent": 14.1
+    },
+    {
+      "num_nodes": 12,
+      "topology_layout": "mesh",
+      "num_candidates_evaluated": 4,
+      "lookahead_horizon_s": 30,
+      "sync_latency_ms": 1.352,
+      "trust_eval_latency_ms": 2.264,
+      "candidate_gen_latency_ms": 0.274,
+      "sandbox_sim_latency_ms": 11.125,
+      "optimization_latency_ms": 11.393,
+      "total_cycle_latency_ms": 26.407,
+      "memory_footprint_mb": 228.33,
+      "memory_delta_mb": 0.53,
+      "cpu_percent": 16.2
+    },
+    {
+      "num_nodes": 24,
+      "topology_layout": "mesh",
+      "num_candidates_evaluated": 4,
+      "lookahead_horizon_s": 30,
+      "sync_latency_ms": 3.023,
+      "trust_eval_latency_ms": 6.085,
+      "candidate_gen_latency_ms": 0.382,
+      "sandbox_sim_latency_ms": 20.12,
+      "optimization_latency_ms": 19.99,
+      "total_cycle_latency_ms": 49.601,
+      "memory_footprint_mb": 228.55,
+      "memory_delta_mb": 0.75,
+      "cpu_percent": 20.4
+    },
+    {
+      "num_nodes": 48,
+      "topology_layout": "mesh",
+      "num_candidates_evaluated": 4,
+      "lookahead_horizon_s": 30,
+      "sync_latency_ms": 6.686,
+      "trust_eval_latency_ms": 18.199,
+      "candidate_gen_latency_ms": 0.616,
+      "sandbox_sim_latency_ms": 37.324,
+      "optimization_latency_ms": 37.579,
+      "total_cycle_latency_ms": 100.403,
+      "memory_footprint_mb": 229.33,
+      "memory_delta_mb": 1.54,
+      "cpu_percent": 28.8
+    },
+    {
+      "num_nodes": 100,
+      "topology_layout": "mesh",
+      "num_candidates_evaluated": 4,
+      "lookahead_horizon_s": 30,
+      "sync_latency_ms": 16.243,
+      "trust_eval_latency_ms": 67.41,
+      "candidate_gen_latency_ms": 1.154,
+      "sandbox_sim_latency_ms": 74.616,
+      "optimization_latency_ms": 74.7,
+      "total_cycle_latency_ms": 234.123,
+      "memory_footprint_mb": 230.09,
+      "memory_delta_mb": 2.3,
+      "cpu_percent": 47.0
+    }
+  ],
+  "traffic_stress_records": [
+    {
+      "traffic_rate_pps": 1.0,
+      "total_network_throughput_pps": 12.0,
+      "mean_pdr": 0.9939,
+      "min_pdr": 0.9824,
+      "mean_latency_ms": 34.85,
+      "queue_overflow_drops": 0,
+      "channel_loss_drops": 2,
+      "total_energy_consumed_j": 0.56,
+      "is_queue_saturated": false,
+      "is_system_stable": true
+    },
+    {
+      "traffic_rate_pps": 5.0,
+      "total_network_throughput_pps": 60.0,
+      "mean_pdr": 0.9939,
+      "min_pdr": 0.9824,
+      "mean_latency_ms": 34.69,
+      "queue_overflow_drops": 2,
+      "channel_loss_drops": 8,
+      "total_energy_consumed_j": 1.68,
+      "is_queue_saturated": false,
+      "is_system_stable": true
+    },
+    {
+      "traffic_rate_pps": 10.0,
+      "total_network_throughput_pps": 120.0,
+      "mean_pdr": 0.9655,
+      "min_pdr": 0.5417,
+      "mean_latency_ms": 34.63,
+      "queue_overflow_drops": 24,
+      "channel_loss_drops": 100,
+      "total_energy_consumed_j": 3.07,
+      "is_queue_saturated": false,
+      "is_system_stable": true
+    },
+    {
+      "traffic_rate_pps": 20.0,
+      "total_network_throughput_pps": 240.0,
+      "mean_pdr": 0.8286,
+      "min_pdr": 0.2694,
+      "mean_latency_ms": 34.64,
+      "queue_overflow_drops": 986,
+      "channel_loss_drops": 247,
+      "total_energy_consumed_j": 5.87,
+      "is_queue_saturated": true,
+      "is_system_stable": false
+    },
+    {
+      "traffic_rate_pps": 35.0,
+      "total_network_throughput_pps": 420.0,
+      "mean_pdr": 0.6575,
+      "min_pdr": 0.1548,
+      "mean_latency_ms": 34.64,
+      "queue_overflow_drops": 3452,
+      "channel_loss_drops": 863,
+      "total_energy_consumed_j": 10.06,
+      "is_queue_saturated": true,
+      "is_system_stable": false
+    },
+    {
+      "traffic_rate_pps": 50.0,
+      "total_network_throughput_pps": 600.0,
+      "mean_pdr": 0.5451,
+      "min_pdr": 0.1076,
+      "mean_latency_ms": 34.66,
+      "queue_overflow_drops": 6550,
+      "channel_loss_drops": 1638,
+      "total_energy_consumed_j": 14.27,
+      "is_queue_saturated": true,
+      "is_system_stable": false
+    }
+  ],
+  "multi_target_attacks": [
+    {
+      "num_compromised_nodes": 1,
+      "compromised_node_ids": [
+        1
+      ],
+      "attack_type": "coordinated_dos",
+      "total_network_nodes": 24,
+      "mean_pdr": 0.9983,
+      "nadir_pdr": 0.9981,
+      "resilience_score": 1.0,
+      "mttr_s": 6.2,
+      "partition_events_count": 0,
+      "rollback_count": 0,
+      "mitigation_action": "NODE_ISOLATION (x1)"
+    },
+    {
+      "num_compromised_nodes": 2,
+      "compromised_node_ids": [
+        1,
+        3
+      ],
+      "attack_type": "coordinated_dos",
+      "total_network_nodes": 24,
+      "mean_pdr": 0.9983,
+      "nadir_pdr": 0.9981,
+      "resilience_score": 1.0,
+      "mttr_s": 7.4,
+      "partition_events_count": 0,
+      "rollback_count": 0,
+      "mitigation_action": "NODE_ISOLATION (x2)"
+    },
+    {
+      "num_compromised_nodes": 3,
+      "compromised_node_ids": [
+        1,
+        3,
+        5
+      ],
+      "attack_type": "coordinated_dos",
+      "total_network_nodes": 24,
+      "mean_pdr": 0.9983,
+      "nadir_pdr": 0.9981,
+      "resilience_score": 1.0,
+      "mttr_s": 8.6,
+      "partition_events_count": 0,
+      "rollback_count": 0,
+      "mitigation_action": "NODE_ISOLATION (x3)"
+    },
+    {
+      "num_compromised_nodes": 5,
+      "compromised_node_ids": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "attack_type": "coordinated_dos",
+      "total_network_nodes": 24,
+      "mean_pdr": 0.9982,
+      "nadir_pdr": 0.9944,
+      "resilience_score": 1.0,
+      "mttr_s": 11.0,
+      "partition_events_count": 0,
+      "rollback_count": 0,
+      "mitigation_action": "NODE_ISOLATION (x5)"
+    }
+  ],
+  "edge_gateway_evaluations": [
+    {
+      "gateway_name": "Raspberry Pi 4B",
+      "processor_arch": "Quad-core ARM Cortex-A72 @ 1.5 GHz",
+      "ram_capacity_mb": 4096,
+      "real_time_deadline_ms": 100.0,
+      "observed_cycle_latency_ms": 62.32,
+      "deadline_slack_ms": 37.68,
+      "is_deadline_met": true,
+      "max_supported_nodes": 36
+    },
+    {
+      "gateway_name": "NVIDIA Jetson Nano",
+      "processor_arch": "Quad-core ARM Cortex-A57 @ 1.43 GHz",
+      "ram_capacity_mb": 4096,
+      "real_time_deadline_ms": 100.0,
+      "observed_cycle_latency_ms": 70.11,
+      "deadline_slack_ms": 29.89,
+      "is_deadline_met": true,
+      "max_supported_nodes": 32
+    },
+    {
+      "gateway_name": "Intel Industrial Edge (x86)",
+      "processor_arch": "Intel Core i5-1135G7 @ 2.4 GHz",
+      "ram_capacity_mb": 8192,
+      "real_time_deadline_ms": 50.0,
+      "observed_cycle_latency_ms": 24.39,
+      "deadline_slack_ms": 25.61,
+      "is_deadline_met": true,
+      "max_supported_nodes": 44
+    },
+    {
+      "gateway_name": "ESP32-S3 Micro-Gateway",
+      "processor_arch": "Dual-core Xtensa LX7 @ 240 MHz (PSRAM)",
+      "ram_capacity_mb": 8,
+      "real_time_deadline_ms": 500.0,
+      "observed_cycle_latency_ms": 350.54,
+      "deadline_slack_ms": 149.46,
+      "is_deadline_met": true,
+      "max_supported_nodes": 32
+    }
+  ],
+  "asymptotic_fits": [
+    {
+      "pipeline_stage": "State Synchronizer",
+      "theoretical_complexity": "O(N)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        0.16653,
+        -0.71762
+      ],
+      "r_squared": 0.9955,
+      "empirical_pass": true
+    },
+    {
+      "pipeline_stage": "Dynamic Trust Engine",
+      "theoretical_complexity": "O(N)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        0.71144,
+        -7.85203
+      ],
+      "r_squared": 0.9593,
+      "empirical_pass": true
+    },
+    {
+      "pipeline_stage": "Candidate Strategy Generator",
+      "theoretical_complexity": "O(|V| + |E|)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        0.00901,
+        0.22156
+      ],
+      "r_squared": 0.9544,
+      "empirical_pass": true
+    },
+    {
+      "pipeline_stage": "In-Silico Sandbox Simulation",
+      "theoretical_complexity": "O(|S| * H)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        0.7169,
+        2.90591
+      ],
+      "r_squared": 0.9999,
+      "empirical_pass": true
+    },
+    {
+      "pipeline_stage": "Multi-Objective TOPSIS",
+      "theoretical_complexity": "O(|S| * M)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        0.71921,
+        2.84594
+      ],
+      "r_squared": 1.0,
+      "empirical_pass": true
+    },
+    {
+      "pipeline_stage": "Total Closed-Loop Cycle",
+      "theoretical_complexity": "O(N)",
+      "fitted_model_name": "Linear",
+      "coefficients": [
+        2.32308,
+        -2.59605
+      ],
+      "r_squared": 0.9953,
+      "empirical_pass": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+# ==========================================
+# Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ==========================================
+# Paper Manuscript, LaTeX Files & PDFs
+# (Excluded from public repository)
+# ==========================================
+*.tex
+*.pdf
+*.cls
+*.bib
+*.zip
+manuscript_6pages*
+
+# ==========================================
+# LaTeX Intermediate Build Artifacts
+# ==========================================
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bak
+*.backup*
+*.orig
+
+# ==========================================
+# Local Scratch & One-off Tuning Artifacts
+# ==========================================
+scratch/
+Untitled-1.txt
+Writing Sample.pdf
+
+# Root LaTeX Layout Tuning Temporary Files
+/anti_plag_page_*.png
+/check_page_*.png
+/final_audit_page_*.png
+/final_humanized_page_*.png
+/final_page-*.png
+/humanized_page_*.png
+/manuscript_p*.png
+/manuscript_page_*.png
+/page*.png
+/p6_*.png
+/orig_p6.png
+/*crop.png
+/test_fig3.png
+/test_live_dash.png
+/page2_preview.png
+/page3_*.png
+/page4_*.png
+/page5_*.png
+/page6_*.png
+/page7_*.png
+
+# Root Temporary Layout Scripts and Test Tex/PDFs
+/apply_*.py
+/build_*.py
+/find_*.py
+/test_*.py
+/test_*.tex
+/test_*.pdf
+/manuscript_test*.tex
+/manuscript_test*.pdf
+/manuscript_6pages_backup*
+/manuscript_6pages_baseline.*
+/manuscript_6pages_pre_theorems.*
+/manuscript_6pages.tex.bak
+/manuscript_6pages.tex.orig
+/manuscript_6pages.tex.pdf
+/backup_test.*
+/check_round85.*
+/orig.*
+
+# Results Directory Temporary Debug Renders
+results/test_page_*.png
+results/manuscript_page_*.png
+results/page_*.png
+results/manuscript_6pages(*).pdf

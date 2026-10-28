@@ -1,0 +1,28 @@
+{
+  "dataset_total_samples": 49200,
+  "train_samples": 31800,
+  "val_samples": 4800,
+  "test_in_domain_samples": 4800,
+  "test_cross_topology_samples": 7800,
+  "target_accuracy_achieved": true,
+  "champion_binary_model": {
+    "name": "xgboost",
+    "in_domain_accuracy": 0.999375,
+    "cross_topology_accuracy": 0.9984615384615385,
+    "cross_topology_f1": 0.9763779527559056,
+    "cross_topology_recall": 0.9538461538461539,
+    "cross_topology_roc_auc": 0.999922974903081,
+    "cross_topology_brier_score": 0.0016040927970146686,
+    "latency_us": 1693.1089980062097,
+    "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_binary_xgboost.joblib"
+  },
+  "champion_multiclass_model": {
+    "name": "xgboost",
+    "in_domain_accuracy": 0.9991666666666666,
+    "cross_topology_accuracy": 0.9983333333333333,
+    "macro_f1": 0.9829025228609511,
+    "weighted_f1": 0.9983016333859653,
+    "latency_us": 2246.3980020256713,
+    "model_path": "E:\\G_Publication\\models\\detectors\\optimized\\opt_detector_multiclass_xgboost.joblib"
+  }
+}

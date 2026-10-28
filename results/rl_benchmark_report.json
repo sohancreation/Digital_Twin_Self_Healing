@@ -1,0 +1,87 @@
+{
+  "timestamp": 1791144235.1964376,
+  "gnn_architecture_ablation": {
+    "MLP (No Graph)": {
+      "parameters": 3110,
+      "latency_ms": 0.082,
+      "supports_graph": false,
+      "supports_edge_features": false,
+      "bridge_attenuation": false
+    },
+    "Standard GCN": {
+      "parameters": 3110,
+      "latency_ms": 0.429,
+      "supports_graph": true,
+      "supports_edge_features": false,
+      "bridge_attenuation": false
+    },
+    "GraphSAGE (Mean)": {
+      "parameters": 5926,
+      "latency_ms": 0.318,
+      "supports_graph": true,
+      "supports_edge_features": false,
+      "bridge_attenuation": false
+    },
+    "Standard GAT": {
+      "parameters": 3782,
+      "latency_ms": 0.619,
+      "supports_graph": true,
+      "supports_edge_features": true,
+      "bridge_attenuation": false
+    },
+    "Proposed BridgeAwareGAT": {
+      "parameters": 12230,
+      "latency_ms": 0.701,
+      "supports_graph": true,
+      "supports_edge_features": true,
+      "bridge_attenuation": true
+    }
+  },
+  "recovery_strategy_benchmark": {
+    "unmitigated": {
+      "name": "Baseline 1: Unmitigated",
+      "mean_pdr": 0.9525,
+      "std_pdr": 0.0204,
+      "partition_rate_pct": 0.0,
+      "mean_mttr_s": 0.0,
+      "mean_resilience_r": 0.972,
+      "std_resilience_r": 0.0208
+    },
+    "static_threshold_isolation": {
+      "name": "Baseline 2: Static IDS (Blind Isolation)",
+      "mean_pdr": 0.9546,
+      "std_pdr": 0.0178,
+      "partition_rate_pct": 65.0,
+      "mean_mttr_s": 1.0,
+      "mean_resilience_r": 0.9741,
+      "std_resilience_r": 0.0182
+    },
+    "ml_fixed_recovery": {
+      "name": "Baseline 3: ML + Fixed Heuristic",
+      "mean_pdr": 0.9525,
+      "std_pdr": 0.0204,
+      "partition_rate_pct": 0.0,
+      "mean_mttr_s": 1.17,
+      "mean_resilience_r": 0.972,
+      "std_resilience_r": 0.0208
+    },
+    "rl_recovery": {
+      "name": "Baseline 4 (RL): Deep Q-Network (DQN)",
+      "mean_pdr": 0.9525,
+      "std_pdr": 0.0204,
+      "partition_rate_pct": 11.11,
+      "mean_mttr_s": 1.5,
+      "mean_resilience_r": 0.9719,
+      "std_resilience_r": 0.0208
+    },
+    "proposed_digital_twin": {
+      "name": "Proposed: Digital Twin Self-Healing (TOPSIS)",
+      "mean_pdr": 0.9525,
+      "std_pdr": 0.0204,
+      "partition_rate_pct": 0.0,
+      "mean_mttr_s": 1.0,
+      "mean_resilience_r": 0.972,
+      "std_resilience_r": 0.0208
+    }
+  }
+}

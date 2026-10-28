@@ -1,0 +1,7002 @@
+[
+  {
+    "id": "502531658",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767968839999998,
+    "lon": 90.36855676
+  },
+  {
+    "id": "627501854",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76042356,
+    "lon": 90.36392006000001
+  },
+  {
+    "id": "500382314",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759352380000003,
+    "lon": 90.36231958
+  },
+  {
+    "id": "624363937",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762182460000002,
+    "lon": 90.36253417999998
+  },
+  {
+    "id": "624683026",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76097128,
+    "lon": 90.36263426000001
+  },
+  {
+    "id": "624363945",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762404139999997,
+    "lon": 90.36270244
+  },
+  {
+    "id": "614162883",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76430928,
+    "lon": 90.36363852
+  },
+  {
+    "id": "339003723",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746171219999997,
+    "lon": 90.3744983
+  },
+  {
+    "id": "490284695",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.739934745454548,
+    "lon": 90.37617694545456
+  },
+  {
+    "id": "457497094",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757328360000002,
+    "lon": 90.36880326
+  },
+  {
+    "id": "508901188",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74375924,
+    "lon": 90.36956816
+  },
+  {
+    "id": "629793138",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757480500000003,
+    "lon": 90.36697314
+  },
+  {
+    "id": "616258271",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767392460000003,
+    "lon": 90.36292526000001
+  },
+  {
+    "id": "500344617",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76453876,
+    "lon": 90.36446472
+  },
+  {
+    "id": "1416591818",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.73999602,
+    "lon": 90.36974597999999
+  },
+  {
+    "id": "502549437",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767636500000002,
+    "lon": 90.3717449
+  },
+  {
+    "id": "1427501808",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74326126,
+    "lon": 90.37162298
+  },
+  {
+    "id": "500378485",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76205262,
+    "lon": 90.36381811999999
+  },
+  {
+    "id": "455980843",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762156599999997,
+    "lon": 90.36997352
+  },
+  {
+    "id": "1447314956",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74996352,
+    "lon": 90.37409324000001
+  },
+  {
+    "id": "500664452",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75730918,
+    "lon": 90.36398982
+  },
+  {
+    "id": "1414301078",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740483219999998,
+    "lon": 90.37120544
+  },
+  {
+    "id": "500405062",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756161459999998,
+    "lon": 90.36899244000001
+  },
+  {
+    "id": "445784736",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76471326,
+    "lon": 90.36199454
+  },
+  {
+    "id": "321916210",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745739020000002,
+    "lon": 90.36797978
+  },
+  {
+    "id": "485620239",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740212899999996,
+    "lon": 90.37564598000002
+  },
+  {
+    "id": "263649146",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744862180000002,
+    "lon": 90.37093446
+  },
+  {
+    "id": "630196640",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757211719999997,
+    "lon": 90.36431116
+  },
+  {
+    "id": "506455635",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7463946,
+    "lon": 90.36908106
+  },
+  {
+    "id": "1416591853",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74077296,
+    "lon": 90.36980476000001
+  },
+  {
+    "id": "502555712",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76645176,
+    "lon": 90.36423552
+  },
+  {
+    "id": "500379720",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76202454,
+    "lon": 90.36336933999999
+  },
+  {
+    "id": "500389393",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760965180000003,
+    "lon": 90.36569331999999
+  },
+  {
+    "id": "500366264",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759444660000003,
+    "lon": 90.36424814
+  },
+  {
+    "id": "508955055",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742611619999998,
+    "lon": 90.36806357999998
+  },
+  {
+    "id": "508946566",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741759379999998,
+    "lon": 90.37217998
+  },
+  {
+    "id": "439202379",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763026779999997,
+    "lon": 90.36261288
+  },
+  {
+    "id": "1253321380",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745002720000002,
+    "lon": 90.37054732000001
+  },
+  {
+    "id": "500353705",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760776579999998,
+    "lon": 90.36270233999998
+  },
+  {
+    "id": "616569450",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767455740000003,
+    "lon": 90.3625591
+  },
+  {
+    "id": "508901191",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74374368,
+    "lon": 90.36929201999999
+  },
+  {
+    "id": "500381346",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "mosque",
+    "lat": 23.75904988,
+    "lon": 90.36371246
+  },
+  {
+    "id": "1119101188",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740302200000002,
+    "lon": 90.3728022
+  },
+  {
+    "id": "506436775",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747503059999996,
+    "lon": 90.36875284
+  },
+  {
+    "id": "629443393",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75843028,
+    "lon": 90.36552044
+  },
+  {
+    "id": "624168679",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76331958,
+    "lon": 90.36526002
+  },
+  {
+    "id": "323120883",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747201642857142,
+    "lon": 90.3682724857143
+  },
+  {
+    "id": "506424998",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75177646,
+    "lon": 90.37675128
+  },
+  {
+    "id": "262515346",
+    "zone": "Dhanmondi",
+    "type": "chayanot,_cultural_center",
+    "lat": 23.751142610000002,
+    "lon": 90.36834602
+  },
+  {
+    "id": "613977071",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765663780000004,
+    "lon": 90.36414506000001
+  },
+  {
+    "id": "627324359",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760685359999997,
+    "lon": 90.36463155999999
+  },
+  {
+    "id": "323086731",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741164060000003,
+    "lon": 90.36877074
+  },
+  {
+    "id": "288737760",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740120440000002,
+    "lon": 90.37326526000001
+  },
+  {
+    "id": "506455663",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7476878,
+    "lon": 90.36826188
+  },
+  {
+    "id": "614152781",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7646433,
+    "lon": 90.36422860000002
+  },
+  {
+    "id": "627501869",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759303260000003,
+    "lon": 90.36430234
+  },
+  {
+    "id": "500408250",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7550803,
+    "lon": 90.36660506000001
+  },
+  {
+    "id": "500407381",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75772406666667,
+    "lon": 90.37192492222222
+  },
+  {
+    "id": "508342298",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767554479999998,
+    "lon": 90.36240375999998
+  },
+  {
+    "id": "506159957",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7477636,
+    "lon": 90.37224820000002
+  },
+  {
+    "id": "500402319",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.75682274,
+    "lon": 90.36972614000001
+  },
+  {
+    "id": "456579761",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "dormitory",
+    "lat": 23.765073061904758,
+    "lon": 90.36560700476191
+  },
+  {
+    "id": "500366259",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759540859999998,
+    "lon": 90.36403466
+  },
+  {
+    "id": "296977130",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756912300000003,
+    "lon": 90.36292628000001
+  },
+  {
+    "id": "338999398",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7479314,
+    "lon": 90.37723136
+  },
+  {
+    "id": "445781982",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756055760000002,
+    "lon": 90.36603484
+  },
+  {
+    "id": "629793135",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75735646,
+    "lon": 90.36654356000001
+  },
+  {
+    "id": "298336255",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74694838,
+    "lon": 90.37245404000001
+  },
+  {
+    "id": "508957472",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742429379999997,
+    "lon": 90.3683748
+  },
+  {
+    "id": "500379691",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761087420000003,
+    "lon": 90.3645124
+  },
+  {
+    "id": "500366250",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7586214,
+    "lon": 90.36332691999999
+  },
+  {
+    "id": "323086725",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7415155,
+    "lon": 90.36912706000001
+  },
+  {
+    "id": "500344638",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.764385179999998,
+    "lon": 90.36487991999999
+  },
+  {
+    "id": "298808177",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741581860000004,
+    "lon": 90.36985426
+  },
+  {
+    "id": "1416591836",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740560657142858,
+    "lon": 90.36987881428571
+  },
+  {
+    "id": "445784743",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763762140000004,
+    "lon": 90.36236946
+  },
+  {
+    "id": "506159947",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75144038,
+    "lon": 90.36809387999999
+  },
+  {
+    "id": "629837746",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75679322,
+    "lon": 90.36601234
+  },
+  {
+    "id": "456565311",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763251000000004,
+    "lon": 90.36958972
+  },
+  {
+    "id": "1000841796",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74328886,
+    "lon": 90.36838788000001
+  },
+  {
+    "id": "500389397",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76103516,
+    "lon": 90.36549285999999
+  },
+  {
+    "id": "502927920",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766440619999997,
+    "lon": 90.3639484
+  },
+  {
+    "id": "626140220",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76039758,
+    "lon": 90.36196302
+  },
+  {
+    "id": "630213986",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75667616,
+    "lon": 90.36466004000002
+  },
+  {
+    "id": "1416591832",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7404552,
+    "lon": 90.369868
+  },
+  {
+    "id": "631450945",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757575980000002,
+    "lon": 90.36740038
+  },
+  {
+    "id": "500381347",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75894616,
+    "lon": 90.3634552
+  },
+  {
+    "id": "339003757",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74379854,
+    "lon": 90.37515737999999
+  },
+  {
+    "id": "445781992",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75609486,
+    "lon": 90.36626534
+  },
+  {
+    "id": "626812255",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76261528,
+    "lon": 90.36379164000002
+  },
+  {
+    "id": "323121207",
+    "zone": "Dhanmondi",
+    "type": "house",
+    "lat": 23.743794022222218,
+    "lon": 90.36813938888889
+  },
+  {
+    "id": "1416590859",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7407455,
+    "lon": 90.37044134
+  },
+  {
+    "id": "296977177",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.75700612,
+    "lon": 90.36327894000001
+  },
+  {
+    "id": "456565157",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762071740000003,
+    "lon": 90.36884988
+  },
+  {
+    "id": "626866196",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761059080000003,
+    "lon": 90.3635056
+  },
+  {
+    "id": "624676540",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76049398,
+    "lon": 90.36253206
+  },
+  {
+    "id": "445784733",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76406032,
+    "lon": 90.36192904
+  },
+  {
+    "id": "298278125",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74669386,
+    "lon": 90.37023289999999
+  },
+  {
+    "id": "502556735",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765980840000005,
+    "lon": 90.36435896
+  },
+  {
+    "id": "339000384",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74633774,
+    "lon": 90.37528548
+  },
+  {
+    "id": "323098335",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74387858,
+    "lon": 90.37112078
+  },
+  {
+    "id": "500405052",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.754976759999998,
+    "lon": 90.36901034
+  },
+  {
+    "id": "629183945",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760209585714286,
+    "lon": 90.3690179857143
+  },
+  {
+    "id": "448255331",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "construction",
+    "lat": 23.758465500000003,
+    "lon": 90.3650306
+  },
+  {
+    "id": "456565308",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763698180000002,
+    "lon": 90.36997590000001
+  },
+  {
+    "id": "456565218",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7625571,
+    "lon": 90.36829354
+  },
+  {
+    "id": "338999404",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7476545,
+    "lon": 90.37417678
+  },
+  {
+    "id": "500366269",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75889044,
+    "lon": 90.36426614
+  },
+  {
+    "id": "627501856",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76019044,
+    "lon": 90.36399876
+  },
+  {
+    "id": "298484470",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741287479999997,
+    "lon": 90.37773419999999
+  },
+  {
+    "id": "445781954",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759033719999998,
+    "lon": 90.36208304
+  },
+  {
+    "id": "500384598",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7603546,
+    "lon": 90.36421822
+  },
+  {
+    "id": "500344672",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763325279999997,
+    "lon": 90.36451228
+  },
+  {
+    "id": "626817816",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76226784,
+    "lon": 90.36457612000001
+  },
+  {
+    "id": "500353800",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76524054,
+    "lon": 90.36351185999999
+  },
+  {
+    "id": "323055129",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740083539999997,
+    "lon": 90.3682303
+  },
+  {
+    "id": "1447303958",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743500400000002,
+    "lon": 90.37044018000002
+  },
+  {
+    "id": "506424999",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751838199999998,
+    "lon": 90.3772368
+  },
+  {
+    "id": "445784635",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.764379640000005,
+    "lon": 90.362156
+  },
+  {
+    "id": "508901307",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74141892,
+    "lon": 90.37235575999999
+  },
+  {
+    "id": "500402313",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756493980000002,
+    "lon": 90.36924332
+  },
+  {
+    "id": "630553683",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757299019999998,
+    "lon": 90.36368938000001
+  },
+  {
+    "id": "500664433",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756594179999997,
+    "lon": 90.364305
+  },
+  {
+    "id": "441259203",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742091900000002,
+    "lon": 90.37097143999999
+  },
+  {
+    "id": "1017101552",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.768090219999998,
+    "lon": 90.36887879999999
+  },
+  {
+    "id": "508955063",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74142438,
+    "lon": 90.37034122
+  },
+  {
+    "id": "626833333",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76179894,
+    "lon": 90.36326471999999
+  },
+  {
+    "id": "508901295",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74216988,
+    "lon": 90.37246466
+  },
+  {
+    "id": "631552216",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756573779999997,
+    "lon": 90.36722338
+  },
+  {
+    "id": "339005937",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74962722,
+    "lon": 90.37278318
+  },
+  {
+    "id": "624175200",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76335522,
+    "lon": 90.36461358
+  },
+  {
+    "id": "441256020",
+    "zone": "Dhanmondi",
+    "type": "residential",
+    "lat": 23.74121758,
+    "lon": 90.37056234
+  },
+  {
+    "id": "613977072",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765640960000002,
+    "lon": 90.3640634
+  },
+  {
+    "id": "627932821",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760354380000003,
+    "lon": 90.36620484
+  },
+  {
+    "id": "508901254",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74516668,
+    "lon": 90.36981956000001
+  },
+  {
+    "id": "508955050",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74317456,
+    "lon": 90.36843444
+  },
+  {
+    "id": "455980820",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762396799999998,
+    "lon": 90.36989344000001
+  },
+  {
+    "id": "323096948",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745756219999997,
+    "lon": 90.36970384000001
+  },
+  {
+    "id": "445784567",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7637377,
+    "lon": 90.362284
+  },
+  {
+    "id": "296974373",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.751451839999998,
+    "lon": 90.3723016
+  },
+  {
+    "id": "323098339",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74470446,
+    "lon": 90.37113008
+  },
+  {
+    "id": "262506884",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74417323333334,
+    "lon": 90.37198938333334
+  },
+  {
+    "id": "500344635",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76474945714286,
+    "lon": 90.36502048571428
+  },
+  {
+    "id": "323055079",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740798140000003,
+    "lon": 90.36801498
+  },
+  {
+    "id": "445781908",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7586499,
+    "lon": 90.36217408
+  },
+  {
+    "id": "500393106",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75841058,
+    "lon": 90.36544713999999
+  },
+  {
+    "id": "612269128",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76595618,
+    "lon": 90.36363320000001
+  },
+  {
+    "id": "629793168",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757370119999997,
+    "lon": 90.36604486000002
+  },
+  {
+    "id": "624168673",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763870680000004,
+    "lon": 90.36506408
+  },
+  {
+    "id": "506157738",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75126154,
+    "lon": 90.37029247999999
+  },
+  {
+    "id": "323099392",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747068719999998,
+    "lon": 90.37237082
+  },
+  {
+    "id": "445781909",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75740786,
+    "lon": 90.36502651999999
+  },
+  {
+    "id": "323119950",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7468936,
+    "lon": 90.36905647272727
+  },
+  {
+    "id": "500383510",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760650820000002,
+    "lon": 90.36446534000001
+  },
+  {
+    "id": "627467423",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76034944,
+    "lon": 90.36480054
+  },
+  {
+    "id": "627501864",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759784,
+    "lon": 90.36413814
+  },
+  {
+    "id": "449387796",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76294122,
+    "lon": 90.36232486
+  },
+  {
+    "id": "508126826",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76345876,
+    "lon": 90.36195754
+  },
+  {
+    "id": "500379723",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76229164,
+    "lon": 90.36327872
+  },
+  {
+    "id": "438689019",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747000919999998,
+    "lon": 90.37277906
+  },
+  {
+    "id": "502549425",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767463419999995,
+    "lon": 90.3707163
+  },
+  {
+    "id": "1416591830",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740563520000002,
+    "lon": 90.37007166
+  },
+  {
+    "id": "500393096",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758205999999998,
+    "lon": 90.365319
+  },
+  {
+    "id": "338999926",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747445239999998,
+    "lon": 90.37523042
+  },
+  {
+    "id": "339003730",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744916479999997,
+    "lon": 90.37571536
+  },
+  {
+    "id": "298820582",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75665496,
+    "lon": 90.36377866000001
+  },
+  {
+    "id": "298303920",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74641662,
+    "lon": 90.37378902
+  },
+  {
+    "id": "502549433",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767982080000003,
+    "lon": 90.3719561
+  },
+  {
+    "id": "298338183",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749825379999997,
+    "lon": 90.36984666000001
+  },
+  {
+    "id": "323329561",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75000612857143,
+    "lon": 90.36844742857144
+  },
+  {
+    "id": "630553650",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75681976,
+    "lon": 90.3626505
+  },
+  {
+    "id": "508946573",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742270279999996,
+    "lon": 90.37004837999999
+  },
+  {
+    "id": "500378530",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76253036,
+    "lon": 90.36350328
+  },
+  {
+    "id": "445781920",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75860446,
+    "lon": 90.36200994000001
+  },
+  {
+    "id": "500412620",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75686202,
+    "lon": 90.36623292
+  },
+  {
+    "id": "1323171298",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.758476385714285,
+    "lon": 90.36887644285714
+  },
+  {
+    "id": "506165240",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74738232,
+    "lon": 90.3728822
+  },
+  {
+    "id": "507710802",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75914272,
+    "lon": 90.36238304000001
+  },
+  {
+    "id": "508901352",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740485659999997,
+    "lon": 90.37265354
+  },
+  {
+    "id": "500395984",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759210160000002,
+    "lon": 90.36889782
+  },
+  {
+    "id": "500664385",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757245240000003,
+    "lon": 90.36617512000001
+  },
+  {
+    "id": "338998636",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75010742,
+    "lon": 90.37544765999999
+  },
+  {
+    "id": "338998617",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749438020000003,
+    "lon": 90.37382818
+  },
+  {
+    "id": "1253322735",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74403305,
+    "lon": 90.37026151
+  },
+  {
+    "id": "1422502942",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.762723780000005,
+    "lon": 90.36779812
+  },
+  {
+    "id": "490285908",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75021848,
+    "lon": 90.36817235999999
+  },
+  {
+    "id": "630553652",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756795439999998,
+    "lon": 90.36257536000001
+  },
+  {
+    "id": "502549414",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767164599999997,
+    "lon": 90.37077388
+  },
+  {
+    "id": "445781914",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758667420000002,
+    "lon": 90.36224144
+  },
+  {
+    "id": "629847750",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75725474,
+    "lon": 90.36697472
+  },
+  {
+    "id": "508901263",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744702999999998,
+    "lon": 90.36906598
+  },
+  {
+    "id": "627700099",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "house",
+    "lat": 23.76208844,
+    "lon": 90.36566738
+  },
+  {
+    "id": "337922849",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "school",
+    "lat": 23.7565317,
+    "lon": 90.36586194
+  },
+  {
+    "id": "627473745",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7598923,
+    "lon": 90.3646646
+  },
+  {
+    "id": "456528619",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76285532,
+    "lon": 90.37103882
+  },
+  {
+    "id": "508954992",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74042748,
+    "lon": 90.36893164
+  },
+  {
+    "id": "1414301080",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74055895714286,
+    "lon": 90.37103705714286
+  },
+  {
+    "id": "456595436",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759764085714284,
+    "lon": 90.37212464761905
+  },
+  {
+    "id": "502549413",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767188800000003,
+    "lon": 90.3709033
+  },
+  {
+    "id": "612495136",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76643906,
+    "lon": 90.36382056
+  },
+  {
+    "id": "502555723",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76681836,
+    "lon": 90.36435444000001
+  },
+  {
+    "id": "624676543",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76041924,
+    "lon": 90.36255861999999
+  },
+  {
+    "id": "1416590834",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740026479999997,
+    "lon": 90.37101032000001
+  },
+  {
+    "id": "1414445180",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741067419999997,
+    "lon": 90.37132448
+  },
+  {
+    "id": "502556737",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765824780000003,
+    "lon": 90.36445016
+  },
+  {
+    "id": "500664423",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7552714,
+    "lon": 90.36446407142857
+  },
+  {
+    "id": "508901268",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74494052,
+    "lon": 90.36957086
+  },
+  {
+    "id": "298472669",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742185380000002,
+    "lon": 90.37641213999999
+  },
+  {
+    "id": "500389388",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761348719999997,
+    "lon": 90.36605829999999
+  },
+  {
+    "id": "629837743",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75683548,
+    "lon": 90.36614722
+  },
+  {
+    "id": "1236052524",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.760373466666664,
+    "lon": 90.37031684444445
+  },
+  {
+    "id": "508901185",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743303200000003,
+    "lon": 90.3693162
+  },
+  {
+    "id": "508955037",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74021674,
+    "lon": 90.36939082
+  },
+  {
+    "id": "298807634",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74286772,
+    "lon": 90.36897938
+  },
+  {
+    "id": "1427543520",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746768820000003,
+    "lon": 90.36990516
+  },
+  {
+    "id": "323086077",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74316907777778,
+    "lon": 90.36998704444446
+  },
+  {
+    "id": "298302428",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74736144,
+    "lon": 90.37325414
+  },
+  {
+    "id": "326624837",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743430572727274,
+    "lon": 90.37020657272727
+  },
+  {
+    "id": "1263665492",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740344659999998,
+    "lon": 90.36802068
+  },
+  {
+    "id": "432329038",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74067652,
+    "lon": 90.37223004
+  },
+  {
+    "id": "449637525",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7429907,
+    "lon": 90.37032482
+  },
+  {
+    "id": "629183949",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76060436,
+    "lon": 90.36877058
+  },
+  {
+    "id": "508940361",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742223000000003,
+    "lon": 90.37210858
+  },
+  {
+    "id": "629771656",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7579171,
+    "lon": 90.36650834
+  },
+  {
+    "id": "338998635",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75023716,
+    "lon": 90.37535034
+  },
+  {
+    "id": "441260807",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74200598,
+    "lon": 90.37226474
+  },
+  {
+    "id": "506165236",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747071339999998,
+    "lon": 90.3720614
+  },
+  {
+    "id": "298800809",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74415176,
+    "lon": 90.3751791
+  },
+  {
+    "id": "322819848",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746295584615382,
+    "lon": 90.3679330923077
+  },
+  {
+    "id": "457497135",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75810702,
+    "lon": 90.36825106
+  },
+  {
+    "id": "508901267",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74472578,
+    "lon": 90.36934186
+  },
+  {
+    "id": "624690882",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760679220000004,
+    "lon": 90.36290758
+  },
+  {
+    "id": "457497084",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7579814,
+    "lon": 90.36752776
+  },
+  {
+    "id": "629771657",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75794198,
+    "lon": 90.36659856
+  },
+  {
+    "id": "508901245",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7447162,
+    "lon": 90.36830979999999
+  },
+  {
+    "id": "1030250718",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75515014,
+    "lon": 90.36932018
+  },
+  {
+    "id": "630134264",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757859739999997,
+    "lon": 90.36436558
+  },
+  {
+    "id": "441259436",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742109579999997,
+    "lon": 90.37121391999999
+  },
+  {
+    "id": "1253316424",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74268262857143,
+    "lon": 90.36850124285715
+  },
+  {
+    "id": "1422502930",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.758479059999996,
+    "lon": 90.36307396
+  },
+  {
+    "id": "1236052516",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7612846,
+    "lon": 90.37104490000002
+  },
+  {
+    "id": "508955022",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740532520000002,
+    "lon": 90.369405
+  },
+  {
+    "id": "508083348",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.739980680000002,
+    "lon": 90.37261931999998
+  },
+  {
+    "id": "298820577",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "school",
+    "lat": 23.75621228,
+    "lon": 90.36732532
+  },
+  {
+    "id": "508955032",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74030226,
+    "lon": 90.36969074
+  },
+  {
+    "id": "296977316",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "school",
+    "lat": 23.75846256,
+    "lon": 90.36223034
+  },
+  {
+    "id": "448255891",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757887700000005,
+    "lon": 90.3644601
+  },
+  {
+    "id": "627955903",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7611904,
+    "lon": 90.36655861999999
+  },
+  {
+    "id": "456550290",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.761266377777776,
+    "lon": 90.37206171111112
+  },
+  {
+    "id": "631552218",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756828660000004,
+    "lon": 90.3669419
+  },
+  {
+    "id": "624966750",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760149679999998,
+    "lon": 90.36343566
+  },
+  {
+    "id": "323097626",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74631002857143,
+    "lon": 90.36966792857142
+  },
+  {
+    "id": "500353697",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760304639999998,
+    "lon": 90.36339766
+  },
+  {
+    "id": "456565320",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7632288,
+    "lon": 90.36832011999999
+  },
+  {
+    "id": "500379709",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.76151332,
+    "lon": 90.36335573999999
+  },
+  {
+    "id": "337837179",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755951366666665,
+    "lon": 90.36747329999999
+  },
+  {
+    "id": "456550299",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761145340000002,
+    "lon": 90.37141772
+  },
+  {
+    "id": "323099391",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747421640000002,
+    "lon": 90.3725065
+  },
+  {
+    "id": "627711622",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76113054,
+    "lon": 90.36616226000001
+  },
+  {
+    "id": "456565269",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761437039999997,
+    "lon": 90.36645138
+  },
+  {
+    "id": "500412619",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756990119999998,
+    "lon": 90.36609922
+  },
+  {
+    "id": "627700098",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.762232320000003,
+    "lon": 90.36615786
+  },
+  {
+    "id": "630134260",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75752282,
+    "lon": 90.3639178
+  },
+  {
+    "id": "298336259",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749108239999998,
+    "lon": 90.37408262
+  },
+  {
+    "id": "627711619",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76112992,
+    "lon": 90.36582222
+  },
+  {
+    "id": "440710184",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761173699999997,
+    "lon": 90.36257520000001
+  },
+  {
+    "id": "500405067",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756089859999996,
+    "lon": 90.36982237999999
+  },
+  {
+    "id": "500411439",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75670578,
+    "lon": 90.36658276
+  },
+  {
+    "id": "500389392",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76100364,
+    "lon": 90.36581416
+  },
+  {
+    "id": "323099385",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74684688,
+    "lon": 90.3719017
+  },
+  {
+    "id": "449639716",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74227982,
+    "lon": 90.37026305999998
+  },
+  {
+    "id": "507736265",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7626543,
+    "lon": 90.36213314
+  },
+  {
+    "id": "457497117",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75766068,
+    "lon": 90.36892918
+  },
+  {
+    "id": "626879335",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.759799140000005,
+    "lon": 90.36391578
+  },
+  {
+    "id": "339005486",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74560012,
+    "lon": 90.37439112
+  },
+  {
+    "id": "298341251",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746139036363637,
+    "lon": 90.37366977272728
+  },
+  {
+    "id": "508597192",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74267564,
+    "lon": 90.36797206
+  },
+  {
+    "id": "502930428",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76667364,
+    "lon": 90.36386292
+  },
+  {
+    "id": "500664432",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75647138,
+    "lon": 90.36469498
+  },
+  {
+    "id": "504741285",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767440799999996,
+    "lon": 90.36558926000001
+  },
+  {
+    "id": "322848646",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742628160000002,
+    "lon": 90.36826836
+  },
+  {
+    "id": "500381355",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758938739999998,
+    "lon": 90.36283234
+  },
+  {
+    "id": "323096951",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745590454545457,
+    "lon": 90.37008633636364
+  },
+  {
+    "id": "508901287",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74487894,
+    "lon": 90.3728885
+  },
+  {
+    "id": "448256062",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7576279,
+    "lon": 90.36351127999998
+  },
+  {
+    "id": "495160297",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746745699999998,
+    "lon": 90.37363892727272
+  },
+  {
+    "id": "500664397",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75784276,
+    "lon": 90.36684656
+  },
+  {
+    "id": "457497112",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7577797,
+    "lon": 90.3702674888889
+  },
+  {
+    "id": "456565142",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "public",
+    "lat": 23.76151798,
+    "lon": 90.37095934
+  },
+  {
+    "id": "502930374",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76764544,
+    "lon": 90.362806
+  },
+  {
+    "id": "627314309",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.760886059999997,
+    "lon": 90.36416770000001
+  },
+  {
+    "id": "506455654",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74673546,
+    "lon": 90.36788002
+  },
+  {
+    "id": "506605268",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746049566666667,
+    "lon": 90.36882923333333
+  },
+  {
+    "id": "298338190",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750066500000003,
+    "lon": 90.37306282222224
+  },
+  {
+    "id": "628511371",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.760353459999997,
+    "lon": 90.36734656000002
+  },
+  {
+    "id": "1135836156",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74352283,
+    "lon": 90.36917221
+  },
+  {
+    "id": "500674241",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "college",
+    "lat": 23.756793619999996,
+    "lon": 90.362116
+  },
+  {
+    "id": "506455594",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746204716666668,
+    "lon": 90.36806955000002
+  },
+  {
+    "id": "508954983",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74067312,
+    "lon": 90.36873004
+  },
+  {
+    "id": "500658051",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75751058,
+    "lon": 90.36363428
+  },
+  {
+    "id": "500664412",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75785794,
+    "lon": 90.36630668
+  },
+  {
+    "id": "502928783",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765744899999998,
+    "lon": 90.3638379
+  },
+  {
+    "id": "502555725",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766413840000002,
+    "lon": 90.36452463999998
+  },
+  {
+    "id": "508901341",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740900259999997,
+    "lon": 90.37296848
+  },
+  {
+    "id": "500669649",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758109479999998,
+    "lon": 90.36451566000001
+  },
+  {
+    "id": "508955034",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74026348,
+    "lon": 90.36865614
+  },
+  {
+    "id": "449387843",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759615240000002,
+    "lon": 90.36223609999999
+  },
+  {
+    "id": "508410480",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74143943333333,
+    "lon": 90.36807968333333
+  },
+  {
+    "id": "506427121",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75173208,
+    "lon": 90.37476858
+  },
+  {
+    "id": "998764390",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76718526,
+    "lon": 90.36905328
+  },
+  {
+    "id": "457497087",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75716282,
+    "lon": 90.36804666
+  },
+  {
+    "id": "508940374",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74346096,
+    "lon": 90.3713658
+  },
+  {
+    "id": "299282613",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747069240000002,
+    "lon": 90.37693002
+  },
+  {
+    "id": "508946579",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742303080000003,
+    "lon": 90.36983838
+  },
+  {
+    "id": "445781883",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7568534,
+    "lon": 90.36558806000001
+  },
+  {
+    "id": "997953392",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741798080000002,
+    "lon": 90.37566876000001
+  },
+  {
+    "id": "502930401",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76704376,
+    "lon": 90.36303230000001
+  },
+  {
+    "id": "629434428",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758302859999997,
+    "lon": 90.3656507
+  },
+  {
+    "id": "1128348713",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755949440000002,
+    "lon": 90.37122248
+  },
+  {
+    "id": "629771661",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7579639,
+    "lon": 90.36667004
+  },
+  {
+    "id": "381010402",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74052786,
+    "lon": 90.37798289999999
+  },
+  {
+    "id": "628520633",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76257244,
+    "lon": 90.36726666000001
+  },
+  {
+    "id": "627536900",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762560020000002,
+    "lon": 90.36495838
+  },
+  {
+    "id": "436747368",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745240940000002,
+    "lon": 90.37116446
+  },
+  {
+    "id": "457497065",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757190180000002,
+    "lon": 90.37069638
+  },
+  {
+    "id": "1124600720",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74429772,
+    "lon": 90.36986906000001
+  },
+  {
+    "id": "386198431",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765553079999997,
+    "lon": 90.36199151999999
+  },
+  {
+    "id": "323329551",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749971057142858,
+    "lon": 90.36915394285714
+  },
+  {
+    "id": "500393091",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75872528,
+    "lon": 90.36652921999999
+  },
+  {
+    "id": "631203455",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75634324,
+    "lon": 90.36424036
+  },
+  {
+    "id": "624633836",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76210936,
+    "lon": 90.3619778
+  },
+  {
+    "id": "508342404",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.767730359999998,
+    "lon": 90.36218352
+  },
+  {
+    "id": "344940957",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74189114,
+    "lon": 90.37658436
+  },
+  {
+    "id": "298336257",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74892432,
+    "lon": 90.37360122000001
+  },
+  {
+    "id": "508901366",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74086382,
+    "lon": 90.373479
+  },
+  {
+    "id": "339005916",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74969610769231,
+    "lon": 90.37310244615384
+  },
+  {
+    "id": "500379679",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76152382,
+    "lon": 90.36455366
+  },
+  {
+    "id": "625033186",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75916834,
+    "lon": 90.36361052
+  },
+  {
+    "id": "456595411",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75870384,
+    "lon": 90.37136932000001
+  },
+  {
+    "id": "1414445182",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74090805555555,
+    "lon": 90.3713252
+  },
+  {
+    "id": "629183947",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7601842,
+    "lon": 90.36812014
+  },
+  {
+    "id": "506159962",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747662079999998,
+    "lon": 90.37107194000001
+  },
+  {
+    "id": "456550259",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7605098,
+    "lon": 90.36751902
+  },
+  {
+    "id": "298275952",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744122859999997,
+    "lon": 90.37404534000001
+  },
+  {
+    "id": "507736285",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759755239999997,
+    "lon": 90.36218722
+  },
+  {
+    "id": "508946580",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74243756,
+    "lon": 90.36976089999999
+  },
+  {
+    "id": "339003754",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74247752,
+    "lon": 90.37461377999999
+  },
+  {
+    "id": "298820543",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74506024,
+    "lon": 90.37012279999999
+  },
+  {
+    "id": "998711091",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743219080000003,
+    "lon": 90.37123102
+  },
+  {
+    "id": "441263314",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74248596,
+    "lon": 90.37094178
+  },
+  {
+    "id": "1253316423",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742641971428572,
+    "lon": 90.36848735714284
+  },
+  {
+    "id": "448353743",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755806380000003,
+    "lon": 90.3719028
+  },
+  {
+    "id": "626159753",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75887388,
+    "lon": 90.36246442
+  },
+  {
+    "id": "339005933",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75009188,
+    "lon": 90.3739916
+  },
+  {
+    "id": "508342302",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767289660000003,
+    "lon": 90.36207824
+  },
+  {
+    "id": "500337807",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762424460000002,
+    "lon": 90.36500982
+  },
+  {
+    "id": "631263825",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757534040000003,
+    "lon": 90.36722976
+  },
+  {
+    "id": "506455603",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745851,
+    "lon": 90.3685832
+  },
+  {
+    "id": "375512905",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.757314140000002,
+    "lon": 90.37067770000002
+  },
+  {
+    "id": "998721717",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74417218,
+    "lon": 90.37093345999999
+  },
+  {
+    "id": "508901356",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7407807,
+    "lon": 90.37277628000001
+  },
+  {
+    "id": "298302422",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74850158,
+    "lon": 90.37450694000002
+  },
+  {
+    "id": "626637018",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7627217,
+    "lon": 90.36417498
+  },
+  {
+    "id": "612997206",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76549026,
+    "lon": 90.36203792
+  },
+  {
+    "id": "500401728",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756541499999997,
+    "lon": 90.36762021999999
+  },
+  {
+    "id": "339000378",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74619988,
+    "lon": 90.37479418
+  },
+  {
+    "id": "502531646",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76759076,
+    "lon": 90.36677222
+  },
+  {
+    "id": "1414445198",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741796720000004,
+    "lon": 90.37129186
+  },
+  {
+    "id": "298820550",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745387800000003,
+    "lon": 90.3696236
+  },
+  {
+    "id": "322819883",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745990866666666,
+    "lon": 90.36807768888887
+  },
+  {
+    "id": "500353798",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.764152860000003,
+    "lon": 90.36292777999999
+  },
+  {
+    "id": "998711052",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75604912857143,
+    "lon": 90.36948375714285
+  },
+  {
+    "id": "339003761",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743928614285714,
+    "lon": 90.37331182857142
+  },
+  {
+    "id": "1447303943",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74221842,
+    "lon": 90.36814186000001
+  },
+  {
+    "id": "998711057",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75655348,
+    "lon": 90.37126586
+  },
+  {
+    "id": "627467420",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76061522,
+    "lon": 90.36514314
+  },
+  {
+    "id": "508955077",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741979039999997,
+    "lon": 90.37019816
+  },
+  {
+    "id": "500344666",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76330332,
+    "lon": 90.36501281999999
+  },
+  {
+    "id": "560981838",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "school",
+    "lat": 23.756073257142862,
+    "lon": 90.36567168571428
+  },
+  {
+    "id": "1427361669",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740123739999998,
+    "lon": 90.36973262000001
+  },
+  {
+    "id": "456565151",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76059674,
+    "lon": 90.3692222
+  },
+  {
+    "id": "445781998",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757747900000005,
+    "lon": 90.36529688
+  },
+  {
+    "id": "502558594",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76539952,
+    "lon": 90.36418444
+  },
+  {
+    "id": "507744400",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76298958,
+    "lon": 90.36247982
+  },
+  {
+    "id": "508946611",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743144660000002,
+    "lon": 90.37059674
+  },
+  {
+    "id": "456528611",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762082785714288,
+    "lon": 90.37110634285715
+  },
+  {
+    "id": "500411927",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75669046,
+    "lon": 90.3669318
+  },
+  {
+    "id": "629468283",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758002400000002,
+    "lon": 90.3660035
+  },
+  {
+    "id": "370331529",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.754939460000003,
+    "lon": 90.37146942
+  },
+  {
+    "id": "624996847",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75987434,
+    "lon": 90.36328737999999
+  },
+  {
+    "id": "445784575",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7647368,
+    "lon": 90.36303897999998
+  },
+  {
+    "id": "323110623",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7420886,
+    "lon": 90.37355668000001
+  },
+  {
+    "id": "404538603",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7418287,
+    "lon": 90.37640302
+  },
+  {
+    "id": "500344663",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76362308,
+    "lon": 90.36474168
+  },
+  {
+    "id": "445781907",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757416759999998,
+    "lon": 90.36521692
+  },
+  {
+    "id": "457497090",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75724764,
+    "lon": 90.36850708
+  },
+  {
+    "id": "1085827949",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75207992,
+    "lon": 90.3774455
+  },
+  {
+    "id": "441259947",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742158916666664,
+    "lon": 90.37177765000001
+  },
+  {
+    "id": "500664415",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75792822,
+    "lon": 90.3665508
+  },
+  {
+    "id": "506436779",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74819782,
+    "lon": 90.3684571
+  },
+  {
+    "id": "456565260",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7612326,
+    "lon": 90.36677288
+  },
+  {
+    "id": "457497129",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75739198,
+    "lon": 90.36810376000001
+  },
+  {
+    "id": "1420777203",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75663848,
+    "lon": 90.36764808000001
+  },
+  {
+    "id": "612977650",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765546340000004,
+    "lon": 90.3622172
+  },
+  {
+    "id": "1427510200",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74577938,
+    "lon": 90.36812042
+  },
+  {
+    "id": "1414301077",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740489720000003,
+    "lon": 90.37114784
+  },
+  {
+    "id": "339005491",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749093359999996,
+    "lon": 90.37249142
+  },
+  {
+    "id": "627467429",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760528079999997,
+    "lon": 90.36482778
+  },
+  {
+    "id": "507744395",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761110319999997,
+    "lon": 90.36234512000001
+  },
+  {
+    "id": "456565204",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762835079999995,
+    "lon": 90.3692144
+  },
+  {
+    "id": "323098338",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744390000000003,
+    "lon": 90.372242
+  },
+  {
+    "id": "502549428",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7678722,
+    "lon": 90.3712715
+  },
+  {
+    "id": "631229543",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75882608,
+    "lon": 90.36680800000002
+  },
+  {
+    "id": "1427345361",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744681099999998,
+    "lon": 90.36915144
+  },
+  {
+    "id": "502930417",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7663376,
+    "lon": 90.36291362000001
+  },
+  {
+    "id": "323086076",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7427913,
+    "lon": 90.37070904
+  },
+  {
+    "id": "323095349",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740563062499998,
+    "lon": 90.3737799
+  },
+  {
+    "id": "298820546",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744761959999998,
+    "lon": 90.36892098000001
+  },
+  {
+    "id": "502531651",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767603540000003,
+    "lon": 90.36721136
+  },
+  {
+    "id": "1414445193",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74151728,
+    "lon": 90.37154132
+  },
+  {
+    "id": "323073766",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741858179999998,
+    "lon": 90.37182621999999
+  },
+  {
+    "id": "998711065",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75877768,
+    "lon": 90.37174198
+  },
+  {
+    "id": "456565256",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76099552,
+    "lon": 90.36636964
+  },
+  {
+    "id": "614404146",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76399164,
+    "lon": 90.36228752000001
+  },
+  {
+    "id": "500393081",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758080999999997,
+    "lon": 90.36631107999999
+  },
+  {
+    "id": "438428885",
+    "zone": "Dhanmondi",
+    "type": "house",
+    "lat": 23.74965801428571,
+    "lon": 90.37463821428571
+  },
+  {
+    "id": "500385214",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7607159,
+    "lon": 90.36602134
+  },
+  {
+    "id": "500381349",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759100279999995,
+    "lon": 90.36339885999999
+  },
+  {
+    "id": "1416590836",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740199971428574,
+    "lon": 90.3704388
+  },
+  {
+    "id": "500353786",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76277518,
+    "lon": 90.36255306000001
+  },
+  {
+    "id": "338999381",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74799094,
+    "lon": 90.37750660000002
+  },
+  {
+    "id": "500405055",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75573018,
+    "lon": 90.36951086
+  },
+  {
+    "id": "508955016",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74101366,
+    "lon": 90.36919558
+  },
+  {
+    "id": "508955060",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743294960000004,
+    "lon": 90.36803224
+  },
+  {
+    "id": "626822007",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762203140000004,
+    "lon": 90.3637741
+  },
+  {
+    "id": "1418354665",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74070334,
+    "lon": 90.37579014
+  },
+  {
+    "id": "339003756",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74362152,
+    "lon": 90.37533495999999
+  },
+  {
+    "id": "500353687",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76003298,
+    "lon": 90.36248248
+  },
+  {
+    "id": "500402312",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75662442,
+    "lon": 90.36921998
+  },
+  {
+    "id": "500384597",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76019142,
+    "lon": 90.3642854
+  },
+  {
+    "id": "500401289",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7561691625,
+    "lon": 90.3710224375
+  },
+  {
+    "id": "338998630",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749757119999998,
+    "lon": 90.3750268
+  },
+  {
+    "id": "502934348",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76697378,
+    "lon": 90.36305834000001
+  },
+  {
+    "id": "629793144",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75739354,
+    "lon": 90.36667708000002
+  },
+  {
+    "id": "367574704",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762970360000004,
+    "lon": 90.37056093999999
+  },
+  {
+    "id": "625057557",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759188119999997,
+    "lon": 90.36256202000001
+  },
+  {
+    "id": "441259623",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74211178,
+    "lon": 90.3713551
+  },
+  {
+    "id": "404537621",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74111248,
+    "lon": 90.37517095999999
+  },
+  {
+    "id": "1447303949",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74241044,
+    "lon": 90.36820348
+  },
+  {
+    "id": "613998091",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76512764,
+    "lon": 90.36371544
+  },
+  {
+    "id": "438554713",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75539418,
+    "lon": 90.36391207999999
+  },
+  {
+    "id": "1111915610",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755378366666665,
+    "lon": 90.37128784444445
+  },
+  {
+    "id": "500344596",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7640174,
+    "lon": 90.36392584000001
+  },
+  {
+    "id": "456595409",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75855748,
+    "lon": 90.37143262000001
+  },
+  {
+    "id": "456565307",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763755240000002,
+    "lon": 90.37025732
+  },
+  {
+    "id": "508901246",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74483632,
+    "lon": 90.36851256
+  },
+  {
+    "id": "339005921",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74947254,
+    "lon": 90.3721811
+  },
+  {
+    "id": "508901329",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741173519999997,
+    "lon": 90.37303404000001
+  },
+  {
+    "id": "1416590820",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740367471428574,
+    "lon": 90.37009664285715
+  },
+  {
+    "id": "448256009",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75793402,
+    "lon": 90.36393974
+  },
+  {
+    "id": "508901285",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743033119999996,
+    "lon": 90.37224344
+  },
+  {
+    "id": "1414301067",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740042877777782,
+    "lon": 90.37109792222223
+  },
+  {
+    "id": "630553638",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757132239999997,
+    "lon": 90.36365956
+  },
+  {
+    "id": "1447303971",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746706819999996,
+    "lon": 90.37452584
+  },
+  {
+    "id": "508957466",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74196978,
+    "lon": 90.36896136
+  },
+  {
+    "id": "502549447",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.766274738095237,
+    "lon": 90.37182222380954
+  },
+  {
+    "id": "485620413",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740726130769232,
+    "lon": 90.37542848461537
+  },
+  {
+    "id": "456928865",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759403759999998,
+    "lon": 90.36787124
+  },
+  {
+    "id": "456550265",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76055767777778,
+    "lon": 90.3681148888889
+  },
+  {
+    "id": "500382315",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75939618,
+    "lon": 90.36250316
+  },
+  {
+    "id": "323086074",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74342537142857,
+    "lon": 90.36991422857143
+  },
+  {
+    "id": "456565148",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.760626019999997,
+    "lon": 90.36994392
+  },
+  {
+    "id": "1416590849",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74051482,
+    "lon": 90.37047574
+  },
+  {
+    "id": "508342303",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767362580000004,
+    "lon": 90.36229915999999
+  },
+  {
+    "id": "339003739",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744881099999997,
+    "lon": 90.37637552
+  },
+  {
+    "id": "500366252",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.758888300000002,
+    "lon": 90.36383112000001
+  },
+  {
+    "id": "614029828",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76449806,
+    "lon": 90.36433128
+  },
+  {
+    "id": "323096165",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743978759999997,
+    "lon": 90.37067640000001
+  },
+  {
+    "id": "323055117",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741158759999998,
+    "lon": 90.36840914
+  },
+  {
+    "id": "457497088",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.75715712222222,
+    "lon": 90.36821927777777
+  },
+  {
+    "id": "502927906",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76598592857143,
+    "lon": 90.36380441428571
+  },
+  {
+    "id": "298275959",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7446835,
+    "lon": 90.37425599999999
+  },
+  {
+    "id": "477556351",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74282200909091,
+    "lon": 90.36958166363637
+  },
+  {
+    "id": "506357992",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74818798,
+    "lon": 90.37769952
+  },
+  {
+    "id": "624996850",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75996488,
+    "lon": 90.36359474
+  },
+  {
+    "id": "506357989",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74850734,
+    "lon": 90.37713388
+  },
+  {
+    "id": "456565220",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762489879999997,
+    "lon": 90.36807594000001
+  },
+  {
+    "id": "631552219",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7565248,
+    "lon": 90.36700784
+  },
+  {
+    "id": "1532948017",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.75752841428571,
+    "lon": 90.37003787857144
+  },
+  {
+    "id": "1414301100",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7412295,
+    "lon": 90.37103248000001
+  },
+  {
+    "id": "1449297949",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76340432,
+    "lon": 90.37004934000001
+  },
+  {
+    "id": "502928790",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76555696,
+    "lon": 90.36318822
+  },
+  {
+    "id": "508901233",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74442391428571,
+    "lon": 90.3698882857143
+  },
+  {
+    "id": "508946591",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742513940000002,
+    "lon": 90.37129719999999
+  },
+  {
+    "id": "508901306",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74156134,
+    "lon": 90.3724033
+  },
+  {
+    "id": "457497085",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75811988,
+    "lon": 90.36747844
+  },
+  {
+    "id": "500405059",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756042020000002,
+    "lon": 90.36935064
+  },
+  {
+    "id": "456565325",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76290576,
+    "lon": 90.36734958
+  },
+  {
+    "id": "500353721",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76153166,
+    "lon": 90.36250048
+  },
+  {
+    "id": "323329565",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75023198888889,
+    "lon": 90.36908327777776
+  },
+  {
+    "id": "456565189",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761662379999997,
+    "lon": 90.36933052000002
+  },
+  {
+    "id": "500664445",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757254720000002,
+    "lon": 90.36446026
+  },
+  {
+    "id": "296974346",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.751820220000003,
+    "lon": 90.37191082000001
+  },
+  {
+    "id": "323107636",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742773300000007,
+    "lon": 90.37298983076924
+  },
+  {
+    "id": "508957457",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74230518,
+    "lon": 90.36908525999999
+  },
+  {
+    "id": "625001488",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75928124,
+    "lon": 90.36320318
+  },
+  {
+    "id": "1414445177",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741678985714284,
+    "lon": 90.37151802857143
+  },
+  {
+    "id": "508946574",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742424,
+    "lon": 90.37019518000001
+  },
+  {
+    "id": "1240836289",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755054559999998,
+    "lon": 90.36228453999999
+  },
+  {
+    "id": "323093652",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743436680000002,
+    "lon": 90.36871098
+  },
+  {
+    "id": "323096947",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74591602857143,
+    "lon": 90.36949702857143
+  },
+  {
+    "id": "502549446",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76704738,
+    "lon": 90.371875
+  },
+  {
+    "id": "998711087",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740834839999998,
+    "lon": 90.37361304
+  },
+  {
+    "id": "502927915",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7660945,
+    "lon": 90.36358246
+  },
+  {
+    "id": "500393098",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7582808,
+    "lon": 90.36556928
+  },
+  {
+    "id": "323119936",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747801514285715,
+    "lon": 90.36828360000001
+  },
+  {
+    "id": "506455661",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746969260000004,
+    "lon": 90.36791944
+  },
+  {
+    "id": "631263826",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75788274,
+    "lon": 90.36712064
+  },
+  {
+    "id": "500664458",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7579341,
+    "lon": 90.36459801999999
+  },
+  {
+    "id": "500401304",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755844980000003,
+    "lon": 90.37008068
+  },
+  {
+    "id": "500390503",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75873196,
+    "lon": 90.36563192
+  },
+  {
+    "id": "1416590837",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7411649,
+    "lon": 90.37022714000001
+  },
+  {
+    "id": "626140221",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76032946,
+    "lon": 90.36198424
+  },
+  {
+    "id": "445784808",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763676680000003,
+    "lon": 90.36267201999999
+  },
+  {
+    "id": "441261533",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742439154545455,
+    "lon": 90.3718516090909
+  },
+  {
+    "id": "508955012",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740727680000003,
+    "lon": 90.36911144
+  },
+  {
+    "id": "627318248",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7612204,
+    "lon": 90.36448052
+  },
+  {
+    "id": "508901327",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7410946,
+    "lon": 90.37331476
+  },
+  {
+    "id": "627314297",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761053779999997,
+    "lon": 90.36434627999999
+  },
+  {
+    "id": "456550291",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761341320000003,
+    "lon": 90.37147186
+  },
+  {
+    "id": "626140224",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.75992248,
+    "lon": 90.36212358
+  },
+  {
+    "id": "508901213",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74408098,
+    "lon": 90.37055132
+  },
+  {
+    "id": "614156825",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76450612,
+    "lon": 90.36376006000002
+  },
+  {
+    "id": "298303928",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75058588,
+    "lon": 90.36971152
+  },
+  {
+    "id": "339005934",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750109580000004,
+    "lon": 90.37429966
+  },
+  {
+    "id": "502927908",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76590678,
+    "lon": 90.36357711999999
+  },
+  {
+    "id": "1427414013",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74035044,
+    "lon": 90.37358173999999
+  },
+  {
+    "id": "502927922",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766301079999998,
+    "lon": 90.36353068
+  },
+  {
+    "id": "506159945",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74828218,
+    "lon": 90.37299970000001
+  },
+  {
+    "id": "612977648",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765708639999996,
+    "lon": 90.36214953999999
+  },
+  {
+    "id": "627536903",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76220162,
+    "lon": 90.3651087
+  },
+  {
+    "id": "508901368",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740656700000002,
+    "lon": 90.37339992
+  },
+  {
+    "id": "508946569",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74260768,
+    "lon": 90.37084578
+  },
+  {
+    "id": "1435258999",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76183506,
+    "lon": 90.36343142000001
+  },
+  {
+    "id": "445781943",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75573044,
+    "lon": 90.36384519999999
+  },
+  {
+    "id": "631450950",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757032119999998,
+    "lon": 90.36760148
+  },
+  {
+    "id": "500385221",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760398419999998,
+    "lon": 90.36633892
+  },
+  {
+    "id": "508940364",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743091780000004,
+    "lon": 90.37170098
+  },
+  {
+    "id": "323096952",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74545378,
+    "lon": 90.37032298
+  },
+  {
+    "id": "298484469",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74147258,
+    "lon": 90.377668
+  },
+  {
+    "id": "500390471",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75821896,
+    "lon": 90.36699882
+  },
+  {
+    "id": "507744410",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76188012,
+    "lon": 90.3622981
+  },
+  {
+    "id": "500384565",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76016254,
+    "lon": 90.36498904
+  },
+  {
+    "id": "438428888",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.749585611111108,
+    "lon": 90.37404213333335
+  },
+  {
+    "id": "624988664",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759612080000004,
+    "lon": 90.36296264
+  },
+  {
+    "id": "445784688",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76373238,
+    "lon": 90.36307738000001
+  },
+  {
+    "id": "630553674",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757226299999996,
+    "lon": 90.36339665999999
+  },
+  {
+    "id": "438428939",
+    "zone": "Dhanmondi",
+    "type": "commercial",
+    "lat": 23.74913618,
+    "lon": 90.37555716
+  },
+  {
+    "id": "508957459",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742205700000003,
+    "lon": 90.36965402000001
+  },
+  {
+    "id": "323093878",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7412733,
+    "lon": 90.36847444
+  },
+  {
+    "id": "508957481",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74118308,
+    "lon": 90.36830826
+  },
+  {
+    "id": "508142567",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74006958,
+    "lon": 90.36848536
+  },
+  {
+    "id": "500353735",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76164104,
+    "lon": 90.36285176
+  },
+  {
+    "id": "457497075",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.757512484615386,
+    "lon": 90.37022110769233
+  },
+  {
+    "id": "500664446",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757159440000002,
+    "lon": 90.36412802
+  },
+  {
+    "id": "500407420",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7550915,
+    "lon": 90.3717062
+  },
+  {
+    "id": "625033184",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759117219999997,
+    "lon": 90.36345262
+  },
+  {
+    "id": "500384567",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76007252,
+    "lon": 90.36525146
+  },
+  {
+    "id": "298488599",
+    "zone": "Dhanmondi",
+    "type": "commercial",
+    "lat": 23.745064049999996,
+    "lon": 90.37171473333332
+  },
+  {
+    "id": "500658043",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756936239999998,
+    "lon": 90.3624446
+  },
+  {
+    "id": "298302429",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7464156,
+    "lon": 90.37287726
+  },
+  {
+    "id": "438756808",
+    "zone": "Dhanmondi",
+    "type": "hospital",
+    "lat": 23.7435468,
+    "lon": 90.37282986
+  },
+  {
+    "id": "338998599",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7483583,
+    "lon": 90.37183916000001
+  },
+  {
+    "id": "445784628",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76353674,
+    "lon": 90.36226512
+  },
+  {
+    "id": "456595415",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759132939999997,
+    "lon": 90.37106336000001
+  },
+  {
+    "id": "1414445213",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74037776,
+    "lon": 90.37176884
+  },
+  {
+    "id": "321975715",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74373756,
+    "lon": 90.36846514
+  },
+  {
+    "id": "338999919",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74643448,
+    "lon": 90.37430066
+  },
+  {
+    "id": "1422502948",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7655977,
+    "lon": 90.36445204
+  },
+  {
+    "id": "339005484",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745535999999998,
+    "lon": 90.37400410000001
+  },
+  {
+    "id": "506427132",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75197876,
+    "lon": 90.37407898
+  },
+  {
+    "id": "500664420",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75624426,
+    "lon": 90.36366362
+  },
+  {
+    "id": "629434426",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758386,
+    "lon": 90.36593998
+  },
+  {
+    "id": "338998585",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74595058,
+    "lon": 90.37318232
+  },
+  {
+    "id": "508940373",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74333158,
+    "lon": 90.37137016
+  },
+  {
+    "id": "508954999",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7409586,
+    "lon": 90.36943511999999
+  },
+  {
+    "id": "1414445215",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740118220000003,
+    "lon": 90.37158314
+  },
+  {
+    "id": "457497130",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757436700000003,
+    "lon": 90.36794794
+  },
+  {
+    "id": "998711047",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755991560000002,
+    "lon": 90.36649622
+  },
+  {
+    "id": "506436773",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74736862,
+    "lon": 90.36877458
+  },
+  {
+    "id": "624996844",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7597241,
+    "lon": 90.36277504000002
+  },
+  {
+    "id": "507736279",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76031456,
+    "lon": 90.36217761999998
+  },
+  {
+    "id": "338998623",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74904451111111,
+    "lon": 90.37444578888889
+  },
+  {
+    "id": "1416590841",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740924455555557,
+    "lon": 90.37039652222222
+  },
+  {
+    "id": "508901365",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740987599999997,
+    "lon": 90.37343382
+  },
+  {
+    "id": "323097629",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74603844285715,
+    "lon": 90.3699576
+  },
+  {
+    "id": "502927916",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766112980000003,
+    "lon": 90.36367322000001
+  },
+  {
+    "id": "626822004",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76233242,
+    "lon": 90.36420638
+  },
+  {
+    "id": "508901174",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7434625,
+    "lon": 90.37051908000001
+  },
+  {
+    "id": "624988663",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75968678,
+    "lon": 90.36322374
+  },
+  {
+    "id": "500383537",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7602082,
+    "lon": 90.3638109
+  },
+  {
+    "id": "323086073",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743284499999998,
+    "lon": 90.36992758
+  },
+  {
+    "id": "629771654",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75787722,
+    "lon": 90.36637862
+  },
+  {
+    "id": "449637468",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74295887777778,
+    "lon": 90.37006175555555
+  },
+  {
+    "id": "457497074",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.75618708,
+    "lon": 90.37049139999999
+  },
+  {
+    "id": "500382303",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75944,
+    "lon": 90.36318752
+  },
+  {
+    "id": "500389367",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76181774,
+    "lon": 90.36531282000001
+  },
+  {
+    "id": "223082442",
+    "zone": "Dhanmondi",
+    "type": "commercial",
+    "lat": 23.74448372,
+    "lon": 90.37289552
+  },
+  {
+    "id": "508901272",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74468886,
+    "lon": 90.36953968
+  },
+  {
+    "id": "288737786",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.73999654,
+    "lon": 90.3727355
+  },
+  {
+    "id": "1414445154",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7414523,
+    "lon": 90.37204385714287
+  },
+  {
+    "id": "1111659576",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74422726,
+    "lon": 90.36949528
+  },
+  {
+    "id": "1416591855",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7407711,
+    "lon": 90.37013894
+  },
+  {
+    "id": "321916207",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745575140000003,
+    "lon": 90.3684184
+  },
+  {
+    "id": "457497134",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75795598,
+    "lon": 90.36801152000001
+  },
+  {
+    "id": "1235803182",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755700159999996,
+    "lon": 90.36857460000002
+  },
+  {
+    "id": "1414445183",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74116172,
+    "lon": 90.37136686
+  },
+  {
+    "id": "457497082",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75770534,
+    "lon": 90.36761824
+  },
+  {
+    "id": "500408247",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.755295339999996,
+    "lon": 90.36661092
+  },
+  {
+    "id": "500344671",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76336792,
+    "lon": 90.36475401999999
+  },
+  {
+    "id": "507736275",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76046266,
+    "lon": 90.3619416
+  },
+  {
+    "id": "502549445",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76701792,
+    "lon": 90.37173824
+  },
+  {
+    "id": "624671309",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7604558,
+    "lon": 90.36235686
+  },
+  {
+    "id": "455980836",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761841613333335,
+    "lon": 90.37011944666666
+  },
+  {
+    "id": "508901380",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7403275,
+    "lon": 90.37246465999999
+  },
+  {
+    "id": "1450811360",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756091579999996,
+    "lon": 90.36689276
+  },
+  {
+    "id": "631191258",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.756698160000003,
+    "lon": 90.36306742
+  },
+  {
+    "id": "500412608",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75716902,
+    "lon": 90.36669279999998
+  },
+  {
+    "id": "500390467",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75890986,
+    "lon": 90.36677856000001
+  },
+  {
+    "id": "624363941",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76229918,
+    "lon": 90.36233022
+  },
+  {
+    "id": "1131218918",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747630460000003,
+    "lon": 90.3714011
+  },
+  {
+    "id": "500353685",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75995212,
+    "lon": 90.36277656
+  },
+  {
+    "id": "298280458",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744324239999997,
+    "lon": 90.36826421999999
+  },
+  {
+    "id": "627744800",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761491799999998,
+    "lon": 90.36555762
+  },
+  {
+    "id": "339003768",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745003819999997,
+    "lon": 90.37465466
+  },
+  {
+    "id": "500378525",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762701240000002,
+    "lon": 90.36409016
+  },
+  {
+    "id": "624671314",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76092094,
+    "lon": 90.36221182
+  },
+  {
+    "id": "298336252",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74794902,
+    "lon": 90.3741983
+  },
+  {
+    "id": "997953400",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745436259999998,
+    "lon": 90.37616546
+  },
+  {
+    "id": "456528612",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76223038,
+    "lon": 90.37096604000001
+  },
+  {
+    "id": "323099382",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74680746,
+    "lon": 90.3712789
+  },
+  {
+    "id": "323119933",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74762356,
+    "lon": 90.36872817999999
+  },
+  {
+    "id": "445784550",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76392018,
+    "lon": 90.36204783999999
+  },
+  {
+    "id": "288737718",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74024658,
+    "lon": 90.37400276000001
+  },
+  {
+    "id": "500359536",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76059104,
+    "lon": 90.36338924
+  },
+  {
+    "id": "500344618",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76445544,
+    "lon": 90.36416410000001
+  },
+  {
+    "id": "500407418",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75536246,
+    "lon": 90.371884
+  },
+  {
+    "id": "441262226",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742515183333335,
+    "lon": 90.37140123333334
+  },
+  {
+    "id": "500366261",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759396,
+    "lon": 90.36409234
+  },
+  {
+    "id": "624640570",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761393579999996,
+    "lon": 90.36258430000001
+  },
+  {
+    "id": "502930368",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76798328,
+    "lon": 90.36284751999999
+  },
+  {
+    "id": "448354409",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751581071428575,
+    "lon": 90.3703881142857
+  },
+  {
+    "id": "507736266",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76268238,
+    "lon": 90.3622237
+  },
+  {
+    "id": "1414445166",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74031008,
+    "lon": 90.37131642
+  },
+  {
+    "id": "338998609",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74892836,
+    "lon": 90.37295092
+  },
+  {
+    "id": "614162887",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76486824,
+    "lon": 90.36345026
+  },
+  {
+    "id": "998721714",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744243439999998,
+    "lon": 90.37063734
+  },
+  {
+    "id": "500401303",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755539500000005,
+    "lon": 90.36977586
+  },
+  {
+    "id": "456565226",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76229378,
+    "lon": 90.36731619999999
+  },
+  {
+    "id": "500664404",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757683280000002,
+    "lon": 90.3657313
+  },
+  {
+    "id": "508163149",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766212959999997,
+    "lon": 90.36241692
+  },
+  {
+    "id": "298469689",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749636206666672,
+    "lon": 90.37515001333334
+  },
+  {
+    "id": "613982354",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76528416,
+    "lon": 90.36366006
+  },
+  {
+    "id": "456929747",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75807248,
+    "lon": 90.3697552
+  },
+  {
+    "id": "323055086",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740927140000004,
+    "lon": 90.36812526000001
+  },
+  {
+    "id": "1427443649",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741819579999998,
+    "lon": 90.36918578
+  },
+  {
+    "id": "445781931",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756489600000002,
+    "lon": 90.36495094
+  },
+  {
+    "id": "624671313",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76106752,
+    "lon": 90.36216570000002
+  },
+  {
+    "id": "296977264",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757930499999997,
+    "lon": 90.36253726
+  },
+  {
+    "id": "630553657",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756959919999996,
+    "lon": 90.36252594
+  },
+  {
+    "id": "500402301",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757061980000003,
+    "lon": 90.36874032
+  },
+  {
+    "id": "1414445159",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74140828,
+    "lon": 90.37172296000001
+  },
+  {
+    "id": "508901266",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7449573,
+    "lon": 90.36973194
+  },
+  {
+    "id": "502555714",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766528819999998,
+    "lon": 90.36420038
+  },
+  {
+    "id": "627473741",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.760051920000002,
+    "lon": 90.36518034000001
+  },
+  {
+    "id": "500378513",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762429880000003,
+    "lon": 90.36376315999999
+  },
+  {
+    "id": "500390491",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75888454,
+    "lon": 90.36618156
+  },
+  {
+    "id": "438428941",
+    "zone": "Dhanmondi",
+    "type": "commercial",
+    "lat": 23.748466,
+    "lon": 90.37601597142859
+  },
+  {
+    "id": "323119927",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746409804761903,
+    "lon": 90.36824486190477
+  },
+  {
+    "id": "508901221",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74416086,
+    "lon": 90.36989532
+  },
+  {
+    "id": "507744409",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761907859999997,
+    "lon": 90.3623908
+  },
+  {
+    "id": "445784711",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76442918,
+    "lon": 90.36232455999999
+  },
+  {
+    "id": "1427443601",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7433482,
+    "lon": 90.37066528
+  },
+  {
+    "id": "626643862",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7625839,
+    "lon": 90.36429766
+  },
+  {
+    "id": "500359537",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.760544689473683,
+    "lon": 90.36328487894738
+  },
+  {
+    "id": "1253322734",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743302340000003,
+    "lon": 90.37017968
+  },
+  {
+    "id": "323082350",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74062431666667,
+    "lon": 90.37308131666667
+  },
+  {
+    "id": "296974454",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.751321721052634,
+    "lon": 90.36955322105263
+  },
+  {
+    "id": "321037365",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740161871428572,
+    "lon": 90.36999165714285
+  },
+  {
+    "id": "441256103",
+    "zone": "Dhanmondi",
+    "type": "residential",
+    "lat": 23.741124,
+    "lon": 90.3706559
+  },
+  {
+    "id": "445781936",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756931679999997,
+    "lon": 90.36535636
+  },
+  {
+    "id": "500378504",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76219348,
+    "lon": 90.36432022
+  },
+  {
+    "id": "500658049",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75742686,
+    "lon": 90.36334162
+  },
+  {
+    "id": "624966748",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760104419999998,
+    "lon": 90.36328782000001
+  },
+  {
+    "id": "456595414",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75893074,
+    "lon": 90.37100812
+  },
+  {
+    "id": "456550306",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760474799999997,
+    "lon": 90.37147345
+  },
+  {
+    "id": "338998590",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747009580000004,
+    "lon": 90.37176432
+  },
+  {
+    "id": "449638657",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74201824,
+    "lon": 90.37039250000001
+  },
+  {
+    "id": "627325710",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76167284,
+    "lon": 90.36348744
+  },
+  {
+    "id": "500382281",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75985946,
+    "lon": 90.36323780000001
+  },
+  {
+    "id": "507744391",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7607017,
+    "lon": 90.36247188000002
+  },
+  {
+    "id": "626879327",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760310620000002,
+    "lon": 90.36378954
+  },
+  {
+    "id": "1236408378",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7554754875,
+    "lon": 90.36766105000001
+  },
+  {
+    "id": "299176338",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751058359999995,
+    "lon": 90.37327866
+  },
+  {
+    "id": "629468294",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758202,
+    "lon": 90.36607474
+  },
+  {
+    "id": "500385207",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760916700000003,
+    "lon": 90.36616876
+  },
+  {
+    "id": "506427173",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75156578,
+    "lon": 90.37518874
+  },
+  {
+    "id": "627482168",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7593343,
+    "lon": 90.3644668
+  },
+  {
+    "id": "391414110",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74166942,
+    "lon": 90.37239732
+  },
+  {
+    "id": "508955059",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74332924,
+    "lon": 90.36818574000002
+  },
+  {
+    "id": "500395985",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75979426,
+    "lon": 90.36818706
+  },
+  {
+    "id": "298336249",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746966507692306,
+    "lon": 90.37518316153847
+  },
+  {
+    "id": "1235803181",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.755802160000002,
+    "lon": 90.36625274000001
+  },
+  {
+    "id": "624193137",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762923439999998,
+    "lon": 90.36224546000001
+  },
+  {
+    "id": "629771645",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757802579999996,
+    "lon": 90.36669400000001
+  },
+  {
+    "id": "438605242",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74601146,
+    "lon": 90.37623557999999
+  },
+  {
+    "id": "627546647",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.761948999999998,
+    "lon": 90.36495572000001
+  },
+  {
+    "id": "627536902",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76228782,
+    "lon": 90.36507922
+  },
+  {
+    "id": "1236032035",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75889772,
+    "lon": 90.36947305999999
+  },
+  {
+    "id": "1085835437",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751905479999998,
+    "lon": 90.37602262
+  },
+  {
+    "id": "323098343",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745029742857145,
+    "lon": 90.37084875714288
+  },
+  {
+    "id": "500402645",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757243255555554,
+    "lon": 90.37011333333334
+  },
+  {
+    "id": "298820537",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74545502,
+    "lon": 90.36820986000001
+  },
+  {
+    "id": "627501858",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76005974,
+    "lon": 90.36404078000001
+  },
+  {
+    "id": "624648846",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76167382,
+    "lon": 90.36296148000001
+  },
+  {
+    "id": "449387892",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7592876,
+    "lon": 90.36233999999999
+  },
+  {
+    "id": "500379715",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7618864,
+    "lon": 90.36323712
+  },
+  {
+    "id": "445781929",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756506060000003,
+    "lon": 90.36480112
+  },
+  {
+    "id": "626159755",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759691280000002,
+    "lon": 90.36220952
+  },
+  {
+    "id": "566933585",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744451499999997,
+    "lon": 90.37216412000001
+  },
+  {
+    "id": "625027586",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758864539999998,
+    "lon": 90.3631938
+  },
+  {
+    "id": "1443750043",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74438268,
+    "lon": 90.36797164
+  },
+  {
+    "id": "323096173",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744206339999998,
+    "lon": 90.37048714
+  },
+  {
+    "id": "436995610",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76580370769231,
+    "lon": 90.36958653076924
+  },
+  {
+    "id": "298302907",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747921780000002,
+    "lon": 90.37324644
+  },
+  {
+    "id": "500383528",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76057968,
+    "lon": 90.36370354
+  },
+  {
+    "id": "629468284",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75797736,
+    "lon": 90.36592082
+  },
+  {
+    "id": "457497124",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75758988,
+    "lon": 90.36877023999999
+  },
+  {
+    "id": "456565199",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76228898,
+    "lon": 90.36911826000001
+  },
+  {
+    "id": "338999387",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747376420000002,
+    "lon": 90.37717642
+  },
+  {
+    "id": "508957480",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7410577,
+    "lon": 90.36833562
+  },
+  {
+    "id": "1447314952",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74729,
+    "lon": 90.37642095999999
+  },
+  {
+    "id": "298275953",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.74393,
+    "lon": 90.37416477999999
+  },
+  {
+    "id": "614162884",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76437992,
+    "lon": 90.36361854
+  },
+  {
+    "id": "456595432",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.759342455555554,
+    "lon": 90.3708505111111
+  },
+  {
+    "id": "506605274",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74545997142857,
+    "lon": 90.3686129857143
+  },
+  {
+    "id": "504671697",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7666971,
+    "lon": 90.36257316000001
+  },
+  {
+    "id": "616569447",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76741174,
+    "lon": 90.36241764
+  },
+  {
+    "id": "500664440",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7574562,
+    "lon": 90.36447388
+  },
+  {
+    "id": "506455604",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74555186,
+    "lon": 90.36927132
+  },
+  {
+    "id": "500383539",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76012968,
+    "lon": 90.36401937999999
+  },
+  {
+    "id": "457497111",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75776812,
+    "lon": 90.37038794
+  },
+  {
+    "id": "500664408",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7577681,
+    "lon": 90.36599587999999
+  },
+  {
+    "id": "502555716",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766765499999998,
+    "lon": 90.36409446
+  },
+  {
+    "id": "455980840",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76226244,
+    "lon": 90.37032328000001
+  },
+  {
+    "id": "1253322733",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74306854,
+    "lon": 90.37074867999999
+  },
+  {
+    "id": "1083885959",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76163046,
+    "lon": 90.36746104
+  },
+  {
+    "id": "502549442",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7673432,
+    "lon": 90.3717999
+  },
+  {
+    "id": "611965374",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76669766,
+    "lon": 90.36411525999999
+  },
+  {
+    "id": "500401735",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75671508,
+    "lon": 90.36831518
+  },
+  {
+    "id": "508957464",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740752739999998,
+    "lon": 90.36962836000001
+  },
+  {
+    "id": "627318247",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76124134,
+    "lon": 90.36457234
+  },
+  {
+    "id": "627536905",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76211292,
+    "lon": 90.36493504
+  },
+  {
+    "id": "502928779",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76540468,
+    "lon": 90.36337129999998
+  },
+  {
+    "id": "263648411",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740157016666668,
+    "lon": 90.37381278333334
+  },
+  {
+    "id": "629837752",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756924239999996,
+    "lon": 90.36588843999999
+  },
+  {
+    "id": "445784546",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763568819999996,
+    "lon": 90.36236978
+  },
+  {
+    "id": "338999923",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74738734,
+    "lon": 90.37488022
+  },
+  {
+    "id": "298803526",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755827840000002,
+    "lon": 90.37025418
+  },
+  {
+    "id": "321978493",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744573159999998,
+    "lon": 90.36807478
+  },
+  {
+    "id": "502930387",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.767315180000004,
+    "lon": 90.36295170000001
+  },
+  {
+    "id": "323112005",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746247422222226,
+    "lon": 90.3681813888889
+  },
+  {
+    "id": "508901201",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74363564,
+    "lon": 90.37100794
+  },
+  {
+    "id": "500390474",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75853618,
+    "lon": 90.36706368
+  },
+  {
+    "id": "628949760",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76233096,
+    "lon": 90.36744542
+  },
+  {
+    "id": "500378481",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761894873333336,
+    "lon": 90.36435454666665
+  },
+  {
+    "id": "614021888",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7650779,
+    "lon": 90.36431928
+  },
+  {
+    "id": "1442049694",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76201754,
+    "lon": 90.36862432000001
+  },
+  {
+    "id": "456595407",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75908104,
+    "lon": 90.37176806
+  },
+  {
+    "id": "338999403",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747606119999997,
+    "lon": 90.37410387999998
+  },
+  {
+    "id": "456528605",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76269652222222,
+    "lon": 90.36984953333334
+  },
+  {
+    "id": "438424780",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74920326,
+    "lon": 90.36971301999999
+  },
+  {
+    "id": "502558595",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76544298,
+    "lon": 90.36433212
+  },
+  {
+    "id": "500385218",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7604883,
+    "lon": 90.36607728
+  },
+  {
+    "id": "296977261",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "college",
+    "lat": 23.757133566666667,
+    "lon": 90.36206668333331
+  },
+  {
+    "id": "321182230",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744059779999997,
+    "lon": 90.36897490000001
+  },
+  {
+    "id": "338999369",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750101219999998,
+    "lon": 90.37596496
+  },
+  {
+    "id": "439564613",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74039682,
+    "lon": 90.37701172000001
+  },
+  {
+    "id": "506157755",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.752076820000003,
+    "lon": 90.36996166
+  },
+  {
+    "id": "1128348712",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.756369310526317,
+    "lon": 90.37098854210527
+  },
+  {
+    "id": "500344603",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76494708,
+    "lon": 90.36448544
+  },
+  {
+    "id": "630553669",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757155380000004,
+    "lon": 90.36316946000001
+  },
+  {
+    "id": "456565266",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761603920000002,
+    "lon": 90.3666164
+  },
+  {
+    "id": "506455613",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745892060000003,
+    "lon": 90.3696932
+  },
+  {
+    "id": "1416591829",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74049068,
+    "lon": 90.37009658
+  },
+  {
+    "id": "1414445168",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7407674,
+    "lon": 90.37202502
+  },
+  {
+    "id": "626880969",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.762761119999997,
+    "lon": 90.36431674
+  },
+  {
+    "id": "456528614",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76255192,
+    "lon": 90.37080123999999
+  },
+  {
+    "id": "631263821",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75732372,
+    "lon": 90.3672976
+  },
+  {
+    "id": "500408249",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "apartments",
+    "lat": 23.755344260000005,
+    "lon": 90.36681730000001
+  },
+  {
+    "id": "441255798",
+    "zone": "Dhanmondi",
+    "type": "residential",
+    "lat": 23.74199498,
+    "lon": 90.37058415999999
+  },
+  {
+    "id": "339003748",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744272628571427,
+    "lon": 90.37574284285714
+  },
+  {
+    "id": "1416591833",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740355240000003,
+    "lon": 90.36989956
+  },
+  {
+    "id": "624644743",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76131686,
+    "lon": 90.36229435999999
+  },
+  {
+    "id": "445781897",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75879796,
+    "lon": 90.36209991999999
+  },
+  {
+    "id": "1414445162",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.741210080000002,
+    "lon": 90.37169396000002
+  },
+  {
+    "id": "298801927",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74186812,
+    "lon": 90.37193724000001
+  },
+  {
+    "id": "1124600245",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755120940000005,
+    "lon": 90.37156578
+  },
+  {
+    "id": "338998570",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74554076,
+    "lon": 90.37225502000001
+  },
+  {
+    "id": "998764355",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.764481479999997,
+    "lon": 90.36753056
+  },
+  {
+    "id": "338998573",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74551922,
+    "lon": 90.372551
+  },
+  {
+    "id": "500401282",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75716096,
+    "lon": 90.3678064
+  },
+  {
+    "id": "998711058",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757744000000002,
+    "lon": 90.36997514000001
+  },
+  {
+    "id": "500405066",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75606392,
+    "lon": 90.36962896000001
+  },
+  {
+    "id": "500407388",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757197542857146,
+    "lon": 90.37194201428574
+  },
+  {
+    "id": "500344602",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76495044,
+    "lon": 90.36392138
+  },
+  {
+    "id": "323108414",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "hospital",
+    "lat": 23.755814599999997,
+    "lon": 90.3634175
+  },
+  {
+    "id": "500401733",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.756860499999995,
+    "lon": 90.36811184000001
+  },
+  {
+    "id": "629427421",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75910252,
+    "lon": 90.36627818000001
+  },
+  {
+    "id": "449637583",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74265332,
+    "lon": 90.37028136
+  },
+  {
+    "id": "449638143",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7430795,
+    "lon": 90.37068632857144
+  },
+  {
+    "id": "500411430",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755903519999997,
+    "lon": 90.36686962
+  },
+  {
+    "id": "500344608",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.764819080000002,
+    "lon": 90.36401667999999
+  },
+  {
+    "id": "500379685",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.761353139999997,
+    "lon": 90.36379792
+  },
+  {
+    "id": "455980809",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762953800000002,
+    "lon": 90.36954096
+  },
+  {
+    "id": "445781924",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75861958,
+    "lon": 90.3620642
+  },
+  {
+    "id": "630134263",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75783686,
+    "lon": 90.36429686
+  },
+  {
+    "id": "338999379",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74820944,
+    "lon": 90.3773009
+  },
+  {
+    "id": "1427510207",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74933962,
+    "lon": 90.37301958
+  },
+  {
+    "id": "323055083",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74052314,
+    "lon": 90.36840564
+  },
+  {
+    "id": "1124600839",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740044140000002,
+    "lon": 90.36860262
+  },
+  {
+    "id": "391414117",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74184254,
+    "lon": 90.372088
+  },
+  {
+    "id": "508901299",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74217548,
+    "lon": 90.37287872
+  },
+  {
+    "id": "323074205",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74251924,
+    "lon": 90.37032214000001
+  },
+  {
+    "id": "500337787",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76289844,
+    "lon": 90.36483363999999
+  },
+  {
+    "id": "998711048",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7560297,
+    "lon": 90.36670660000001
+  },
+  {
+    "id": "506455640",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.747486433333332,
+    "lon": 90.36804721666665
+  },
+  {
+    "id": "500353707",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76097122,
+    "lon": 90.36279872
+  },
+  {
+    "id": "500407415",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75533710952381,
+    "lon": 90.37171995714284
+  },
+  {
+    "id": "456579772",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "college",
+    "lat": 23.76432361666667,
+    "lon": 90.36990191111111
+  },
+  {
+    "id": "508901340",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740909879999997,
+    "lon": 90.37289576
+  },
+  {
+    "id": "323108651",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74142656,
+    "lon": 90.36839472
+  },
+  {
+    "id": "445781993",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757675319999997,
+    "lon": 90.365321
+  },
+  {
+    "id": "323329553",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.749304,
+    "lon": 90.36901042000001
+  },
+  {
+    "id": "439204890",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7628002,
+    "lon": 90.36305381666666
+  },
+  {
+    "id": "500382292",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75945968,
+    "lon": 90.36385393999998
+  },
+  {
+    "id": "490657605",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.73985354,
+    "lon": 90.37584552
+  },
+  {
+    "id": "508901196",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744373279999998,
+    "lon": 90.37098366
+  },
+  {
+    "id": "500361602",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75980236,
+    "lon": 90.36616922
+  },
+  {
+    "id": "448255835",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75816112,
+    "lon": 90.36402754
+  },
+  {
+    "id": "998711075",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75611606,
+    "lon": 90.36371702
+  },
+  {
+    "id": "626073887",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759205960000003,
+    "lon": 90.36209792000001
+  },
+  {
+    "id": "1235803188",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.755973599999997,
+    "lon": 90.36851259999999
+  },
+  {
+    "id": "456565163",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76208448,
+    "lon": 90.36859904
+  },
+  {
+    "id": "627744808",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76183566,
+    "lon": 90.36537848
+  },
+  {
+    "id": "506041576",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75183468,
+    "lon": 90.37337428
+  },
+  {
+    "id": "288737773",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740114939999998,
+    "lon": 90.37311781999999
+  },
+  {
+    "id": "339003762",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74444188,
+    "lon": 90.37414774
+  },
+  {
+    "id": "500379724",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76224782,
+    "lon": 90.36311234
+  },
+  {
+    "id": "450076889",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7401036,
+    "lon": 90.36891918
+  },
+  {
+    "id": "500669645",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75768614,
+    "lon": 90.36179924
+  },
+  {
+    "id": "338998587",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74597066,
+    "lon": 90.37352002
+  },
+  {
+    "id": "456565351",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "university",
+    "lat": 23.76114472,
+    "lon": 90.36805862
+  },
+  {
+    "id": "624676535",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76084196,
+    "lon": 90.36242888
+  },
+  {
+    "id": "323108652",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74140582,
+    "lon": 90.36810951999999
+  },
+  {
+    "id": "500407402",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.7565168,
+    "lon": 90.37204770000001
+  },
+  {
+    "id": "502927905",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76601238,
+    "lon": 90.36388784
+  },
+  {
+    "id": "455980823",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "roof",
+    "lat": 23.762390414285715,
+    "lon": 90.36966604285715
+  },
+  {
+    "id": "502930412",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.766527019999998,
+    "lon": 90.36280482000001
+  },
+  {
+    "id": "457497062",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756524199999998,
+    "lon": 90.37074068
+  },
+  {
+    "id": "457497103",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75746916,
+    "lon": 90.36956846000001
+  },
+  {
+    "id": "338998583",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74631384,
+    "lon": 90.37320848
+  },
+  {
+    "id": "500384596",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760248859999997,
+    "lon": 90.3644472
+  },
+  {
+    "id": "500383499",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "commercial",
+    "lat": 23.76081506,
+    "lon": 90.36511678000001
+  },
+  {
+    "id": "508901297",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74228856,
+    "lon": 90.37287418
+  },
+  {
+    "id": "1427414025",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75186386,
+    "lon": 90.37639928000002
+  },
+  {
+    "id": "1427550026",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74151672,
+    "lon": 90.37287230000001
+  },
+  {
+    "id": "432542342",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75205148,
+    "lon": 90.37335454
+  },
+  {
+    "id": "500353749",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76194804,
+    "lon": 90.36252016
+  },
+  {
+    "id": "298806123",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751065180000005,
+    "lon": 90.36908488
+  },
+  {
+    "id": "624350950",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762795960000002,
+    "lon": 90.36262886
+  },
+  {
+    "id": "508946586",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7427306,
+    "lon": 90.36980580000002
+  },
+  {
+    "id": "627932823",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76046638,
+    "lon": 90.36601246000001
+  },
+  {
+    "id": "630119070",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758072119999998,
+    "lon": 90.36374826
+  },
+  {
+    "id": "500664417",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75786902,
+    "lon": 90.36693878000001
+  },
+  {
+    "id": "1018471433",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "retail",
+    "lat": 23.76691118,
+    "lon": 90.36376298
+  },
+  {
+    "id": "445784656",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76365792,
+    "lon": 90.3620273
+  },
+  {
+    "id": "500382312",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75931128,
+    "lon": 90.36273706
+  },
+  {
+    "id": "323086075",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74309332857143,
+    "lon": 90.37000388571428
+  },
+  {
+    "id": "1416590855",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7400979,
+    "lon": 90.37050271999999
+  },
+  {
+    "id": "500389383",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76134628,
+    "lon": 90.36558514
+  },
+  {
+    "id": "500344624",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7641312,
+    "lon": 90.36444308
+  },
+  {
+    "id": "338998628",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750037839999997,
+    "lon": 90.37485056
+  },
+  {
+    "id": "500337790",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76284192,
+    "lon": 90.36466876
+  },
+  {
+    "id": "323108429",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74486212,
+    "lon": 90.37316763999999
+  },
+  {
+    "id": "1236032025",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756327023076924,
+    "lon": 90.37142925384616
+  },
+  {
+    "id": "500393090",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.758688579999998,
+    "lon": 90.3664034
+  },
+  {
+    "id": "502927907",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76594548,
+    "lon": 90.36370478
+  },
+  {
+    "id": "1236408376",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75545402142857,
+    "lon": 90.36762275000001
+  },
+  {
+    "id": "630180420",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75743652,
+    "lon": 90.36441352
+  },
+  {
+    "id": "323096619",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.7453851,
+    "lon": 90.37006295555557
+  },
+  {
+    "id": "323126779",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743203240000003,
+    "lon": 90.36823092
+  },
+  {
+    "id": "323119942",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74667129090909,
+    "lon": 90.36824891818182
+  },
+  {
+    "id": "456565200",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762526299999998,
+    "lon": 90.36931578
+  },
+  {
+    "id": "1044404851",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75739712,
+    "lon": 90.3672745
+  },
+  {
+    "id": "448256902",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75804382,
+    "lon": 90.36431006000001
+  },
+  {
+    "id": "288737801",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.739992159999996,
+    "lon": 90.37211479999999
+  },
+  {
+    "id": "508901181",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74280898,
+    "lon": 90.3702896
+  },
+  {
+    "id": "298302426",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.748169311111113,
+    "lon": 90.37375613333333
+  },
+  {
+    "id": "500407397",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756853639999996,
+    "lon": 90.37200268000001
+  },
+  {
+    "id": "298280479",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745201,
+    "lon": 90.3708656
+  },
+  {
+    "id": "627711613",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76098388,
+    "lon": 90.36575152
+  },
+  {
+    "id": "500389386",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76128504,
+    "lon": 90.36583370000001
+  },
+  {
+    "id": "508342402",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76767002,
+    "lon": 90.3620181
+  },
+  {
+    "id": "438605241",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745792799999997,
+    "lon": 90.37664636000001
+  },
+  {
+    "id": "998721721",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746687060000003,
+    "lon": 90.37062174
+  },
+  {
+    "id": "500669641",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75818094,
+    "lon": 90.36208644000001
+  },
+  {
+    "id": "500353731",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76154356,
+    "lon": 90.36308300000002
+  },
+  {
+    "id": "627744802",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76155296,
+    "lon": 90.36579332
+  },
+  {
+    "id": "500412609",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757068659999998,
+    "lon": 90.36692368000001
+  },
+  {
+    "id": "457497059",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.756402619999996,
+    "lon": 90.37122946
+  },
+  {
+    "id": "456550302",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "construction",
+    "lat": 23.76086678,
+    "lon": 90.37116854000001
+  },
+  {
+    "id": "614156824",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76422286,
+    "lon": 90.36385972000001
+  },
+  {
+    "id": "500401732",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75682922,
+    "lon": 90.36797229999999
+  },
+  {
+    "id": "625027588",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75879214,
+    "lon": 90.36304514
+  },
+  {
+    "id": "629152364",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76154652,
+    "lon": 90.37191048
+  },
+  {
+    "id": "296974535",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.75051031111111,
+    "lon": 90.36947243333333
+  },
+  {
+    "id": "298733711",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745922940000003,
+    "lon": 90.37492678000001
+  },
+  {
+    "id": "298338188",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750189400000004,
+    "lon": 90.37044178
+  },
+  {
+    "id": "500383497",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760936620000003,
+    "lon": 90.36508509999999
+  },
+  {
+    "id": "449387764",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759149900000004,
+    "lon": 90.36277176000002
+  },
+  {
+    "id": "1450811372",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75878012,
+    "lon": 90.3647659
+  },
+  {
+    "id": "625033183",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759077400000002,
+    "lon": 90.36332488000001
+  },
+  {
+    "id": "1414301072",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.740168620000002,
+    "lon": 90.37112212
+  },
+  {
+    "id": "500378489",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76224894,
+    "lon": 90.36392002
+  },
+  {
+    "id": "627501866",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.759706020000003,
+    "lon": 90.36416882
+  },
+  {
+    "id": "1105331767",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76726148,
+    "lon": 90.36334941999999
+  },
+  {
+    "id": "627479751",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760013400000002,
+    "lon": 90.36444108
+  },
+  {
+    "id": "1240836265",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.754979577777775,
+    "lon": 90.3623343888889
+  },
+  {
+    "id": "481245650",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "building",
+    "lat": 23.75925201,
+    "lon": 90.36691876
+  },
+  {
+    "id": "500664392",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7574233,
+    "lon": 90.36677452
+  },
+  {
+    "id": "508901325",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74080902,
+    "lon": 90.37221337999999
+  },
+  {
+    "id": "500384583",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76059256,
+    "lon": 90.36506306
+  },
+  {
+    "id": "299176337",
+    "zone": "Dhanmondi",
+    "type": "apartments",
+    "lat": 23.74688502,
+    "lon": 90.37699923999999
+  },
+  {
+    "id": "624975829",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76034506,
+    "lon": 90.36352976
+  },
+  {
+    "id": "338998574",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745694200000003,
+    "lon": 90.37251138
+  },
+  {
+    "id": "500378498",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.762226140000003,
+    "lon": 90.36384576
+  },
+  {
+    "id": "1235803183",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75621602,
+    "lon": 90.36773274
+  },
+  {
+    "id": "500402641",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.75703988,
+    "lon": 90.36955864000001
+  },
+  {
+    "id": "381011403",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74217084,
+    "lon": 90.37797354
+  },
+  {
+    "id": "508901227",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.743960708333336,
+    "lon": 90.36946981666667
+  },
+  {
+    "id": "631229542",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75841526,
+    "lon": 90.36692196000001
+  },
+  {
+    "id": "502928773",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76528806,
+    "lon": 90.3638381
+  },
+  {
+    "id": "1431230663",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76787122,
+    "lon": 90.37115928
+  },
+  {
+    "id": "998764353",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76163748,
+    "lon": 90.36370538
+  },
+  {
+    "id": "998721719",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.744128240000002,
+    "lon": 90.37119781999999
+  },
+  {
+    "id": "381010294",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74038736,
+    "lon": 90.3780019
+  },
+  {
+    "id": "457497109",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "construction",
+    "lat": 23.75783864285714,
+    "lon": 90.37068719999999
+  },
+  {
+    "id": "629771643",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757596059999997,
+    "lon": 90.36600958
+  },
+  {
+    "id": "456565178",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761341319999996,
+    "lon": 90.3693979
+  },
+  {
+    "id": "438605251",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74573346,
+    "lon": 90.37641407999999
+  },
+  {
+    "id": "627707008",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.761092579999996,
+    "lon": 90.36525106
+  },
+  {
+    "id": "500674227",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.757727120000002,
+    "lon": 90.36232808000001
+  },
+  {
+    "id": "628941194",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.763495659999997,
+    "lon": 90.36919728000001
+  },
+  {
+    "id": "502927917",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76614602,
+    "lon": 90.3637454
+  },
+  {
+    "id": "630553649",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75684678,
+    "lon": 90.36272602
+  },
+  {
+    "id": "323112912",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74437158,
+    "lon": 90.36938755999999
+  },
+  {
+    "id": "298340244",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.750468039999998,
+    "lon": 90.37162124
+  },
+  {
+    "id": "616569453",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76734146,
+    "lon": 90.36222873999999
+  },
+  {
+    "id": "500664374",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75950522,
+    "lon": 90.36340148
+  },
+  {
+    "id": "500389400",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76097588,
+    "lon": 90.36526280000001
+  },
+  {
+    "id": "630431677",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.757486120000003,
+    "lon": 90.36519648
+  },
+  {
+    "id": "298472670",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74115654,
+    "lon": 90.37351330000001
+  },
+  {
+    "id": "625262018",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.7609795,
+    "lon": 90.36194843999999
+  },
+  {
+    "id": "508901343",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74084546,
+    "lon": 90.37304572000001
+  },
+  {
+    "id": "298341250",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.75065242,
+    "lon": 90.37146135999998
+  },
+  {
+    "id": "344943351",
+    "zone": "Dhanmondi",
+    "type": "house",
+    "lat": 23.74570848571429,
+    "lon": 90.37508651428571
+  },
+  {
+    "id": "500384573",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760052719999997,
+    "lon": 90.36461646000001
+  },
+  {
+    "id": "500337821",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.762126560000002,
+    "lon": 90.36539298
+  },
+  {
+    "id": "456565293",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76315071538462,
+    "lon": 90.36535102307693
+  },
+  {
+    "id": "323111382",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74613744,
+    "lon": 90.36911278
+  },
+  {
+    "id": "298341253",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74313898,
+    "lon": 90.37591538000001
+  },
+  {
+    "id": "456565278",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76171454,
+    "lon": 90.36643282
+  },
+  {
+    "id": "439564617",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74075612,
+    "lon": 90.37688256
+  },
+  {
+    "id": "436827237",
+    "zone": "Dhanmondi",
+    "type": "residential",
+    "lat": 23.750833280000002,
+    "lon": 90.3708559
+  },
+  {
+    "id": "456565268",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.76146396,
+    "lon": 90.36657364
+  },
+  {
+    "id": "500353799",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.765298780000002,
+    "lon": 90.36378026
+  },
+  {
+    "id": "322848647",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74280824285714,
+    "lon": 90.36809650000001
+  },
+  {
+    "id": "506157752",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.751286959999998,
+    "lon": 90.37093464
+  },
+  {
+    "id": "624683021",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76048844,
+    "lon": 90.36281126
+  },
+  {
+    "id": "508901193",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74377968,
+    "lon": 90.36912573999999
+  },
+  {
+    "id": "506605267",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.745168819999996,
+    "lon": 90.36798855999999
+  },
+  {
+    "id": "438428881",
+    "zone": "Dhanmondi",
+    "type": "house",
+    "lat": 23.74971623333333,
+    "lon": 90.37570780000001
+  },
+  {
+    "id": "323059356",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.74144554,
+    "lon": 90.36794277999999
+  },
+  {
+    "id": "298733767",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.746210780000002,
+    "lon": 90.37678043999999
+  },
+  {
+    "id": "631218897",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.75847748,
+    "lon": 90.36708506
+  },
+  {
+    "id": "998711071",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "yes",
+    "lat": 23.758784679999998,
+    "lon": 90.36584508
+  },
+  {
+    "id": "500383508",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.760670299999997,
+    "lon": 90.36454886
+  },
+  {
+    "id": "323126777",
+    "zone": "Dhanmondi",
+    "type": "yes",
+    "lat": 23.742556060000005,
+    "lon": 90.36850775999999
+  },
+  {
+    "id": "508342297",
+    "zone": "Lalmatia_Mohammadpur",
+    "type": "residential",
+    "lat": 23.76725046,
+    "lon": 90.36196948
+  }
+]

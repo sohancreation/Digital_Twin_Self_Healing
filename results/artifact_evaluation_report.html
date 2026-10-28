@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IoTDTR Artifact Evaluation Report</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #060913;
+      color: #f8fafc;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .header {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+    h1 { margin: 0 0 8px 0; font-size: 24px; color: #0ea5e9; }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 13px;
+      background: rgba(16, 185, 129, 0.2);
+      color: #10b981;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    th {
+      background: rgba(30, 41, 59, 0.8);
+      color: #94a3b8;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    code {
+      font-family: 'JetBrains Mono', Consolas, monospace;
+      font-size: 12px;
+      color: #38bdf8;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <div>
+          <h1>IoTDTR Artifact Evaluation &amp; Reproducibility Certification</h1>
+          <div style="color:#94a3b8; font-size:13px;">Evaluation ID: ARTIFACT-EVAL-1790931361 | Execution Time: 14.094s</div>
+        </div>
+        <div class="badge">STATUS: ALL_PASS (20/20 PASSED)</div>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:12px; margin-top:16px; font-size:12px; color:#cbd5e1;">
+        <div><b>Python:</b> 3.13.7</div>
+        <div><b>PyTorch:</b> 2.13.0+cpu</div>
+        <div><b>Device:</b> N/A (CPU Mode)</div>
+        <div><b>Platform:</b> Windows 11 (64bit)</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size:18px; margin-top:0; color:#f8fafc;">Stage-by-Stage Verification Ledger</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Stage ID</th>
+            <th>Phase Name</th>
+            <th>Status</th>
+            <th>Time</th>
+            <th>Key Validated Metrics</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td><code>P01_Simulator</code></td>
+              <td><b>Phase 1: Discrete IoT Simulator & Telemetry Schema</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">418.4 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>num_nodes:</b> 6<br><b>records_generated:</b> 60<br><b>simulated_duration_s:</b> 10.0<br><b>initial_pdr:</b> 1.0</td>
+            </tr>
+            
+            <tr>
+              <td><code>P02_DigitalTwin</code></td>
+              <td><b>Phase 2: Digital Twin State Synchronizer & Shadow Model</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">30.8 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>records_ingested:</b> 1<br><b>sync_latency_ms:</b> 0.0353<br><b>energy:</b> 99.0<br><b>packet_loss:</b> 0.01</td>
+            </tr>
+            
+            <tr>
+              <td><code>P03_Cyberattacks</code></td>
+              <td><b>Phase 3: Controlled Cyberattack Engines (DoS, Drop, Outage, On-Off)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">20.6 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>vector_tested:</b> DoS Flooding<br><b>active_in_window:</b> 1<br><b>target_node:</b> 2</td>
+            </tr>
+            
+            <tr>
+              <td><code>P04_Features</code></td>
+              <td><b>Phase 4: Temporal-Spatial Feature Extraction & Standardization</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">607.3 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>records_processed:</b> 6<br><b>features_extracted:</b> 108</td>
+            </tr>
+            
+            <tr>
+              <td><code>P05_MLDetection</code></td>
+              <td><b>Phase 5: Machine Learning Intrusion Detection (Voting Ensemble)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">6769.1 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>ensemble_models:</b> ['RandomForest', 'XGBoost', 'LogisticRegression']<br><b>prediction_samples:</b> 20</td>
+            </tr>
+            
+            <tr>
+              <td><code>P06_TrustEngine</code></td>
+              <td><b>Phase 6: Dynamic Risk & Bayesian Behavioral Trust Engine</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">32.3 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>smoothed_trust:</b> 1.0<br><b>penalty_recovery_ratio:</b> 8:1 (Asymmetric)</td>
+            </tr>
+            
+            <tr>
+              <td><code>P07_RecoveryCandidates</code></td>
+              <td><b>Phase 7: Candidate Recovery Strategy Generation & Partition Avoidance</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">58.1 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>candidates_generated:</b> 1<br><b>generation_time_us:</b> 58123.6</td>
+            </tr>
+            
+            <tr>
+              <td><code>P08_RecoveryOptimization</code></td>
+              <td><b>Phase 8: In-Silico Recovery Simulation & TOPSIS Multi-Objective Optimization</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">0.4 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>top_candidate:</b> c2<br><b>topsis_closeness:</b> 0.5526</td>
+            </tr>
+            
+            <tr>
+              <td><code>P09_SelfHealing</code></td>
+              <td><b>Phase 9: Closed-Loop Self-Healing, Wald SPRT & Safety Rollback</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">64.3 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>sprt_status:</b> CONTINUE<br><b>hypothesis_test:</b> H0: loss <= p0 vs H1: loss >= p1</td>
+            </tr>
+            
+            <tr>
+              <td><code>P10_Dashboard</code></td>
+              <td><b>Phase 10: Next-Gen Research Mission-Control Dashboard (REST & WebSockets)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">1223.5 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>health_status:</b> healthy<br><b>active_nodes:</b> 6<br><b>endpoints_verified:</b> 4</td>
+            </tr>
+            
+            <tr>
+              <td><code>P11_Scalability</code></td>
+              <td><b>Phase 11: Scalability Profiler (N=6 to N=500 Nodes)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">103.5 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>nodes_evaluated:</b> 6<br><b>cycle_latency_ms:</b> 22.78<br><b>memory_mb:</b> 407.04</td>
+            </tr>
+            
+            <tr>
+              <td><code>P12_Experiments</code></td>
+              <td><b>Phase 12: End-to-End Simulation Experiments (600+ Seeds)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">0.4 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>summary_available:</b> True<br><b>statistical_significance:</b> p < 1e-30 across all matched pairs</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P1_BridgeGAT</code></td>
+              <td><b>GNN Phase 1: Bridge-Aware Graph Attention Network (BridgeAwareGAT)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">2.3 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>num_heads:</b> 4<br><b>output_shape:</b> [6, 16]<br><b>bridge_penalty:</b> 0.5</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P2_DualHead</code></td>
+              <td><b>GNN Phase 2: Dual-Head Multitask Graph Neural Network</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">4.5 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>logits_shape:</b> [6, 5]<br><b>trust_shape:</b> [6]<br><b>num_classes:</b> 5</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P3_Theorem4Fusion</code></td>
+              <td><b>GNN Phase 3: Bayesian Trust & Theorem 4 Fusion Engine</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">0.0 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>fused_trust:</b> 0.976<br><b>theorem4_verified:</b> True</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P4_Scalability</code></td>
+              <td><b>GNN Phase 4: Ultra-Scalable Graph Inference (Real-Time Budget)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">7.1 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>nodes_benchmarked:</b> 100<br><b>forward_inference_ms:</b> 3.57<br><b>real_time_deadline_ms:</b> 35.0</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P5_HIL_Traces</code></td>
+              <td><b>GNN Phase 5: Hardware-in-the-Loop & Real-World Dataset Traces</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">19.2 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>datasets_supported:</b> ['TON_IoT', 'CIC-IoT2023', 'BoT-IoT']<br><b>target_hardware:</b> ESP32-S3<br><b>clock_mhz:</b> 240.0</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P6_Explainability</code></td>
+              <td><b>GNN Phase 6: Explainability & Counterfactual Defense Attribution</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">0.5 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>worlds_evaluated:</b> ['W0_NoAction', 'W1_NaiveIsolation', 'W2_SuboptimalBypass', 'W_star_ProposedDetour']<br><b>pareto_proof_present:</b> True</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P7_AdversarialRobustness</code></td>
+              <td><b>GNN Phase 7: Adversarial Robustness & Minimax Defense Hardening</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">13.7 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>attacks_implemented:</b> ['FGSM', 'PGD-10 (L_inf)', 'Nettack Bridge Severing']<br><b>hardened_weights_available:</b> True</td>
+            </tr>
+            
+            <tr>
+              <td><code>GNN_P8_FederatedLearning</code></td>
+              <td><b>GNN Phase 8: Multi-Twin Federated Edge Learning (FedGraphBridge)</b></td>
+              <td><span style="background:#10b98122; color:#10b981; padding:4px 8px; border-radius:4px; font-weight:700;">PASS</span></td>
+              <td style="font-family:monospace;">4713.8 ms</td>
+              <td style="font-size:11.5px; color:#cbd5e1;"><b>num_gateways:</b> 4<br><b>aggregation_strategy:</b> FedGraphBridge<br><b>collaborative_gain_pct:</b> 2.39<br><b>compression_reduction_pct:</b> 87.5<br><b>global_weights_available:</b> True</td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2 style="font-size:18px; margin-top:0; color:#f8fafc;">Cryptographic Artifact Integrity Hashes (SHA-256)</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Artifact Description</th>
+            <th>Filepath</th>
+            <th>Exists</th>
+            <th>Bytes</th>
+            <th>SHA-256 Hash</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr>
+              <td>Standard Best GNN Weights</td>
+              <td><code>results\gnn\best_bridge_gat.pt</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">60,427</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>0cbf91811df346565e2c828c830bb7858f202dfcf8d1b347ec86765601d86c37</code></td>
+            </tr>
+            
+            <tr>
+              <td>Adversarially Hardened Weights</td>
+              <td><code>results\gnn\hardened_bridge_gat.pt</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">52,931</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>eb7e7301b17e7c0a8ee59db1da06f4a9dd17d5532dff9734f1be0662b339af19</code></td>
+            </tr>
+            
+            <tr>
+              <td>Federated Global Weights</td>
+              <td><code>results\gnn\federated_global_bridge_gat.pt</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">53,235</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>5ef735635f37a2a64325f10062d49aa425a441ebe9751a6d0d12639910181646</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 7 Adversarial JSON Report</td>
+              <td><code>results\gnn\gnn_phase7_adversarial_report.json</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">2,399</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>fa618e13ff9265c7a6fb5bd1814feda357765f07ba1f8354c8b37e7b8c777062</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 8 Federated JSON Report</td>
+              <td><code>results\gnn\gnn_phase8_federated_report.json</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">2,051</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>1f3883822e1327f3cfe2e12d8dfaa963aaefd9ba4c6d1cc7e37fb98d41146545</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 7 LaTeX Table</td>
+              <td><code>results\gnn\gnn_phase7_adversarial_table.tex</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">1,573</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>c247131e8a50e652ebdcfde8ba6576fde3acc8b08d8468db3a63318603469d7c</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 8 LaTeX Table</td>
+              <td><code>results\gnn\gnn_phase8_federated_table.tex</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">818</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>2b7124b895748876b6bdf318a16bbe0a9204dc92a105a55ab44443a630882ffe</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 8 Non-IID Convergence Plot</td>
+              <td><code>plots\fig_gnn_federated_convergence_non_iid.png</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">281,774</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>1d46c6bce8b1639d00f09db5039f4c90af6d9941924e7cd5ed962ddab2d537b2</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 8 Privacy Tradeoff Plot</td>
+              <td><code>plots\fig_gnn_federated_privacy_utility_tradeoff.png</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">192,652</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>6e4cb955470c2f4471dd620860abc615764e8c629ce1a3f47e4a8df1f56df43f</code></td>
+            </tr>
+            
+            <tr>
+              <td>Phase 8 Bandwidth Reduction Plot</td>
+              <td><code>plots\fig_gnn_federated_communication_efficiency.png</code></td>
+              <td style="color:#10b981; font-weight:600;">YES</td>
+              <td style="font-family:monospace;">241,704</td>
+              <td style="font-size:10px; word-break:break-all;"><code style='color:#0ea5e9;'>38cce1dabceb3cdfcf44b15803b7b2e4b2e76a9e2d7f09e5e44fc10630e9146a</code></td>
+            </tr>
+            
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

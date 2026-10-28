@@ -1,0 +1,43 @@
+{
+  "experiment_name": "Phase 6 Multi-Attack Dynamic Trust & Risk Evaluation",
+  "duration_seconds": 180.0,
+  "nodes_evaluated": 6,
+  "total_ledger_records": 1080,
+  "quarantined_nodes": [],
+  "node_outcomes": {
+    "node_0": {
+      "role": "Benign Control",
+      "final_trust": 0.9981,
+      "final_state": "TRUSTED",
+      "false_quarantine": false
+    },
+    "node_2": {
+      "role": "DoS Flooding Target",
+      "min_trust": 0.5989,
+      "max_risk": 0.1604,
+      "quarantine_triggered": false
+    },
+    "node_3": {
+      "role": "Compromised Node (Selective Drop 75%)",
+      "min_trust": 0.2279,
+      "max_risk": 0.3397,
+      "quarantine_triggered": true
+    },
+    "node_4": {
+      "role": "Node Failure",
+      "min_trust": 0.1535,
+      "max_risk": 0.3725,
+      "quarantine_triggered": true
+    },
+    "node_5": {
+      "role": "Intermittent On-Off Attacker",
+      "final_trust": 0.9216,
+      "quarantine_sustained": false
+    }
+  },
+  "hysteresis_defense": {
+    "decay_ratio": 8.0,
+    "on_off_damping_effective": true,
+    "evasion_prevented": true
+  }
+}

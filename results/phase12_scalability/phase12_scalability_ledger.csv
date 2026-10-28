@@ -1,0 +1,6 @@
+num_nodes,topology,sync_latency_ms,trust_latency_ms,candidate_gen_latency_ms,sandbox_sim_latency_ms,optimization_latency_ms,total_cycle_latency_ms,memory_footprint_mb,cpu_percent
+6,mesh,0.748,1.955,0.394,7.556,7.217,17.871,228.07,14.1
+12,mesh,1.352,2.264,0.274,11.125,11.393,26.407,228.33,16.2
+24,mesh,3.023,6.085,0.382,20.12,19.99,49.601,228.55,20.4
+48,mesh,6.686,18.199,0.616,37.324,37.579,100.403,229.33,28.8
+100,mesh,16.243,67.41,1.154,74.616,74.7,234.123,230.09,47.0

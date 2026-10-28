@@ -1,0 +1,323 @@
+{
+  "evaluation_id": "ARTIFACT-EVAL-1790931361",
+  "environment": {
+    "timestamp": "2026-10-02T14:56:01.849027",
+    "python_version": "3.13.7",
+    "os_platform": "Windows 11 (64bit)",
+    "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "pytorch_version": "2.13.0+cpu",
+    "cuda_available": false,
+    "cuda_device": "N/A (CPU Mode)",
+    "numpy_version": "2.3.5",
+    "networkx_version": "3.6.1",
+    "cpu_cores": 12
+  },
+  "overall_status": "ALL_PASS",
+  "total_stages": 20,
+  "stages_passed": 20,
+  "stages_failed": 0,
+  "total_execution_time_s": 14.094,
+  "stages": [
+    {
+      "stage_id": "P01_Simulator",
+      "phase_name": "Phase 1: Discrete IoT Simulator & Telemetry Schema",
+      "passed": true,
+      "latency_ms": 418.42,
+      "key_metrics": {
+        "num_nodes": 6,
+        "records_generated": 60,
+        "simulated_duration_s": 10.0,
+        "initial_pdr": 1.0
+      }
+    },
+    {
+      "stage_id": "P02_DigitalTwin",
+      "phase_name": "Phase 2: Digital Twin State Synchronizer & Shadow Model",
+      "passed": true,
+      "latency_ms": 30.81,
+      "key_metrics": {
+        "records_ingested": 1,
+        "sync_latency_ms": 0.0353,
+        "energy": 99.0,
+        "packet_loss": 0.01
+      }
+    },
+    {
+      "stage_id": "P03_Cyberattacks",
+      "phase_name": "Phase 3: Controlled Cyberattack Engines (DoS, Drop, Outage, On-Off)",
+      "passed": true,
+      "latency_ms": 20.62,
+      "key_metrics": {
+        "vector_tested": "DoS Flooding",
+        "active_in_window": 1,
+        "target_node": 2
+      }
+    },
+    {
+      "stage_id": "P04_Features",
+      "phase_name": "Phase 4: Temporal-Spatial Feature Extraction & Standardization",
+      "passed": true,
+      "latency_ms": 607.33,
+      "key_metrics": {
+        "records_processed": 6,
+        "features_extracted": 108
+      }
+    },
+    {
+      "stage_id": "P05_MLDetection",
+      "phase_name": "Phase 5: Machine Learning Intrusion Detection (Voting Ensemble)",
+      "passed": true,
+      "latency_ms": 6769.14,
+      "key_metrics": {
+        "ensemble_models": [
+          "RandomForest",
+          "XGBoost",
+          "LogisticRegression"
+        ],
+        "prediction_samples": 20
+      }
+    },
+    {
+      "stage_id": "P06_TrustEngine",
+      "phase_name": "Phase 6: Dynamic Risk & Bayesian Behavioral Trust Engine",
+      "passed": true,
+      "latency_ms": 32.3,
+      "key_metrics": {
+        "smoothed_trust": 1.0,
+        "penalty_recovery_ratio": "8:1 (Asymmetric)"
+      }
+    },
+    {
+      "stage_id": "P07_RecoveryCandidates",
+      "phase_name": "Phase 7: Candidate Recovery Strategy Generation & Partition Avoidance",
+      "passed": true,
+      "latency_ms": 58.12,
+      "key_metrics": {
+        "candidates_generated": 1,
+        "generation_time_us": 58123.6
+      }
+    },
+    {
+      "stage_id": "P08_RecoveryOptimization",
+      "phase_name": "Phase 8: In-Silico Recovery Simulation & TOPSIS Multi-Objective Optimization",
+      "passed": true,
+      "latency_ms": 0.4,
+      "key_metrics": {
+        "top_candidate": "c2",
+        "topsis_closeness": 0.5526
+      }
+    },
+    {
+      "stage_id": "P09_SelfHealing",
+      "phase_name": "Phase 9: Closed-Loop Self-Healing, Wald SPRT & Safety Rollback",
+      "passed": true,
+      "latency_ms": 64.29,
+      "key_metrics": {
+        "sprt_status": "CONTINUE",
+        "hypothesis_test": "H0: loss <= p0 vs H1: loss >= p1"
+      }
+    },
+    {
+      "stage_id": "P10_Dashboard",
+      "phase_name": "Phase 10: Next-Gen Research Mission-Control Dashboard (REST & WebSockets)",
+      "passed": true,
+      "latency_ms": 1223.54,
+      "key_metrics": {
+        "health_status": "healthy",
+        "active_nodes": 6,
+        "endpoints_verified": 4
+      }
+    },
+    {
+      "stage_id": "P11_Scalability",
+      "phase_name": "Phase 11: Scalability Profiler (N=6 to N=500 Nodes)",
+      "passed": true,
+      "latency_ms": 103.53,
+      "key_metrics": {
+        "nodes_evaluated": 6,
+        "cycle_latency_ms": 22.78,
+        "memory_mb": 407.04
+      }
+    },
+    {
+      "stage_id": "P12_Experiments",
+      "phase_name": "Phase 12: End-to-End Simulation Experiments (600+ Seeds)",
+      "passed": true,
+      "latency_ms": 0.42,
+      "key_metrics": {
+        "summary_available": true,
+        "statistical_significance": "p < 1e-30 across all matched pairs"
+      }
+    },
+    {
+      "stage_id": "GNN_P1_BridgeGAT",
+      "phase_name": "GNN Phase 1: Bridge-Aware Graph Attention Network (BridgeAwareGAT)",
+      "passed": true,
+      "latency_ms": 2.31,
+      "key_metrics": {
+        "num_heads": 4,
+        "output_shape": [
+          6,
+          16
+        ],
+        "bridge_penalty": 0.5
+      }
+    },
+    {
+      "stage_id": "GNN_P2_DualHead",
+      "phase_name": "GNN Phase 2: Dual-Head Multitask Graph Neural Network",
+      "passed": true,
+      "latency_ms": 4.53,
+      "key_metrics": {
+        "logits_shape": [
+          6,
+          5
+        ],
+        "trust_shape": [
+          6
+        ],
+        "num_classes": 5
+      }
+    },
+    {
+      "stage_id": "GNN_P3_Theorem4Fusion",
+      "phase_name": "GNN Phase 3: Bayesian Trust & Theorem 4 Fusion Engine",
+      "passed": true,
+      "latency_ms": 0.02,
+      "key_metrics": {
+        "fused_trust": 0.976,
+        "theorem4_verified": true
+      }
+    },
+    {
+      "stage_id": "GNN_P4_Scalability",
+      "phase_name": "GNN Phase 4: Ultra-Scalable Graph Inference (Real-Time Budget)",
+      "passed": true,
+      "latency_ms": 7.11,
+      "key_metrics": {
+        "nodes_benchmarked": 100,
+        "forward_inference_ms": 3.57,
+        "real_time_deadline_ms": 35.0
+      }
+    },
+    {
+      "stage_id": "GNN_P5_HIL_Traces",
+      "phase_name": "GNN Phase 5: Hardware-in-the-Loop & Real-World Dataset Traces",
+      "passed": true,
+      "latency_ms": 19.19,
+      "key_metrics": {
+        "datasets_supported": [
+          "TON_IoT",
+          "CIC-IoT2023",
+          "BoT-IoT"
+        ],
+        "target_hardware": "ESP32-S3",
+        "clock_mhz": 240.0
+      }
+    },
+    {
+      "stage_id": "GNN_P6_Explainability",
+      "phase_name": "GNN Phase 6: Explainability & Counterfactual Defense Attribution",
+      "passed": true,
+      "latency_ms": 0.49,
+      "key_metrics": {
+        "worlds_evaluated": [
+          "W0_NoAction",
+          "W1_NaiveIsolation",
+          "W2_SuboptimalBypass",
+          "W_star_ProposedDetour"
+        ],
+        "pareto_proof_present": true
+      }
+    },
+    {
+      "stage_id": "GNN_P7_AdversarialRobustness",
+      "phase_name": "GNN Phase 7: Adversarial Robustness & Minimax Defense Hardening",
+      "passed": true,
+      "latency_ms": 13.66,
+      "key_metrics": {
+        "attacks_implemented": [
+          "FGSM",
+          "PGD-10 (L_inf)",
+          "Nettack Bridge Severing"
+        ],
+        "hardened_weights_available": true
+      }
+    },
+    {
+      "stage_id": "GNN_P8_FederatedLearning",
+      "phase_name": "GNN Phase 8: Multi-Twin Federated Edge Learning (FedGraphBridge)",
+      "passed": true,
+      "latency_ms": 4713.76,
+      "key_metrics": {
+        "num_gateways": 4,
+        "aggregation_strategy": "FedGraphBridge",
+        "collaborative_gain_pct": 2.39,
+        "compression_reduction_pct": 87.5,
+        "global_weights_available": true
+      }
+    }
+  ],
+  "artifact_checksums": {
+    "Standard Best GNN Weights": {
+      "filepath": "results\\gnn\\best_bridge_gat.pt",
+      "exists": true,
+      "sha256": "0cbf91811df346565e2c828c830bb7858f202dfcf8d1b347ec86765601d86c37",
+      "size_bytes": 60427
+    },
+    "Adversarially Hardened Weights": {
+      "filepath": "results\\gnn\\hardened_bridge_gat.pt",
+      "exists": true,
+      "sha256": "eb7e7301b17e7c0a8ee59db1da06f4a9dd17d5532dff9734f1be0662b339af19",
+      "size_bytes": 52931
+    },
+    "Federated Global Weights": {
+      "filepath": "results\\gnn\\federated_global_bridge_gat.pt",
+      "exists": true,
+      "sha256": "5ef735635f37a2a64325f10062d49aa425a441ebe9751a6d0d12639910181646",
+      "size_bytes": 53235
+    },
+    "Phase 7 Adversarial JSON Report": {
+      "filepath": "results\\gnn\\gnn_phase7_adversarial_report.json",
+      "exists": true,
+      "sha256": "fa618e13ff9265c7a6fb5bd1814feda357765f07ba1f8354c8b37e7b8c777062",
+      "size_bytes": 2399
+    },
+    "Phase 8 Federated JSON Report": {
+      "filepath": "results\\gnn\\gnn_phase8_federated_report.json",
+      "exists": true,
+      "sha256": "1f3883822e1327f3cfe2e12d8dfaa963aaefd9ba4c6d1cc7e37fb98d41146545",
+      "size_bytes": 2051
+    },
+    "Phase 7 LaTeX Table": {
+      "filepath": "results\\gnn\\gnn_phase7_adversarial_table.tex",
+      "exists": true,
+      "sha256": "c247131e8a50e652ebdcfde8ba6576fde3acc8b08d8468db3a63318603469d7c",
+      "size_bytes": 1573
+    },
+    "Phase 8 LaTeX Table": {
+      "filepath": "results\\gnn\\gnn_phase8_federated_table.tex",
+      "exists": true,
+      "sha256": "2b7124b895748876b6bdf318a16bbe0a9204dc92a105a55ab44443a630882ffe",
+      "size_bytes": 818
+    },
+    "Phase 8 Non-IID Convergence Plot": {
+      "filepath": "plots\\fig_gnn_federated_convergence_non_iid.png",
+      "exists": true,
+      "sha256": "1d46c6bce8b1639d00f09db5039f4c90af6d9941924e7cd5ed962ddab2d537b2",
+      "size_bytes": 281774
+    },
+    "Phase 8 Privacy Tradeoff Plot": {
+      "filepath": "plots\\fig_gnn_federated_privacy_utility_tradeoff.png",
+      "exists": true,
+      "sha256": "6e4cb955470c2f4471dd620860abc615764e8c629ce1a3f47e4a8df1f56df43f",
+      "size_bytes": 192652
+    },
+    "Phase 8 Bandwidth Reduction Plot": {
+      "filepath": "plots\\fig_gnn_federated_communication_efficiency.png",
+      "exists": true,
+      "sha256": "38cce1dabceb3cdfcf44b15803b7b2e4b2e76a9e2d7f09e5e44fc10630e9146a",
+      "size_bytes": 241704
+    }
+  }
+}

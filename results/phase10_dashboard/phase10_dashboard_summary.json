@@ -1,0 +1,76 @@
+{
+  "phase": "Phase 10: Real-Time Research Monitoring Dashboard",
+  "timestamp_utc": "2026-09-22 18:06:51",
+  "experiment_1_synchronization_fidelity": {
+    "mean_fidelity_score": 1.0,
+    "min_fidelity_score": 1.0,
+    "mean_state_discrepancy": 0.0,
+    "mean_loss_delta": 0.0,
+    "mean_latency_delta_ms": 0.0,
+    "max_clock_drift_ms": 0.05
+  },
+  "experiment_2_api_websocket_benchmarks": {
+    "/api/state": {
+      "mean_ms": 8.592619498376735,
+      "std_ms": 1.5648343357420205,
+      "p50_ms": 8.307099982630461,
+      "p95_ms": 10.154745023464782,
+      "p99_ms": 12.845624994370116,
+      "max_ms": 23.20360002340749,
+      "throughput_req_s": 116.37894593015714
+    },
+    "/api/step": {
+      "mean_ms": 18.671993999159895,
+      "std_ms": 11.364391434325741,
+      "p50_ms": 17.645850020926446,
+      "p95_ms": 20.82944998401217,
+      "p99_ms": 24.012495979550284,
+      "max_ms": 177.30689997551963,
+      "throughput_req_s": 53.5561440328758
+    },
+    "/api/fidelity": {
+      "mean_ms": 6.8821729978662916,
+      "std_ms": 1.213366685455785,
+      "p50_ms": 6.619699997827411,
+      "p95_ms": 8.168955027940683,
+      "p99_ms": 9.654742033453635,
+      "max_ms": 19.816900021396577,
+      "throughput_req_s": 145.30294433313927
+    },
+    "/api/node/2/trust": {
+      "mean_ms": 7.376426499977242,
+      "std_ms": 0.959811539671594,
+      "p50_ms": 7.304849976208061,
+      "p95_ms": 8.100289964932017,
+      "p99_ms": 8.558479000348594,
+      "max_ms": 19.30380001431331,
+      "throughput_req_s": 135.5669984650542
+    },
+    "/api/audit": {
+      "mean_ms": 6.873816502629779,
+      "std_ms": 1.3006269768083165,
+      "p50_ms": 6.691199989290908,
+      "p95_ms": 7.950685042305849,
+      "p99_ms": 8.596648023230953,
+      "max_ms": 23.201100004371256,
+      "throughput_req_s": 145.47958904888148
+    },
+    "/ws/telemetry": {
+      "mean_ms": 1.08708650135668,
+      "std_ms": 0.22884157241158484,
+      "p50_ms": 1.006549980957061,
+      "p95_ms": 1.6054500010795891,
+      "p99_ms": 1.797490004682913,
+      "max_ms": 1.9162999815307558,
+      "throughput_req_s": 919.889998405834
+    }
+  },
+  "experiment_3_closed_loop_steering": {
+    "nominal_pdr": 0.9748199999999999,
+    "attack_nadir_pdr": 0.8112,
+    "mitigated_pdr": 0.8137399999999999,
+    "escalated_pdr": 0.8139349999999999,
+    "post_rollback_pdr": 0.8140166666666667,
+    "cumulative_resilience_r": 0.7691
+  }
+}

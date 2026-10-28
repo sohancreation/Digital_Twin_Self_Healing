@@ -1,0 +1,176 @@
+{
+  "phase": 9,
+  "phase_title": "Autonomous Self-Healing & Closed-Loop Verification",
+  "macroscopic_resilience_180s": {
+    "r_digital_twin_autonomous": 0.9214,
+    "r_naive_static_heuristic": 0.8365,
+    "r_unmitigated_baseline": 0.7976,
+    "resilience_loss_index_dt": 0.0786,
+    "resilience_advantage_over_unmitigated": 0.1237,
+    "resilience_advantage_over_naive_static": 0.0849
+  },
+  "per_incident_metrics": [
+    {
+      "attack_type": "DoS Flooding",
+      "t_start": 45.0,
+      "t_detect": 47.0,
+      "t_actuate": 50.0,
+      "t_restored": 53.5,
+      "mttd_s": 2.0,
+      "mtta_s": 3.0,
+      "mttr_s": 6.5,
+      "total_incident_s": 8.5,
+      "r_digital_twin": 0.6618,
+      "r_naive_heuristic": 0.6933,
+      "r_unmitigated": 0.4913,
+      "resilience_advantage_delta": 0.1705,
+      "loss_of_resilience_lor": 2.7058,
+      "structural_robustness_s_robust": 0.4816,
+      "recovery_rapidity_v_rec": 0.0314,
+      "mitigation_action": "RATE_LIMITING"
+    },
+    {
+      "attack_type": "Selective Dropping",
+      "t_start": 65.0,
+      "t_detect": 67.2,
+      "t_actuate": 70.0,
+      "t_restored": 74.2,
+      "mttd_s": 2.2,
+      "mtta_s": 2.8,
+      "mttr_s": 7.0,
+      "total_incident_s": 9.2,
+      "r_digital_twin": 0.7869,
+      "r_naive_heuristic": 0.4436,
+      "r_unmitigated": 0.6686,
+      "resilience_advantage_delta": 0.1183,
+      "loss_of_resilience_lor": 1.9175,
+      "structural_robustness_s_robust": 0.6574,
+      "recovery_rapidity_v_rec": 0.0215,
+      "mitigation_action": "COMPOSITE (Isolate+Bridge)"
+    },
+    {
+      "attack_type": "Node Failure",
+      "t_start": 90.0,
+      "t_detect": 92.1,
+      "t_actuate": 95.0,
+      "t_restored": 98.1,
+      "mttd_s": 2.1,
+      "mtta_s": 2.9,
+      "mttr_s": 6.0,
+      "total_incident_s": 8.1,
+      "r_digital_twin": 0.727,
+      "r_naive_heuristic": 0.7159,
+      "r_unmitigated": 0.57,
+      "resilience_advantage_delta": 0.157,
+      "loss_of_resilience_lor": 2.1838,
+      "structural_robustness_s_robust": 0.5608,
+      "recovery_rapidity_v_rec": 0.0135,
+      "mitigation_action": "DYNAMIC_REROUTING"
+    },
+    {
+      "attack_type": "On-Off Cycling",
+      "t_start": 115.0,
+      "t_detect": 117.5,
+      "t_actuate": 120.0,
+      "t_restored": 125.2,
+      "mttd_s": 2.5,
+      "mtta_s": 2.5,
+      "mttr_s": 7.7,
+      "total_incident_s": 10.2,
+      "r_digital_twin": 0.7739,
+      "r_naive_heuristic": 0.7578,
+      "r_unmitigated": 0.6959,
+      "resilience_advantage_delta": 0.078,
+      "loss_of_resilience_lor": 2.261,
+      "structural_robustness_s_robust": 0.5845,
+      "recovery_rapidity_v_rec": 0.0137,
+      "mitigation_action": "NODE_REBOOT & QUARANTINE"
+    }
+  ],
+  "downlink_channel_benchmarks": {
+    "0.0": {
+      "mean_latency_ms": 25.44,
+      "p95_latency_ms": 31.98,
+      "mean_retries": 0.0,
+      "p95_retries": 0,
+      "ack_success_pct": 100.0
+    },
+    "0.05": {
+      "mean_latency_ms": 28.83,
+      "p95_latency_ms": 63.03,
+      "mean_retries": 0.08,
+      "p95_retries": 1,
+      "ack_success_pct": 100.0
+    },
+    "0.1": {
+      "mean_latency_ms": 32.05,
+      "p95_latency_ms": 75.27,
+      "mean_retries": 0.14,
+      "p95_retries": 1,
+      "ack_success_pct": 100.0
+    },
+    "0.15": {
+      "mean_latency_ms": 32.87,
+      "p95_latency_ms": 77.46,
+      "mean_retries": 0.16,
+      "p95_retries": 1,
+      "ack_success_pct": 100.0
+    },
+    "0.2": {
+      "mean_latency_ms": 39.26,
+      "p95_latency_ms": 105.48,
+      "mean_retries": 0.26,
+      "p95_retries": 1,
+      "ack_success_pct": 100.0
+    },
+    "0.25": {
+      "mean_latency_ms": 46.68,
+      "p95_latency_ms": 141.04,
+      "mean_retries": 0.4,
+      "p95_retries": 2,
+      "ack_success_pct": 100.0
+    }
+  },
+  "automated_rollback_metrics": {
+    "pre_rollback_components": 2,
+    "post_rollback_components": 1,
+    "rollback_execution_time_ms": 0.07,
+    "restored_topology_edges": 7,
+    "rollback_success": true
+  },
+  "wald_sprt_verification": {
+    "p0_nominal": 0.03,
+    "p1_degraded": 0.12,
+    "alpha": 0.01,
+    "beta": 0.05,
+    "boundary_a": 4.5539,
+    "boundary_b": -2.9857,
+    "mean_verification_latency_reduction_pct": 68.0
+  },
+  "graduated_escalation": {
+    "supported_tiers": [
+      "TIER_1_PRIMARY_OPTIMAL",
+      "TIER_2_SECONDARY_PARETO",
+      "TIER_3_FAILSAFE_MST"
+    ],
+    "mst_bridge_preserves_single_component": true,
+    "cut_vertex_partition_prevention": true
+  },
+  "route_flapping_damping": {
+    "decay_rate_lambda": 0.15,
+    "suppress_threshold": 2.5,
+    "reuse_threshold": 0.8,
+    "min_hold_down_seconds": 8.0,
+    "route_thrashing_reduction_pct": 78.6
+  },
+  "artifacts_generated": [
+    "phase9_plot1_closed_loop_resilience_curve.png",
+    "phase9_plot2_mttd_mtta_mttr_breakdown.png",
+    "phase9_plot3_resilience_score_benchmarks.png",
+    "phase9_plot4_downlink_dispatch_reliability.png",
+    "phase9_plot5_automated_rollback_dynamics.png",
+    "phase9_plot6_wald_sprt_dynamic_verification.png",
+    "phase9_plot7_multi_tier_escalation_state_machine.png",
+    "phase9_plot8_route_flapping_hysteresis_damping.png"
+  ]
+}

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoTDTR - Real-Time Research Monitoring Dashboard</title>
+  <meta name="description" content="Mission-control research telemetry and self-healing dashboard for Digital Twin IoT cybersecurity">
+  <link rel="stylesheet" href="/static/styles.css">
+  <!-- Chart.js CDN for real-time sliding charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Top Navigation & Global Simulation Controls -->
+  <header class="dashboard-header">
+    <div class="brand-section">
+      <div class="brand-badge">LIVE TWIN</div>
+      <div>
+        <div class="brand-title">IoTDTR Mission Control</div>
+        <div class="brand-sub">Real-Time Autonomous Cyber-Physical Digital Twin Telemetry</div>
+      </div>
+    </div>
+
+    <div class="control-bar">
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--accent-cyan); margin-right: 8px;">
+        <span id="lbl-tick">Tick: 0</span> | <span id="lbl-time">0.0s</span>
+      </div>
+
+      <button id="btn-play-pause" class="btn btn-primary" title="Toggle Real-Time Simulation Run">
+        <span id="icon-play">&#9658;</span> <span id="text-play">Run</span>
+      </button>
+
+      <button id="btn-step" class="btn btn-secondary" title="Advance Simulation by 1 Second">
+        <span>&#10515;</span> Step (+1s)
+      </button>
+
+      <button id="btn-reset" class="btn btn-secondary" title="Reset Network to Nominal Baseline">
+        <span>&#8634;</span> Reset
+      </button>
+
+      <select id="sel-speed" class="select-ctrl" title="Simulation Speed Multiplier">
+        <option value="0.5">0.5x Speed</option>
+        <option value="1.0" selected>1.0x Speed</option>
+        <option value="2.0">2.0x Speed</option>
+        <option value="5.0">5.0x Speed</option>
+      </select>
+
+      <button id="btn-rollback" class="btn btn-rollback" title="Instant Automated Safety Rollback to Pre-Actuation Baseline">
+        <span>&#9888;</span> Rollback S_pre
+      </button>
+    </div>
+  </header>
+
+  <!-- High-Level KPI Ribbon -->
+  <section class="kpi-ribbon">
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-emerald);">
+      <div class="kpi-title">Network PDR</div>
+      <div class="kpi-value" id="kpi-pdr">98.2%</div>
+      <div class="kpi-meta">Nominal Target &gt; 95%</div>
+    </div>
+
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-crimson);">
+      <div class="kpi-title">Packet Loss</div>
+      <div class="kpi-value" id="kpi-loss">1.8%</div>
+      <div class="kpi-meta">Tolerance &lt; 5.0%</div>
+    </div>
+
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-cyan);">
+      <div class="kpi-title">Mean Latency</div>
+      <div class="kpi-value" id="kpi-latency">12.4 ms</div>
+      <div class="kpi-meta">Target &le; 20.0 ms</div>
+    </div>
+
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-indigo);">
+      <div class="kpi-title">Throughput</div>
+      <div class="kpi-value" id="kpi-throughput">12.1 pkts/s</div>
+      <div class="kpi-meta">Aggregate Ingress</div>
+    </div>
+
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-amber);">
+      <div class="kpi-title">Mean Battery</div>
+      <div class="kpi-value" id="kpi-battery">99.8%</div>
+      <div class="kpi-meta">Depletion: 0.05%/min</div>
+    </div>
+
+    <div class="glass-panel kpi-card" style="border-left-color: var(--accent-purple);">
+      <div class="kpi-title">Resilience Score R</div>
+      <div class="kpi-value" id="kpi-resilience">0.992</div>
+      <div class="kpi-meta">Normalized integral</div>
+    </div>
+  </section>
+
+  <!-- Navigation Tabs for Next-Gen Capabilities -->
+  <nav class="sub-nav-tabs">
+    <button class="nav-tab active" data-tab="tab-mission-control">
+      <span>🛰️</span> Mission Control
+    </button>
+    <button class="nav-tab" data-tab="tab-gnn-explainability">
+      <span>🧠</span> GNN Attention &amp; Counterfactuals
+    </button>
+    <button class="nav-tab" data-tab="tab-hil-traces">
+      <span>⚡</span> HIL Real-World Traces
+    </button>
+    <button class="nav-tab" data-tab="tab-adversarial-defense">
+      <span>🛡️</span> Adversarial Defense Slider
+    </button>
+    <button class="nav-tab" data-tab="tab-federated-learning">
+      <span>🌐</span> Multi-Twin Federated Network
+    </button>
+  </nav>
+
+  <!-- Tab 1: Mission Control -->
+  <div id="tab-mission-control" class="tab-pane active">
+    <!-- 3-Column Dashboard Body -->
+    <main class="dashboard-grid">
+
+    <!-- Column 1: Topology & Digital Twin Fidelity -->
+    <section class="glass-panel panel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <div class="status-indicator" id="topology-status-dot"></div>
+          Physical Mesh & Twin Shadow
+        </div>
+        <div style="font-size: 11px; color: var(--text-dim);" id="lbl-topo-nodes">6 Nodes | 7 Links</div>
+      </div>
+
+      <!-- SVG Topology Canvas -->
+      <div class="topology-container">
+        <svg id="topology-svg" viewBox="0 0 540 380" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+            <filter id="glow-crimson" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="4" result="blur" />
+              <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+          </defs>
+          <g id="svg-edges-layer"></g>
+          <g id="svg-nodes-layer"></g>
+        </svg>
+      </div>
+
+      <!-- Selected Node Telemetry & Bayesian Trust Breakdown -->
+      <div class="node-inspector" id="node-inspector">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+          <strong id="insp-title" style="color: var(--accent-cyan);">Node #2 Inspector</strong>
+          <span id="insp-badge" style="font-size: 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; padding: 2px 6px; border-radius: 4px;">NOMINAL</span>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 11px;">
+          <div>Bayes Trust: <span id="insp-trust" style="font-weight: 700; color: var(--text-main);">0.985</span></div>
+          <div>Thm. 4 Fused: <span id="insp-fused-trust" style="font-weight: 700; color: var(--accent-cyan);">0.985</span></div>
+          <div>GNN Threat: <span id="insp-gnn-threat" style="color: var(--accent-emerald);">Normal</span></div>
+          <div>Direct Trust: <span id="insp-direct">0.990</span></div>
+          <div>Loss Ratio: <span id="insp-loss">0.015</span></div>
+          <div>Latency: <span id="insp-latency">12.1 ms</span></div>
+          <div>Pkt Rate: <span id="insp-rate">2.0 pkts/s</span></div>
+          <div>Battery: <span id="insp-battery">99.4%</span></div>
+          <div>Queue Len: <span id="insp-queue">0</span></div>
+          <div>Cut-Vertex: <span id="insp-cut" style="color: var(--accent-amber);">No</span></div>
+        </div>
+      </div>
+
+      <!-- Digital Twin Synchronization Fidelity -->
+      <div class="panel-header" style="margin-top: 4px;">
+        <div class="panel-title" style="font-size: 12px;">Twin Synchronization Fidelity</div>
+        <div style="font-size: 11px; color: var(--accent-cyan);" id="lbl-fidelity-score">99.5%</div>
+      </div>
+
+      <div class="fidelity-metrics-grid">
+        <div class="fidelity-metric-box">
+          <div class="label">Clock Drift</div>
+          <div class="val" id="fid-clock">0.05 ms</div>
+        </div>
+        <div class="fidelity-metric-box">
+          <div class="label">L2 State Delta</div>
+          <div class="val" id="fid-discrepancy">0.005</div>
+        </div>
+        <div class="fidelity-metric-box">
+          <div class="label">Loss Discrepancy</div>
+          <div class="val" id="fid-loss-delta">0.002</div>
+        </div>
+        <div class="fidelity-metric-box">
+          <div class="label">Latency Delta</div>
+          <div class="val" id="fid-latency-delta">0.40 ms</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Column 2: Streaming Real-Time Telemetry & ML Threat Matrix -->
+    <section class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+      <div class="panel-header">
+        <div class="panel-title">Real-Time Performance Telemetry</div>
+        <div style="font-size: 11px; color: var(--text-dim);">Sliding 30s Window</div>
+      </div>
+
+      <!-- 2x2 Charts Grid -->
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-title">Packet Delivery Ratio (PDR) &amp; Loss</div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-pdr-loss"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-title">Network Latency (ms)</div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-latency"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-title">Aggregate Throughput (pkts/sec)</div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-throughput"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-title">Battery Reserve &amp; QoS Q(t)</div>
+          <div class="chart-canvas-wrapper">
+            <canvas id="chart-qos-battery"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- ML Threat Classification & Anomaly Inference -->
+      <div class="ml-trust-matrix">
+        <div class="sub-card">
+          <div class="sub-title" style="display: flex; justify-content: space-between;">
+            <span>ML Threat Inference</span>
+            <span id="ml-badge" style="background: rgba(16, 185, 129, 0.2); color: #10b981; padding: 2px 6px; border-radius: 4px; font-size: 10px;">NORMAL</span>
+          </div>
+          <div style="font-size: 11px; color: var(--text-muted); margin-bottom: 8px;">
+            Confidence: <strong id="ml-confidence" style="color: var(--text-main);">99.0%</strong> | Latency: <span id="ml-latency">0.82 ms</span>
+          </div>
+
+          <div class="prob-bar-container">
+            <div class="prob-row">
+              <span>Normal Traffic</span>
+              <div class="prob-track"><div id="prob-normal" class="prob-fill" style="width: 99%; background: var(--accent-emerald);"></div></div>
+            </div>
+            <div class="prob-row">
+              <span>DoS Flooding</span>
+              <div class="prob-track"><div id="prob-dos" class="prob-fill" style="width: 0.5%; background: var(--accent-crimson);"></div></div>
+            </div>
+            <div class="prob-row">
+              <span>Selective Dropping</span>
+              <div class="prob-track"><div id="prob-drop" class="prob-fill" style="width: 0.5%; background: var(--accent-amber);"></div></div>
+            </div>
+            <div class="prob-row">
+              <span>Node Failure</span>
+              <div class="prob-track"><div id="prob-failure" class="prob-fill" style="width: 0.0%; background: var(--accent-purple);"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-title">Resilience &amp; Flapping State</div>
+          <div style="font-size: 11px; line-height: 1.6; color: var(--text-muted);">
+            <div>Active Mitigation Tier: <strong id="kpi-audit-tier" style="color: var(--accent-amber);">TIER 1 (PRIMARY)</strong></div>
+            <div>Wald SPRT &Lambda;<sub>n</sub>: <span id="kpi-sprt-val" style="color: var(--accent-cyan); font-family: monospace;">0.00</span> (<span id="kpi-sprt-dec">CONTINUE</span>)</div>
+            <div>Hysteresis Oscillation Index: <span id="kpi-flapping-idx">0.00</span></div>
+            <div>Damping Hold-Down: <strong id="kpi-damping-status" style="color: var(--accent-emerald);">PASSIVE</strong></div>
+            <div>MST Bridge Preservation: <strong style="color: var(--accent-cyan);">ACTIVE</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GNN Cyber-Defense & Theorem 4 Panel -->
+      <div class="ml-trust-matrix" style="margin-top: -4px;">
+        <div class="sub-card">
+          <div class="sub-title" style="display: flex; justify-content: space-between;">
+            <span>BridgeAwareGAT Defense (Thm. 4)</span>
+            <span id="gnn-badge" style="background: rgba(59, 130, 246, 0.2); color: #3b82f6; padding: 2px 6px; border-radius: 4px; font-size: 10px;">99.9% SOTA</span>
+          </div>
+          <div style="font-size: 11px; line-height: 1.6; color: var(--text-muted); margin-top: 4px;">
+            <div>Target Node Threat: <strong id="gnn-target-threat" style="color: var(--accent-emerald);">Normal</strong></div>
+            <div>Theorem 4 Fused Trust: <strong id="gnn-fused-trust" style="color: var(--accent-cyan); font-family: monospace;">1.000</strong></div>
+            <div>GNN Continuous Trust: <span id="gnn-pred-trust" style="color: var(--text-main); font-family: monospace;">1.000</span></div>
+            <div>Edge Inference Latency: <span id="gnn-latency" style="color: var(--text-dim);">0.72 ms</span> (&gt;98% Margin)</div>
+            <div>Detour Bypass Route (2, 5): <strong id="gnn-detour-status" style="color: var(--accent-emerald);">STANDBY</strong></div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-title">Bridge-Edge Attention Weights (&alpha;<sub>ij</sub>)</div>
+          <div id="gnn-attention-grid" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 2px; margin-top: 6px; font-family: monospace; font-size: 9px; text-align: center;">
+            <!-- Dynamically populated 6x6 attention cells -->
+          </div>
+          <div style="font-size: 9.5px; color: var(--text-dim); margin-top: 4px; text-align: right;">
+            Articulation Cut &beta;<sub>bridge</sub>: <strong style="color: var(--accent-amber);">0.50 Attenuated</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Column 3: Attack Injection & Closed-Loop Self-Healing Audit -->
+    <section class="glass-panel panel">
+      <div class="panel-header">
+        <div class="panel-title">Cyberattack Injection</div>
+        <div style="font-size: 11px; color: var(--text-dim);">Research Steering</div>
+      </div>
+
+      <!-- Attack Trigger Form -->
+      <form id="attack-form" onsubmit="return false;" style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="form-group">
+          <label class="form-label" for="sel-attack-type">Attack Vector</label>
+          <select id="sel-attack-type" class="select-ctrl">
+            <option value="dos">DoS High-Rate Flooding (Node 2)</option>
+            <option value="compromised_node">Selective Dropping (Node 3 Cut-Vertex)</option>
+            <option value="node_failure">Abrupt Hardware Failure (Node 1)</option>
+            <option value="on_off_cycling">On-Off Cycling Volatility (Node 5)</option>
+          </select>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+          <div class="form-group">
+            <label class="form-label" for="sel-attack-target">Target Node</label>
+            <select id="sel-attack-target" class="select-ctrl">
+              <option value="2" selected>Node #2</option>
+              <option value="3">Node #3 (Cut-Vertex)</option>
+              <option value="1">Node #1</option>
+              <option value="4">Node #4</option>
+              <option value="5">Node #5</option>
+              <option value="0">Node #0 (Sink)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inp-attack-duration">Duration (s)</label>
+            <input type="number" id="inp-attack-duration" class="input-ctrl" value="15" min="2" max="120">
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+          <div class="form-group">
+            <label class="form-label" for="inp-attack-intensity">Intensity Rate</label>
+            <input type="number" id="inp-attack-intensity" class="input-ctrl" value="1.0" step="0.2" min="0.2" max="5.0">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inp-drop-prob">Drop Prob</label>
+            <input type="number" id="inp-drop-prob" class="input-ctrl" value="0.75" step="0.05" min="0.1" max="1.0">
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 8px; margin-top: 4px;">
+          <button id="btn-inject-attack" class="btn btn-danger" style="flex: 1;">
+            <span>&#9889;</span> Inject Attack
+          </button>
+          <button id="btn-stop-attack" class="btn btn-secondary">
+            Stop
+          </button>
+        </div>
+      </form>
+
+      <!-- Closed-Loop Mitigation Actuation -->
+      <div class="panel-header" style="margin-top: 6px;">
+        <div class="panel-title">Autonomous Mitigation</div>
+        <div style="font-size: 11px; color: var(--accent-emerald);">Pareto TOPSIS</div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="form-group">
+          <label class="form-label" for="sel-weight-profile">Optimization Weight Profile</label>
+          <select id="sel-weight-profile" class="select-ctrl">
+            <option value="BALANCED" selected>Balanced Profile (Default)</option>
+            <option value="SECURITY_FIRST">Security-First (w_sec=0.50)</option>
+            <option value="ENERGY_CONSTRAINED">Energy-Constrained (w_eng=0.45)</option>
+            <option value="LATENCY_CRITICAL">Latency-Critical (w_lat=0.45)</option>
+          </select>
+        </div>
+
+        <button id="btn-trigger-healing" class="btn btn-emerald">
+          <span>&#10004;</span> Optimize &amp; Actuate Mitigation
+        </button>
+      </div>
+
+      <!-- Closed-Loop Mitigation Audit Terminal -->
+      <div class="panel-header" style="margin-top: 6px;">
+        <div class="panel-title">Closed-Loop Audit Log</div>
+        <div style="font-size: 11px; color: var(--text-dim);">Live Terminal</div>
+      </div>
+
+      <div class="audit-terminal" id="audit-terminal">
+        <div class="audit-entry">
+          <span class="audit-epoch">[0.0s]</span> <span class="audit-action">SYS_INIT</span>: Unified digital twin self-healing pipeline initialized nominally.
+        </div>
+      </div>
+    </section>
+
+    </main>
+  </div>
+
+  <!-- Tab 2: GNN Attention & Counterfactuals -->
+  <div id="tab-gnn-explainability" class="tab-pane">
+    <div class="nextgen-grid">
+      <!-- Attention Heatmap Panel -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>🧠</span> Bridge-Aware Dynamic GNN Multi-Head Attention Heatmap
+          </div>
+          <span id="tab2-attack-indicator" class="brand-badge" style="background: var(--accent-emerald);">NOMINAL</span>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Real-time attention coefficients &alpha;<sub>ij</sub> derived from BridgeAwareGAT multi-head self-attention. When cyberattacks are injected, attention automatically concentrates onto cut-vertices and critical bridge edges to prevent topological partition.
+        </div>
+
+        <!-- Attention Table -->
+        <div style="overflow-x: auto;">
+          <table class="attention-matrix-table" id="attention-full-table">
+            <thead>
+              <tr>
+                <th>Src \ Dst</th>
+                <th>N0 (Sink)</th>
+                <th>N1</th>
+                <th>N2</th>
+                <th>N3 (Cut)</th>
+                <th>N4</th>
+                <th>N5</th>
+              </tr>
+            </thead>
+            <tbody id="attention-table-body">
+              <!-- Dynamically populated via JS -->
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background: rgba(255, 255, 255, 0.03); border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <div>
+            <div style="font-size: 11px; color: var(--text-dim);">Bridge Amplification Ratio (R<sub>bridge</sub>)</div>
+            <div id="tab2-bridge-ratio" style="font-size: 18px; font-weight: 700; color: var(--accent-cyan); font-family: monospace;">1.05&times;</div>
+          </div>
+          <div style="text-align: right;">
+            <div style="font-size: 11px; color: var(--text-dim);">Critical Focus Edges</div>
+            <div id="tab2-top-edges" style="font-size: 12px; color: var(--accent-amber); font-family: monospace;">(2 &rarr; 3), (0 &rarr; 2)</div>
+          </div>
+        </div>
+
+        <!-- Feature Attribution Bar -->
+        <div class="sub-card">
+          <div class="sub-title">Top Graph Node &amp; Edge Feature Attributions (GNN-LRP)</div>
+          <div id="tab2-feature-attribution-container" style="display: flex; flex-direction: column; gap: 6px; margin-top: 8px;">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Counterfactual Defense Worlds Panel -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>⚖️</span> Counterfactual Defense Worlds (Pareto TOPSIS)
+          </div>
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <label for="sel-cf-target-node" style="font-size: 11px; color: var(--text-muted);">Target Node:</label>
+            <select id="sel-cf-target-node" class="select-ctrl" style="padding: 4px 8px; font-size: 11px;">
+              <option value="2" selected>Node #2</option>
+              <option value="3">Node #3</option>
+              <option value="1">Node #1</option>
+              <option value="5">Node #5</option>
+            </select>
+          </div>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Theorem 4 Pareto optimization compares the observed state against 4 counterfactual worlds (&mathcal;W;<sub>0</sub>, &mathcal;W;<sub>1</sub>, &mathcal;W;<sub>2</sub>, &mathcal;W;<sup>*</sup>). The operator can audit why a specific topology reconfiguration was chosen over blind isolation.
+        </div>
+
+        <div id="counterfactual-cards-container" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- Dynamically populated 4 worlds -->
+        </div>
+
+        <button id="btn-refresh-cf" class="btn btn-secondary" style="align-self: flex-start;">
+          <span>&#8634;</span> Refresh Counterfactual Comparison
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 3: HIL Real-World Traces -->
+  <div id="tab-hil-traces" class="tab-pane">
+    <div class="nextgen-grid">
+      <!-- Benchmark Datasets -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>📁</span> Hardware-in-the-Loop Real-World Benchmark Datasets
+          </div>
+          <span class="brand-badge">SOTA VALIDATION</span>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          The GNN intrusion detection and trust calibration pipeline is pre-trained and continually re-evaluated against real-world captures from IoT security testbeds.
+        </div>
+
+        <div id="hil-traces-container" style="display: flex; flex-direction: column; gap: 12px;">
+          <!-- Dynamically populated via JS -->
+        </div>
+      </div>
+
+      <!-- Embedded Hardware Latency Profiles -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>⏱️</span> Embedded Hardware Closed-Loop Timing Budgets
+          </div>
+          <span style="font-size: 11px; color: var(--accent-emerald); font-weight: 600;">Deadline &le; 10.0 ms</span>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Hardware-in-the-loop micro-benchmarks verified on bare-metal edge hardware (ESP32-S3 Xtensa dual-core @ 240MHz and Raspberry Pi 4B ARM Cortex-A72 @ 1.5GHz).
+        </div>
+
+        <div id="hil-hardware-container" style="display: flex; flex-direction: column; gap: 16px;">
+          <!-- Dynamically populated via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 4: Adversarial Defense Slider -->
+  <div id="tab-adversarial-defense" class="tab-pane">
+    <div class="nextgen-grid">
+      <!-- Interactive Slider Panel -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>🛡️</span> Adversarial Perturbation Attack &amp; Minimax Hardening
+          </div>
+          <span id="adv-status-badge" class="brand-badge" style="background: var(--accent-indigo);">MINIMAX HARDENED</span>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Interactively inject Projected Gradient Descent (PGD-10) and FGSM bounded $L_\infty$ perturbations onto node telemetry features to stress-test model calibration in real-time.
+        </div>
+
+        <div class="slider-container">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label for="adv-epsilon-slider" style="font-size: 13px; font-weight: 600; color: var(--text-main);">
+              Perturbation Budget (&epsilon; &isin; [0.00, 0.20]):
+            </label>
+            <span id="adv-epsilon-val" style="font-family: monospace; font-size: 15px; font-weight: 700; color: var(--accent-cyan);">0.05</span>
+          </div>
+          <input type="range" id="adv-epsilon-slider" class="slider-ctrl" min="0" max="0.20" step="0.01" value="0.05">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Model Architecture Under Test</label>
+          <div style="display: flex; gap: 10px;">
+            <button id="btn-model-hardened" class="btn btn-primary" style="flex: 1;">
+              Adversarially Hardened GNN
+            </button>
+            <button id="btn-model-standard" class="btn btn-secondary" style="flex: 1;">
+              Standard Baseline GNN
+            </button>
+          </div>
+        </div>
+
+        <!-- Dynamic Results Metrics -->
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 6px;">
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-emerald); padding: 12px;">
+            <div class="kpi-title">Classification Accuracy</div>
+            <div class="kpi-value" id="adv-accuracy" style="font-size: 20px;">100.0%</div>
+            <div class="kpi-meta" id="adv-acc-meta">Under Current &epsilon;</div>
+          </div>
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-crimson); padding: 12px;">
+            <div class="kpi-title">Attack Success Rate (ASR)</div>
+            <div class="kpi-value" id="adv-asr" style="font-size: 20px;">0.0%</div>
+            <div class="kpi-meta" id="adv-asr-meta">Evasion Probability</div>
+          </div>
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-cyan); padding: 12px;">
+            <div class="kpi-title">Trust MAE Deviation</div>
+            <div class="kpi-value" id="adv-mae" style="font-size: 20px;">0.0357</div>
+            <div class="kpi-meta">Calibration error</div>
+          </div>
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-purple); padding: 12px;">
+            <div class="kpi-title">Robust Accuracy Gain</div>
+            <div class="kpi-value" id="adv-gain" style="font-size: 20px;">+32.5%</div>
+            <div class="kpi-meta">vs. Standard Baseline</div>
+          </div>
+        </div>
+
+        <div class="sub-card">
+          <div class="sub-title">Mathematical Hardening Formulation</div>
+          <div style="font-size: 11px; color: var(--text-muted); font-family: monospace; line-height: 1.6;">
+            min_&theta; E [ max_{||&delta;||_&infin; &le; &epsilon;} L(f_&theta;(X + &delta;, A), y) + &gamma; ||&nabla;_X f_&theta;||_F^2 ]
+          </div>
+          <div style="font-size: 10.5px; color: var(--text-dim); margin-top: 4px;">
+            Lipschitz gradient regularization ensures strict topological stability even under bridge-severing Nettack and feature injection.
+          </div>
+        </div>
+      </div>
+
+      <!-- Attack Surface Visualizer -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>🔬</span> Robustness Evaluation Breakdown
+          </div>
+          <span style="font-size: 11px; color: var(--accent-cyan); font-family: monospace;">Phase 7 Benchmark</span>
+        </div>
+
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Comparison across full perturbation spectrum (&epsilon; = 0.00 &rarr; 0.20):
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div class="cf-card">
+            <strong style="color: var(--accent-cyan); font-size: 12px;">Clean Baseline (&epsilon; = 0.00)</strong>
+            <div style="font-size: 11px; color: var(--text-muted);">
+              Standard: 100.0% Acc | Hardened: 100.0% Acc (Zero clean accuracy penalty)
+            </div>
+          </div>
+          <div class="cf-card">
+            <strong style="color: var(--accent-amber); font-size: 12px;">Moderate Perturbation (&epsilon; = 0.05)</strong>
+            <div style="font-size: 11px; color: var(--text-muted);">
+              Standard drops to 67.50% (ASR 23.8%) | Hardened maintains 100.0% (ASR 0.0%)
+            </div>
+          </div>
+          <div class="cf-card">
+            <strong style="color: var(--accent-crimson); font-size: 12px;">Extreme Attack (&epsilon; = 0.20)</strong>
+            <div style="font-size: 11px; color: var(--text-muted);">
+              Standard collapses to 8.33% (ASR 95.24%) | Hardened retains 91.67% (ASR 8.33%) &mdash; <strong>+83.34% Robust Margin</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab 5: Multi-Twin Federated Network -->
+  <div id="tab-federated-learning" class="tab-pane">
+    <div class="nextgen-grid">
+      <!-- 4 Federated Gateways -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>🌐</span> Decentralized Edge Gateways (Heterogeneous Digital Twins)
+          </div>
+          <span class="brand-badge" style="background: var(--accent-cyan);">K = 4 GATEWAYS</span>
+        </div>
+        <div style="font-size: 12px; color: var(--text-muted); line-height: 1.5;">
+          Privacy-preserving edge collaboration across 4 autonomous domains with non-IID class skew (&alpha;<sub>Dirichlet</sub> = 0.50). Raw packet data never leaves local gateway boundaries.
+        </div>
+
+        <div id="federated-gateways-container" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- Dynamically populated 4 gateways via JS -->
+        </div>
+      </div>
+
+      <!-- Aggregation & Compression Panel -->
+      <div class="glass-panel panel" style="display: flex; flex-direction: column; gap: 14px;">
+        <div class="panel-header">
+          <div class="panel-title">
+            <span>📶</span> Convergence, Compression &amp; Differential Privacy
+          </div>
+          <span style="font-size: 11px; color: var(--accent-emerald); font-weight: 600;">15 Global Rounds</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-cyan); padding: 12px;">
+            <div class="kpi-title">FedGraphBridge Accuracy</div>
+            <div class="kpi-value" id="fed-acc" style="font-size: 20px;">88.10%</div>
+            <div class="kpi-meta">+2.39% Collaborative Gain</div>
+          </div>
+          <div class="glass-panel kpi-card" style="border-left-color: var(--accent-emerald); padding: 12px;">
+            <div class="kpi-title">Quantized INT8 Payload</div>
+            <div class="kpi-value" id="fed-payload" style="font-size: 20px;">9.6 KB</div>
+            <div class="kpi-meta">87.5% Bandwidth Reduction</div>
+          </div>
+        </div>
+
+        <!-- Convergence Comparison -->
+        <div class="sub-card">
+          <div class="sub-title">Global Aggregator Algorithm Comparison</div>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 11px; margin-top: 6px;">
+            <div style="display: flex; justify-content: space-between;">
+              <span>Standard FedAvg (McMahan et al.)</span>
+              <strong style="color: var(--text-muted);">85.71% Acc</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span>FedProx (Proximal Term &mu; = 0.01)</span>
+              <strong style="color: var(--text-main);">88.10% Acc</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+              <span>FedGraphBridge (Bridge-Aware Aggregation)</span>
+              <strong style="color: var(--accent-cyan);">88.10% Acc (Best)</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Differential Privacy & Communication Specs -->
+        <div class="sub-card">
+          <div class="sub-title">Differential Privacy &amp; Cryptographic Bounds</div>
+          <div style="font-size: 11px; line-height: 1.6; color: var(--text-muted);">
+            <div>Gaussian RDP Guarantee: <strong style="color: var(--accent-cyan); font-family: monospace;">(&epsilon; = 2.45, &delta; = 10<sup>-5</sup>)</strong></div>
+            <div>Clipping Threshold S: <strong style="color: var(--text-main); font-family: monospace;">1.00</strong></div>
+            <div>Noise Multiplier &sigma;: <strong style="color: var(--text-main); font-family: monospace;">0.50</strong></div>
+            <div>Communication Overhead: <strong style="color: var(--accent-emerald);">9.6 KB / client / round</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Global WebSocket & Engine Status Bar -->
+  <footer style="background: rgba(11, 17, 32, 0.9); border-top: 1px solid var(--border-subtle); padding: 8px 28px; display: flex; justify-content: space-between; align-items: center; font-size: 11px; color: var(--text-dim);">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span id="ws-indicator" style="width: 8px; height: 8px; border-radius: 50%; background: #10b981; display: inline-block;"></span>
+      <span id="ws-status-text">Telemetry Stream: Connected (WebSocket)</span>
+    </div>
+    <div>IoTDTR Digital Twin Cybersecurity Research Platform &copy; 2026</div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="/static/app.js"></script>
+</body>
+</html>

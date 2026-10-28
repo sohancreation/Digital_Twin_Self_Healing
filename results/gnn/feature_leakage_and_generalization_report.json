@@ -1,0 +1,30 @@
+{
+  "condition_1_full_features": {
+    "accuracy": 0.8167,
+    "binary_accuracy": 0.9417,
+    "macro_f1": 0.7279,
+    "trust_mae": 0.1096,
+    "total_evaluated_samples": 360
+  },
+  "condition_2_ablated_retrained": {
+    "accuracy": 0.6389,
+    "binary_accuracy": 0.7972,
+    "macro_f1": 0.4211,
+    "trust_mae": 0.3452,
+    "total_evaluated_samples": 360
+  },
+  "condition_3_unseen_bursty_traffic": {
+    "accuracy": 0.6472,
+    "binary_accuracy": 0.8,
+    "macro_f1": 0.4568,
+    "trust_mae": 0.3409,
+    "total_evaluated_samples": 360
+  },
+  "condition_4_unseen_scale_free_topology": {
+    "accuracy": 0.5722,
+    "binary_accuracy": 0.6667,
+    "macro_f1": 0.3627,
+    "trust_mae": 0.3697,
+    "total_evaluated_samples": 360
+  }
+}

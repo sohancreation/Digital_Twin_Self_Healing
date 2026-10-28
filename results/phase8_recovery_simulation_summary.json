@@ -1,0 +1,174 @@
+{
+  "phase": 8,
+  "phase_title": "Digital Twin Recovery Simulation & Multi-Objective Optimization (Enhanced)",
+  "evaluation_epochs": {
+    "50.0": {
+      "optimal_strategy_id": "STRAT_NO_ACTION",
+      "action_type": "NO_ACTION",
+      "cost_j": 0.257,
+      "pareto_frontier": [
+        "STRAT_NO_ACTION"
+      ],
+      "optimal_topsis_strategy_id": "STRAT_NO_ACTION",
+      "topsis_closeness_top": 1.0,
+      "solving_latency_us": 298.2000005431473,
+      "projected_pdr": 0.9800000000000001,
+      "projected_loss": 0.020000000000000004,
+      "projected_latency_ms": 12.0,
+      "total_candidates": 3
+    },
+    "70.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "action_type": "NODE_ISOLATION",
+      "cost_j": 0.25111111111111106,
+      "pareto_frontier": [
+        "STRAT_ISO_3",
+        "STRAT_ISO_5"
+      ],
+      "optimal_topsis_strategy_id": "STRAT_ISO_3",
+      "topsis_closeness_top": 0.9181,
+      "solving_latency_us": 417.79997991397977,
+      "projected_pdr": 0.9833333333333335,
+      "projected_loss": 0.016666666666666666,
+      "projected_latency_ms": 12.0,
+      "total_candidates": 8
+    },
+    "95.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "action_type": "NODE_ISOLATION",
+      "cost_j": 0.23611111111111105,
+      "pareto_frontier": [
+        "STRAT_ISO_3",
+        "STRAT_ISO_4"
+      ],
+      "optimal_topsis_strategy_id": "STRAT_ISO_3",
+      "topsis_closeness_top": 0.934,
+      "solving_latency_us": 388.4999896399677,
+      "projected_pdr": 0.9833333333333335,
+      "projected_loss": 0.016666666666666666,
+      "projected_latency_ms": 12.0,
+      "total_candidates": 8
+    },
+    "115.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "action_type": "NODE_ISOLATION",
+      "cost_j": 0.23611111111111105,
+      "pareto_frontier": [
+        "STRAT_ISO_3",
+        "STRAT_ISO_4"
+      ],
+      "optimal_topsis_strategy_id": "STRAT_ISO_3",
+      "topsis_closeness_top": 0.9299,
+      "solving_latency_us": 357.2999848984182,
+      "projected_pdr": 0.9833333333333335,
+      "projected_loss": 0.016666666666666666,
+      "projected_latency_ms": 12.0,
+      "total_candidates": 7
+    }
+  },
+  "stochastic_ensemble_summary": {
+    "STRAT_ISO_3": {
+      "num_rollouts": 20,
+      "pdr_mean": 0.9822150518327255,
+      "pdr_std": 0.002743939750592347,
+      "pdr_ci95_lower": 0.9767164266445498,
+      "pdr_ci95_upper": 0.9857577988764797,
+      "loss_mean": 0.01778494816727435,
+      "loss_std": 0.002743939750592325,
+      "latency_mean": 11.935729450574767,
+      "latency_std": 0.22140188223212187,
+      "energy_mean": 4.644710039223723,
+      "cvar_95_loss": 0.024072585891207306,
+      "cost_j_mean": 0.0,
+      "cost_j_cvar95": 0.0
+    },
+    "STRAT_NO_ACTION": {
+      "num_rollouts": 20,
+      "pdr_mean": 0.6800895646045438,
+      "pdr_std": 0.0030235278642742683,
+      "pdr_ci95_lower": 0.6742477269937306,
+      "pdr_ci95_upper": 0.6846408301123343,
+      "loss_mean": 0.3199104353954562,
+      "loss_std": 0.00302352786427426,
+      "latency_mean": 11.915182021765816,
+      "latency_std": 0.17563947892952378,
+      "energy_mean": 5.395482440082247,
+      "cvar_95_loss": 0.32587496694045076,
+      "cost_j_mean": 0.0,
+      "cost_j_cvar95": 0.0
+    },
+    "STRAT_REBOOT_3": {
+      "num_rollouts": 20,
+      "pdr_mean": 0.9644613936373709,
+      "pdr_std": 0.0019132213291378646,
+      "pdr_ci95_lower": 0.9611808152197755,
+      "pdr_ci95_upper": 0.9669586737512157,
+      "loss_mean": 0.035538606362628955,
+      "loss_std": 0.0019132213291378902,
+      "latency_mean": 12.530605950090015,
+      "latency_std": 0.14135440594114052,
+      "energy_mean": 6.361622169064941,
+      "cvar_95_loss": 0.03930004136477559,
+      "cost_j_mean": 0.0,
+      "cost_j_cvar95": 0.0
+    }
+  },
+  "scalability_benchmarks": {
+    "6": {
+      "sim_mean_ms": 1.61395999796999,
+      "sim_p95_ms": 1.9131950131850315,
+      "opt_mean_us": 85.04500146955252,
+      "opt_p95_us": 89.10998003557324
+    },
+    "10": {
+      "sim_mean_ms": 1.5832033299375325,
+      "sim_p95_ms": 1.6587249876465648,
+      "opt_mean_us": 85.1459993282333,
+      "opt_p95_us": 88.00502691883594
+    },
+    "16": {
+      "sim_mean_ms": 1.5809133319028963,
+      "sim_p95_ms": 1.714935034397058,
+      "opt_mean_us": 86.83600055519491,
+      "opt_p95_us": 99.2000539554283
+    },
+    "25": {
+      "sim_mean_ms": 1.576880004722625,
+      "sim_p95_ms": 1.696880007511936,
+      "opt_mean_us": 86.05199924204499,
+      "opt_p95_us": 91.64499933831394
+    }
+  },
+  "horizon_ablation": {
+    "10.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "optimal_cost_j": 0.2511111111111112,
+      "optimal_projected_pdr": 0.9833333333333332,
+      "pareto_count": 2
+    },
+    "20.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "optimal_cost_j": 0.25111111111111106,
+      "optimal_projected_pdr": 0.9833333333333334,
+      "pareto_count": 2
+    },
+    "30.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "optimal_cost_j": 0.25111111111111106,
+      "optimal_projected_pdr": 0.9833333333333335,
+      "pareto_count": 2
+    },
+    "45.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "optimal_cost_j": 0.2511111111111112,
+      "optimal_projected_pdr": 0.9833333333333333,
+      "pareto_count": 2
+    },
+    "60.0": {
+      "optimal_strategy_id": "STRAT_ISO_3",
+      "optimal_cost_j": 0.25111111111111106,
+      "optimal_projected_pdr": 0.9833333333333333,
+      "pareto_count": 2
+    }
+  }
+}

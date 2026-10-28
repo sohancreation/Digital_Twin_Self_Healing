@@ -1,0 +1,5 @@
+attack_type,t_start,t_detect,t_actuate,t_restored,mttd_s,mtta_s,mttr_s,total_incident_s,r_digital_twin,r_naive_heuristic,r_unmitigated,resilience_advantage_delta,loss_of_resilience_lor,structural_robustness_s_robust,recovery_rapidity_v_rec,action
+DoS Flooding,45.0,47.0,50.0,53.5,2.0,3.0,6.5,8.5,0.6618,0.6933,0.4913,0.1705,2.7058,0.4816,0.0314,RATE_LIMITING
+Selective Dropping,65.0,67.2,70.0,74.2,2.2,2.8,7.0,9.2,0.7869,0.4436,0.6686,0.1183,1.9175,0.6574,0.0215,COMPOSITE (Isolate+Bridge)
+Node Failure,90.0,92.1,95.0,98.1,2.1,2.9,6.0,8.1,0.727,0.7159,0.57,0.157,2.1838,0.5608,0.0135,DYNAMIC_REROUTING
+On-Off Cycling,115.0,117.5,120.0,125.2,2.5,2.5,7.7,10.2,0.7739,0.7578,0.6959,0.078,2.261,0.5845,0.0137,NODE_REBOOT & QUARANTINE

@@ -1,0 +1,145 @@
+{
+  "title": "GNN Sensitivity and Cross-Topology Generalization Ablation",
+  "bridge_penalty": {
+    "beta_sweep": [
+      {
+        "beta_bridge": 0.1,
+        "macro_f1": 0.9698,
+        "trust_r2": 0.9628,
+        "gradient_leakage_index": 0.14
+      },
+      {
+        "beta_bridge": 0.25,
+        "macro_f1": 0.98,
+        "trust_r2": 0.9711,
+        "gradient_leakage_index": 0.275
+      },
+      {
+        "beta_bridge": 0.35,
+        "macro_f1": 0.9854,
+        "trust_r2": 0.9759,
+        "gradient_leakage_index": 0.365
+      },
+      {
+        "beta_bridge": 0.5,
+        "macro_f1": 0.99,
+        "trust_r2": 0.981,
+        "gradient_leakage_index": 0.5
+      },
+      {
+        "beta_bridge": 0.65,
+        "macro_f1": 0.9854,
+        "trust_r2": 0.9759,
+        "gradient_leakage_index": 0.635
+      },
+      {
+        "beta_bridge": 0.8,
+        "macro_f1": 0.9769,
+        "trust_r2": 0.9685,
+        "gradient_leakage_index": 0.77
+      },
+      {
+        "beta_bridge": 0.95,
+        "macro_f1": 0.9659,
+        "trust_r2": 0.9598,
+        "gradient_leakage_index": 0.905
+      }
+    ]
+  },
+  "fast_penalty": {
+    "threshold_sweep": [
+      {
+        "fast_penalty_threshold": 0.5,
+        "mttd_s": 0.25,
+        "false_alarm_rate": 0.045,
+        "resilience_score": 0.9731
+      },
+      {
+        "fast_penalty_threshold": 0.6,
+        "mttd_s": 0.351,
+        "false_alarm_rate": 0.01355,
+        "resilience_score": 0.9743
+      },
+      {
+        "fast_penalty_threshold": 0.7,
+        "mttd_s": 0.482,
+        "false_alarm_rate": 0.00408,
+        "resilience_score": 0.9749
+      },
+      {
+        "fast_penalty_threshold": 0.75,
+        "mttd_s": 0.553,
+        "false_alarm_rate": 0.00224,
+        "resilience_score": 0.975
+      },
+      {
+        "fast_penalty_threshold": 0.8,
+        "mttd_s": 0.627,
+        "false_alarm_rate": 0.00123,
+        "resilience_score": 0.9749
+      },
+      {
+        "fast_penalty_threshold": 0.85,
+        "mttd_s": 0.704,
+        "false_alarm_rate": 0.00067,
+        "resilience_score": 0.9747
+      },
+      {
+        "fast_penalty_threshold": 0.9,
+        "mttd_s": 0.783,
+        "false_alarm_rate": 0.00037,
+        "resilience_score": 0.9743
+      },
+      {
+        "fast_penalty_threshold": 0.95,
+        "mttd_s": 0.864,
+        "false_alarm_rate": 0.0002,
+        "resilience_score": 0.9738
+      }
+    ]
+  },
+  "cross_topology": {
+    "cross_topology_results": [
+      {
+        "topology": "6-Node Clustered Bridge Mesh",
+        "nodes": 6,
+        "edges": 7,
+        "pdr_mean": 95.8,
+        "pdr_sd": 0.45,
+        "partition_rate": 0.0,
+        "resilience_score": 0.972,
+        "mttd_s": 0.3
+      },
+      {
+        "topology": "9-Node 2D Grid (3x3)",
+        "nodes": 9,
+        "edges": 12,
+        "pdr_mean": 95.6,
+        "pdr_sd": 0.45,
+        "partition_rate": 0.0,
+        "resilience_score": 0.9705,
+        "mttd_s": 0.32
+      },
+      {
+        "topology": "12-Node Random Geometric",
+        "nodes": 12,
+        "edges": 18,
+        "pdr_mean": 95.4,
+        "pdr_sd": 0.45,
+        "partition_rate": 0.0,
+        "resilience_score": 0.969,
+        "mttd_s": 0.34
+      },
+      {
+        "topology": "8-Node Ring with Chords",
+        "nodes": 8,
+        "edges": 11,
+        "pdr_mean": 95.67,
+        "pdr_sd": 0.45,
+        "partition_rate": 0.0,
+        "resilience_score": 0.971,
+        "mttd_s": 0.31
+      }
+    ]
+  }
+}

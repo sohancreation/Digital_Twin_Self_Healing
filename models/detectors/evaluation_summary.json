@@ -1,0 +1,450 @@
+{
+  "binary": {
+    "logistic_regression": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "true_negatives": 510,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_positives": 30,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9980555555555556,
+        "precision": 0.981042654028436,
+        "recall": 0.9857142857142858,
+        "f1": 0.9833729216152018,
+        "f1_macro": 0.9911701604683179,
+        "f1_weighted": 0.998057721455237,
+        "confusion_matrix": [
+          [
+            3386,
+            4
+          ],
+          [
+            3,
+            207
+          ]
+        ],
+        "true_negatives": 3386,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "true_positives": 207,
+        "false_positive_rate": 0.0011799410029498525,
+        "false_negative_rate": 0.014285714285714285,
+        "roc_auc": 0.9999550498665543,
+        "pr_auc": 0.9992920788743876
+      },
+      "latency": {
+        "mean_latency_us": 65.69600023794919,
+        "median_latency_us": 64.49996726587415,
+        "p95_latency_us": 72.04502180684358,
+        "p99_latency_us": 76.81000046432034,
+        "throughput_samples_sec": 15221.6268323494
+      },
+      "footprint": {
+        "disk_size_kb": 3.8916015625
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_binary_logistic_regression.joblib"
+    },
+    "random_forest": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "true_negatives": 510,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_positives": 30,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": 1.0,
+        "pr_auc": 1.0
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9972222222222222,
+        "precision": 1.0,
+        "recall": 0.9523809523809523,
+        "f1": 0.975609756097561,
+        "f1_macro": 0.9870685010237437,
+        "f1_weighted": 0.997190392375205,
+        "confusion_matrix": [
+          [
+            3390,
+            0
+          ],
+          [
+            10,
+            200
+          ]
+        ],
+        "true_negatives": 3390,
+        "false_positives": 0,
+        "false_negatives": 10,
+        "true_positives": 200,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.047619047619047616,
+        "roc_auc": 0.9999620733249052,
+        "pr_auc": 0.999394523428716
+      },
+      "latency": {
+        "mean_latency_us": 34725.788998184726,
+        "median_latency_us": 34493.54998883791,
+        "p95_latency_us": 37823.165001464076,
+        "p99_latency_us": 38823.68101214525,
+        "throughput_samples_sec": 28.797041877213346
+      },
+      "footprint": {
+        "disk_size_kb": 178.5419921875
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_binary_random_forest.joblib"
+    },
+    "xgboost": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "true_negatives": 510,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "true_positives": 30,
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": 0.9999999999999999,
+        "pr_auc": 1.0
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9961111111111111,
+        "precision": 0.9803921568627451,
+        "recall": 0.9523809523809523,
+        "f1": 0.966183574879227,
+        "f1_macro": 0.9820602519253194,
+        "f1_weighted": 0.9960846499827009,
+        "confusion_matrix": [
+          [
+            3386,
+            4
+          ],
+          [
+            10,
+            200
+          ]
+        ],
+        "true_negatives": 3386,
+        "false_positives": 4,
+        "false_negatives": 10,
+        "true_positives": 200,
+        "false_positive_rate": 0.0011799410029498525,
+        "false_negative_rate": 0.047619047619047616,
+        "roc_auc": 0.9972503160556259,
+        "pr_auc": 0.9853136454109716
+      },
+      "latency": {
+        "mean_latency_us": 709.5120003214106,
+        "median_latency_us": 649.5999987237155,
+        "p95_latency_us": 1079.4200003147125,
+        "p99_latency_us": 1245.09999062866,
+        "throughput_samples_sec": 1409.4194313091218
+      },
+      "footprint": {
+        "disk_size_kb": 109.3125
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_binary_xgboost.joblib"
+    }
+  },
+  "multiclass": {
+    "logistic_regression": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "precision_weighted": 1.0,
+        "recall_macro": 1.0,
+        "recall_weighted": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          3
+        ],
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": null
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9980555555555556,
+        "precision_macro": 0.9801708526432112,
+        "precision_weighted": 0.998077096154353,
+        "recall_macro": 0.9847050147492625,
+        "recall_weighted": 0.9980555555555556,
+        "f1_macro": 0.9824151171570912,
+        "f1_weighted": 0.9980650381013909,
+        "confusion_matrix": [
+          [
+            3386,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            100,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            47,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.003853118712273642,
+        "false_negative_rate": 0.015294985250737463,
+        "roc_auc": 0.999973261990824
+      },
+      "latency": {
+        "mean_latency_us": 57.05800198484212,
+        "median_latency_us": 56.70002428814769,
+        "p95_latency_us": 58.13997704535723,
+        "p99_latency_us": 65.20497263409197,
+        "throughput_samples_sec": 17526.02553916377
+      },
+      "footprint": {
+        "disk_size_kb": 6.1650390625
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_multiclass_logistic_regression.joblib"
+    },
+    "random_forest": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "precision_weighted": 1.0,
+        "recall_macro": 1.0,
+        "recall_weighted": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          3
+        ],
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": null
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9958333333333333,
+        "precision_macro": 0.998898678414097,
+        "precision_weighted": 0.9958516886930984,
+        "recall_macro": 0.9275,
+        "recall_weighted": 0.9958333333333333,
+        "f1_macro": 0.9574941677946692,
+        "f1_weighted": 0.9955206969013488,
+        "confusion_matrix": [
+          [
+            3390,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            99,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            36,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.017857142857142856,
+        "false_negative_rate": 0.07250000000000001,
+        "roc_auc": 0.9999546378863149
+      },
+      "latency": {
+        "mean_latency_us": 34837.5430010492,
+        "median_latency_us": 34739.249997073784,
+        "p95_latency_us": 37148.63000786863,
+        "p99_latency_us": 38037.50396356919,
+        "throughput_samples_sec": 28.704664963596404
+      },
+      "footprint": {
+        "disk_size_kb": 186.8544921875
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_multiclass_random_forest.joblib"
+    },
+    "xgboost": {
+      "in_domain_test": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "precision_weighted": 1.0,
+        "recall_macro": 1.0,
+        "recall_weighted": 1.0,
+        "f1_macro": 1.0,
+        "f1_weighted": 1.0,
+        "confusion_matrix": [
+          [
+            510,
+            0
+          ],
+          [
+            0,
+            30
+          ]
+        ],
+        "labels": [
+          0,
+          3
+        ],
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.0,
+        "roc_auc": null
+      },
+      "cross_seed_test": {
+        "accuracy": 0.9969444444444444,
+        "precision_macro": 0.9991914142899148,
+        "precision_weighted": 0.9969543271586788,
+        "recall_macro": 0.95,
+        "recall_weighted": 0.9969444444444444,
+        "f1_macro": 0.9723445250245427,
+        "f1_weighted": 0.9968204869152202,
+        "confusion_matrix": [
+          [
+            3390,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            98,
+            0,
+            0
+          ],
+          [
+            9,
+            0,
+            41,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            60
+          ]
+        ],
+        "labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "false_positive_rate": 0.013095238095238096,
+        "false_negative_rate": 0.049999999999999996,
+        "roc_auc": 0.990729838717655
+      },
+      "latency": {
+        "mean_latency_us": 861.38499842491,
+        "median_latency_us": 792.8999839350581,
+        "p95_latency_us": 1266.4350069826467,
+        "p99_latency_us": 1440.8689684933054,
+        "throughput_samples_sec": 1160.9210769035392
+      },
+      "footprint": {
+        "disk_size_kb": 370.92578125
+      },
+      "model_path": "E:\\G_Publication\\models\\detectors\\detector_multiclass_xgboost.joblib"
+    }
+  }
+}

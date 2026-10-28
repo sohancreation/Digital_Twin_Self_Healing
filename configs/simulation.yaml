@@ -1,0 +1,43 @@
+# ==============================================================================
+# IoT Network Simulation Default Configuration (Phase 1 Baseline)
+# ==============================================================================
+
+simulation:
+  nodes: 6                  # Default 6 nodes for Phase 1 baseline
+  duration: 300.0           # Total simulation time in seconds
+  timestep: 1.0             # Step resolution dt in seconds
+  seed: 42                  # Pseudo-random generator seed for strict reproducibility
+
+topology:
+  type: "grid"              # Topology structure: "grid", "random", "mesh", "ring", "star"
+  area_width: 100.0         # Spatial field width (meters)
+  area_height: 100.0        # Spatial field height (meters)
+  comm_range: 55.0          # Max wireless communication range (meters)
+  grid_rows: 2              # 2 rows x 3 columns = 6 nodes
+  grid_cols: 3
+
+traffic:
+  base_packet_rate: 2.0     # Mean packet generation rate (packets/sec)
+  packet_rate_std: 0.4      # Packet rate standard deviation (packets/sec)
+  packet_size_bytes: 128    # Average telemetry packet payload size (bytes)
+  max_queue_size: 50        # Node buffer queue capacity (packets)
+
+channel:
+  tx_power_dbm: 14.0        # RF transmit power in dBm
+  path_loss_exponent: 2.8   # Log-distance path loss exponent (2.0=free space, 2.7-3.5=urban/suburban)
+  ref_distance_m: 1.0       # Reference distance d0 in meters
+  ref_rssi_dbm: -30.0       # Received power at reference distance (dBm)
+  rssi_noise_std: 2.0       # Shadow fading standard deviation (dB)
+  min_rssi_dbm: -120.0      # Receiver sensitivity floor (dBm)
+  max_rssi_dbm: -10.0       # Receiver saturation ceiling (dBm)
+
+resources:
+  initial_energy_j: 1000.0  # Initial battery capacity in Joules
+  max_energy_j: 1000.0      # Maximum battery capacity in Joules
+  idle_power_w: 0.015       # Idle/sleep power draw in Watts (J/s)
+  tx_energy_per_packet_j: 0.008   # Energy cost per transmitted packet (Joules)
+  rx_energy_per_packet_j: 0.004   # Energy cost per received/forwarded packet (Joules)
+  cpu_baseline_pct: 5.0     # Baseline RTOS CPU utilization (%)
+  cpu_per_packet_pct: 1.8   # CPU utilization per packet processed (% per pkt/s)
+  memory_baseline_pct: 15.0 # Baseline RTOS RAM utilization (%)
+  memory_per_packet_pct: 0.8 # RAM utilization per buffered packet (%)

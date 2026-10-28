@@ -1,0 +1,621 @@
+{
+  "baseline_summaries": {
+    "unmitigated": {
+      "resilience_score": {
+        "mean": 0.9776199999999999,
+        "std": 0.02006653931299564,
+        "se": 0.005181158171683236,
+        "ci_lower": 0.9665075209253772,
+        "ci_upper": 0.9887324790746227,
+        "n": 15
+      },
+      "mean_pdr": {
+        "mean": 0.9580733333333332,
+        "std": 0.019666231633606555,
+        "se": 0.005077799173307711,
+        "ci_lower": 0.9471825372625028,
+        "ci_upper": 0.9689641294041637,
+        "n": 15
+      },
+      "final_pdr": {
+        "mean": 0.9747066666666665,
+        "std": 0.0037882273778994,
+        "se": 0.0009781161030834244,
+        "ci_lower": 0.9726088162695351,
+        "ci_upper": 0.9768045170637979,
+        "n": 15
+      },
+      "mean_latency_ms": {
+        "mean": 29.967333333333336,
+        "std": 2.749785619349434,
+        "se": 0.7099915939587337,
+        "ci_lower": 28.444552814077102,
+        "ci_upper": 31.49011385258957,
+        "n": 15
+      },
+      "total_packets_dropped": {
+        "mean": 38.53333333333333,
+        "std": 18.810584659656257,
+        "se": 4.856872074618226,
+        "ci_lower": 28.116378762772435,
+        "ci_upper": 48.95028790389423,
+        "n": 15
+      },
+      "partition_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "se": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 15
+      }
+    },
+    "static_threshold_isolation": {
+      "resilience_score": {
+        "mean": 0.9779933333333333,
+        "std": 0.019293428439558905,
+        "se": 0.004981541802510412,
+        "ci_lower": 0.9673089887900028,
+        "ci_upper": 0.9886776778766637,
+        "n": 15
+      },
+      "mean_pdr": {
+        "mean": 0.9584333333333332,
+        "std": 0.01891222834444373,
+        "se": 0.004883116361180162,
+        "ci_lower": 0.9479600903663205,
+        "ci_upper": 0.968906576300346,
+        "n": 15
+      },
+      "final_pdr": {
+        "mean": 0.9733666666666666,
+        "std": 0.002942464143892859,
+        "se": 0.0007597409750739672,
+        "ci_lower": 0.9717371843370622,
+        "ci_upper": 0.974996148996271,
+        "n": 15
+      },
+      "mean_latency_ms": {
+        "mean": 27.842000000000002,
+        "std": 2.1235724616786684,
+        "se": 0.5483040519030781,
+        "ci_lower": 26.666004768546888,
+        "ci_upper": 29.017995231453117,
+        "n": 15
+      },
+      "total_packets_dropped": {
+        "mean": 38.53333333333333,
+        "std": 18.654247569413045,
+        "se": 4.816506011491127,
+        "ci_lower": 28.20295535761109,
+        "ci_upper": 48.863711309055574,
+        "n": 15
+      },
+      "partition_rate": {
+        "mean": 0.48166666666666663,
+        "std": 0.35260088053262284,
+        "se": 0.09104115587739461,
+        "ci_lower": 0.2864028074881809,
+        "ci_upper": 0.6769305258451523,
+        "n": 15
+      }
+    },
+    "ml_fixed_recovery": {
+      "resilience_score": {
+        "mean": 0.9776199999999999,
+        "std": 0.02006653931299564,
+        "se": 0.005181158171683236,
+        "ci_lower": 0.9665075209253772,
+        "ci_upper": 0.9887324790746227,
+        "n": 15
+      },
+      "mean_pdr": {
+        "mean": 0.9580733333333332,
+        "std": 0.019666231633606555,
+        "se": 0.005077799173307711,
+        "ci_lower": 0.9471825372625028,
+        "ci_upper": 0.9689641294041637,
+        "n": 15
+      },
+      "final_pdr": {
+        "mean": 0.9747066666666665,
+        "std": 0.0037882273778994,
+        "se": 0.0009781161030834244,
+        "ci_lower": 0.9726088162695351,
+        "ci_upper": 0.9768045170637979,
+        "n": 15
+      },
+      "mean_latency_ms": {
+        "mean": 28.28933333333334,
+        "std": 0.7216198709121293,
+        "se": 0.1863214494890015,
+        "ci_lower": 27.889713568795777,
+        "ci_upper": 28.6889530978709,
+        "n": 15
+      },
+      "total_packets_dropped": {
+        "mean": 38.53333333333333,
+        "std": 18.810584659656257,
+        "se": 4.856872074618226,
+        "ci_lower": 28.116378762772435,
+        "ci_upper": 48.95028790389423,
+        "n": 15
+      },
+      "partition_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "se": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 15
+      }
+    },
+    "proposed_digital_twin": {
+      "resilience_score": {
+        "mean": 0.9757800000000001,
+        "std": 0.023080207971333352,
+        "se": 0.00595928407333185,
+        "ci_lower": 0.9629986068499974,
+        "ci_upper": 0.9885613931500028,
+        "n": 15
+      },
+      "mean_pdr": {
+        "mean": 0.9562733333333334,
+        "std": 0.02261969643179737,
+        "se": 0.005840380505107903,
+        "ci_lower": 0.9437469629736033,
+        "ci_upper": 0.9687997036930636,
+        "n": 15
+      },
+      "final_pdr": {
+        "mean": 0.9745066666666667,
+        "std": 0.0039028316948204597,
+        "se": 0.001007706810472674,
+        "ci_lower": 0.9723453505142409,
+        "ci_upper": 0.9766679828190926,
+        "n": 15
+      },
+      "mean_latency_ms": {
+        "mean": 29.87133333333333,
+        "std": 2.8874528237745825,
+        "se": 0.7455371132959024,
+        "ci_lower": 28.27231525738761,
+        "ci_upper": 31.470351409279047,
+        "n": 15
+      },
+      "total_packets_dropped": {
+        "mean": 36.333333333333336,
+        "std": 17.59328876372492,
+        "se": 4.542567625794979,
+        "ci_lower": 26.59049476056188,
+        "ci_upper": 46.07617190610479,
+        "n": 15
+      },
+      "partition_rate": {
+        "mean": 0.041666666666666664,
+        "std": 0.1613743060919757,
+        "se": 0.041666666666666664,
+        "ci_lower": -0.04769944532990849,
+        "ci_upper": 0.1310327786632418,
+        "n": 15
+      }
+    }
+  },
+  "statistical_comparisons": [
+    {
+      "metric_name": "resilience_score",
+      "baseline": "unmitigated",
+      "proposed_mean": 0.9758,
+      "baseline_mean": 0.9776,
+      "delta_mean": -0.0018,
+      "percent_improvement": -0.19,
+      "proposed_std": 0.0231,
+      "baseline_std": 0.0201,
+      "t_statistic": -0.233,
+      "p_value": 0.8174816,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.085,
+      "confidence_interval_95": [
+        -0.0173,
+        0.0136
+      ],
+      "mann_whitney_u": 100.0,
+      "mann_whitney_p": 0.6179258,
+      "statistical_power": 0.0562,
+      "bayes_factor_10": 0.1876
+    },
+    {
+      "metric_name": "mean_pdr",
+      "baseline": "unmitigated",
+      "proposed_mean": 0.9563,
+      "baseline_mean": 0.9581,
+      "delta_mean": -0.0018,
+      "percent_improvement": -0.19,
+      "proposed_std": 0.0226,
+      "baseline_std": 0.0197,
+      "t_statistic": -0.2326,
+      "p_value": 0.8178084,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.085,
+      "confidence_interval_95": [
+        -0.017,
+        0.0134
+      ],
+      "mann_whitney_u": 100.0,
+      "mann_whitney_p": 0.6178866,
+      "statistical_power": 0.0562,
+      "bayes_factor_10": 0.1876
+    },
+    {
+      "metric_name": "final_pdr",
+      "baseline": "unmitigated",
+      "proposed_mean": 0.9745,
+      "baseline_mean": 0.9747,
+      "delta_mean": -0.0002,
+      "percent_improvement": -0.02,
+      "proposed_std": 0.0039,
+      "baseline_std": 0.0038,
+      "t_statistic": -0.1424,
+      "p_value": 0.8877728,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.052,
+      "confidence_interval_95": [
+        -0.003,
+        0.0026
+      ],
+      "mann_whitney_u": 114.0,
+      "mann_whitney_p": 0.966748,
+      "statistical_power": 0.0523,
+      "bayes_factor_10": 0.1844
+    },
+    {
+      "metric_name": "mean_latency_ms",
+      "baseline": "unmitigated",
+      "proposed_mean": 29.8713,
+      "baseline_mean": 29.9673,
+      "delta_mean": -0.096,
+      "percent_improvement": 0.32,
+      "proposed_std": 2.8875,
+      "baseline_std": 2.7498,
+      "t_statistic": -0.0932,
+      "p_value": 0.9263728,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.034,
+      "confidence_interval_95": [
+        -2.1139,
+        1.9219
+      ],
+      "mann_whitney_u": 120.0,
+      "mann_whitney_p": 0.7713037,
+      "statistical_power": 0.051,
+      "bayes_factor_10": 0.1834
+    },
+    {
+      "metric_name": "total_packets_dropped",
+      "baseline": "unmitigated",
+      "proposed_mean": 36.3333,
+      "baseline_mean": 38.5333,
+      "delta_mean": -2.2,
+      "percent_improvement": 5.71,
+      "proposed_std": 17.5933,
+      "baseline_std": 18.8106,
+      "t_statistic": -0.3308,
+      "p_value": 0.7432536,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.121,
+      "confidence_interval_95": [
+        -15.2342,
+        10.8342
+      ],
+      "mann_whitney_u": 98.0,
+      "mann_whitney_p": 0.5450302,
+      "statistical_power": 0.0626,
+      "bayes_factor_10": 0.1928
+    },
+    {
+      "metric_name": "partition_rate",
+      "baseline": "unmitigated",
+      "proposed_mean": 0.0417,
+      "baseline_mean": 0.0,
+      "delta_mean": 0.0417,
+      "percent_improvement": 0.0,
+      "proposed_std": 0.1614,
+      "baseline_std": 0.0,
+      "t_statistic": 1.0,
+      "p_value": 0.3342819,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": 0.365,
+      "confidence_interval_95": [
+        -0.04,
+        0.1233
+      ],
+      "mann_whitney_u": 120.0,
+      "mann_whitney_p": 0.3506479,
+      "statistical_power": 0.1701,
+      "bayes_factor_10": 0.301
+    },
+    {
+      "metric_name": "resilience_score",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 0.9758,
+      "baseline_mean": 0.978,
+      "delta_mean": -0.0022,
+      "percent_improvement": -0.23,
+      "proposed_std": 0.0231,
+      "baseline_std": 0.0193,
+      "t_statistic": -0.285,
+      "p_value": 0.7778373,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.104,
+      "confidence_interval_95": [
+        -0.0174,
+        0.013
+      ],
+      "mann_whitney_u": 100.5,
+      "mann_whitney_p": 0.6330611,
+      "statistical_power": 0.0594,
+      "bayes_factor_10": 0.1901
+    },
+    {
+      "metric_name": "mean_pdr",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 0.9563,
+      "baseline_mean": 0.9584,
+      "delta_mean": -0.0022,
+      "percent_improvement": -0.23,
+      "proposed_std": 0.0226,
+      "baseline_std": 0.0189,
+      "t_statistic": -0.2837,
+      "p_value": 0.7787682,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.104,
+      "confidence_interval_95": [
+        -0.0171,
+        0.0128
+      ],
+      "mann_whitney_u": 100.5,
+      "mann_whitney_p": 0.6330232,
+      "statistical_power": 0.0593,
+      "bayes_factor_10": 0.1901
+    },
+    {
+      "metric_name": "final_pdr",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 0.9745,
+      "baseline_mean": 0.9734,
+      "delta_mean": 0.0011,
+      "percent_improvement": 0.12,
+      "proposed_std": 0.0039,
+      "baseline_std": 0.0029,
+      "t_statistic": 0.9033,
+      "p_value": 0.3746415,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": 0.33,
+      "confidence_interval_95": [
+        -0.0013,
+        0.0036
+      ],
+      "mann_whitney_u": 140.5,
+      "mann_whitney_p": 0.2533294,
+      "statistical_power": 0.1474,
+      "bayes_factor_10": 0.2746
+    },
+    {
+      "metric_name": "mean_latency_ms",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 29.8713,
+      "baseline_mean": 27.842,
+      "delta_mean": 2.0293,
+      "percent_improvement": -7.29,
+      "proposed_std": 2.8875,
+      "baseline_std": 2.1236,
+      "t_statistic": 2.1928,
+      "p_value": 0.03756932,
+      "is_significant": true,
+      "is_highly_significant": false,
+      "cohens_d": 0.801,
+      "confidence_interval_95": [
+        0.2154,
+        3.8432
+      ],
+      "mann_whitney_u": 156.5,
+      "mann_whitney_p": 0.07109059,
+      "statistical_power": 0.5921,
+      "bayes_factor_10": 2.021
+    },
+    {
+      "metric_name": "total_packets_dropped",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 36.3333,
+      "baseline_mean": 38.5333,
+      "delta_mean": -2.2,
+      "percent_improvement": 5.71,
+      "proposed_std": 17.5933,
+      "baseline_std": 18.6542,
+      "t_statistic": -0.3323,
+      "p_value": 0.7421527,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.121,
+      "confidence_interval_95": [
+        -15.1766,
+        10.7766
+      ],
+      "mann_whitney_u": 95.5,
+      "mann_whitney_p": 0.4793017,
+      "statistical_power": 0.0627,
+      "bayes_factor_10": 0.1929
+    },
+    {
+      "metric_name": "partition_rate",
+      "baseline": "static_threshold_isolation",
+      "proposed_mean": 0.0417,
+      "baseline_mean": 0.4817,
+      "delta_mean": -0.44,
+      "percent_improvement": 91.35,
+      "proposed_std": 0.1614,
+      "baseline_std": 0.3526,
+      "t_statistic": -4.3946,
+      "p_value": 0.0002912065,
+      "is_significant": true,
+      "is_highly_significant": true,
+      "cohens_d": -1.605,
+      "confidence_interval_95": [
+        -0.6362,
+        -0.2438
+      ],
+      "mann_whitney_u": 40.0,
+      "mann_whitney_p": 0.0004310715,
+      "statistical_power": 0.9925,
+      "bayes_factor_10": 2851.6239
+    },
+    {
+      "metric_name": "resilience_score",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 0.9758,
+      "baseline_mean": 0.9776,
+      "delta_mean": -0.0018,
+      "percent_improvement": -0.19,
+      "proposed_std": 0.0231,
+      "baseline_std": 0.0201,
+      "t_statistic": -0.233,
+      "p_value": 0.8174816,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.085,
+      "confidence_interval_95": [
+        -0.0173,
+        0.0136
+      ],
+      "mann_whitney_u": 100.0,
+      "mann_whitney_p": 0.6179258,
+      "statistical_power": 0.0562,
+      "bayes_factor_10": 0.1876
+    },
+    {
+      "metric_name": "mean_pdr",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 0.9563,
+      "baseline_mean": 0.9581,
+      "delta_mean": -0.0018,
+      "percent_improvement": -0.19,
+      "proposed_std": 0.0226,
+      "baseline_std": 0.0197,
+      "t_statistic": -0.2326,
+      "p_value": 0.8178084,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.085,
+      "confidence_interval_95": [
+        -0.017,
+        0.0134
+      ],
+      "mann_whitney_u": 100.0,
+      "mann_whitney_p": 0.6178866,
+      "statistical_power": 0.0562,
+      "bayes_factor_10": 0.1876
+    },
+    {
+      "metric_name": "final_pdr",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 0.9745,
+      "baseline_mean": 0.9747,
+      "delta_mean": -0.0002,
+      "percent_improvement": -0.02,
+      "proposed_std": 0.0039,
+      "baseline_std": 0.0038,
+      "t_statistic": -0.1424,
+      "p_value": 0.8877728,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.052,
+      "confidence_interval_95": [
+        -0.003,
+        0.0026
+      ],
+      "mann_whitney_u": 114.0,
+      "mann_whitney_p": 0.966748,
+      "statistical_power": 0.0523,
+      "bayes_factor_10": 0.1844
+    },
+    {
+      "metric_name": "mean_latency_ms",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 29.8713,
+      "baseline_mean": 28.2893,
+      "delta_mean": 1.582,
+      "percent_improvement": -5.59,
+      "proposed_std": 2.8875,
+      "baseline_std": 0.7216,
+      "t_statistic": 2.0586,
+      "p_value": 0.05647441,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": 0.752,
+      "confidence_interval_95": [
+        0.0758,
+        3.0882
+      ],
+      "mann_whitney_u": 149.0,
+      "mann_whitney_p": 0.1352517,
+      "statistical_power": 0.5393,
+      "bayes_factor_10": 1.5195
+    },
+    {
+      "metric_name": "total_packets_dropped",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 36.3333,
+      "baseline_mean": 38.5333,
+      "delta_mean": -2.2,
+      "percent_improvement": 5.71,
+      "proposed_std": 17.5933,
+      "baseline_std": 18.8106,
+      "t_statistic": -0.3308,
+      "p_value": 0.7432536,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": -0.121,
+      "confidence_interval_95": [
+        -15.2342,
+        10.8342
+      ],
+      "mann_whitney_u": 98.0,
+      "mann_whitney_p": 0.5450302,
+      "statistical_power": 0.0626,
+      "bayes_factor_10": 0.1928
+    },
+    {
+      "metric_name": "partition_rate",
+      "baseline": "ml_fixed_recovery",
+      "proposed_mean": 0.0417,
+      "baseline_mean": 0.0,
+      "delta_mean": 0.0417,
+      "percent_improvement": 0.0,
+      "proposed_std": 0.1614,
+      "baseline_std": 0.0,
+      "t_statistic": 1.0,
+      "p_value": 0.3342819,
+      "is_significant": false,
+      "is_highly_significant": false,
+      "cohens_d": 0.365,
+      "confidence_interval_95": [
+        -0.04,
+        0.1233
+      ],
+      "mann_whitney_u": 120.0,
+      "mann_whitney_p": 0.3506479,
+      "statistical_power": 0.1701,
+      "bayes_factor_10": 0.301
+    }
+  ],
+  "latex_table": "\\begin{table*}[t]\n\\centering\n\\caption{End-to-End Comparative Benchmarking across Standardized Baselines and Proposed Framework ($\\mu \\pm \\sigma$, $[95\\%\\text{ CI}]$). Asterisks denote statistical significance over Baseline 2: $^{*}p < 0.05$, $^{**}p < 0.01$, $^{***}p < 0.001$.}\n\\label{tab:comparative_benchmarks}\n\\small\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Metric} & \\textbf{Baseline 1 (Unmitigated)} & \\textbf{Baseline 2 (Static IDS)} & \\textbf{Baseline 3 (ML Heuristic)} & \\textbf{Proposed (Digital Twin)} \\\\\n\\midrule\nResilience Score $\\mathcal{R}$ & 0.978 $\\pm$ 0.020 & 0.978 $\\pm$ 0.019 & 0.978 $\\pm$ 0.020 & \\textbf{0.976} $\\pm$ 0.023 \\\\\nMean Packet Delivery Ratio & 0.958 $\\pm$ 0.020 & 0.958 $\\pm$ 0.019 & 0.958 $\\pm$ 0.020 & \\textbf{0.956} $\\pm$ 0.023 \\\\\nFinal Steady-State PDR & 0.975 $\\pm$ 0.004 & 0.973 $\\pm$ 0.003 & 0.975 $\\pm$ 0.004 & \\textbf{0.975} $\\pm$ 0.004 \\\\\nMean Latency (ms) & 29.967 $\\pm$ 2.750 & 27.842 $\\pm$ 2.124 & 28.289 $\\pm$ 0.722 & \\textbf{29.871} $\\pm$ 2.887$^{*}$ \\\\\nTotal Packets Dropped & 38.533 $\\pm$ 18.811 & 38.533 $\\pm$ 18.654 & 38.533 $\\pm$ 18.811 & \\textbf{36.333} $\\pm$ 17.593 \\\\\nNetwork Partition Rate & 0.000 $\\pm$ 0.000 & 0.482 $\\pm$ 0.353 & 0.000 $\\pm$ 0.000 & \\textbf{0.042} $\\pm$ 0.161$^{***}$ \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}"
+}

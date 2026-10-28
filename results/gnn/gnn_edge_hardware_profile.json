@@ -1,0 +1,65 @@
+{
+  "model_architecture": "BridgeAwareGAT + DualHeadGNNClassifier",
+  "parameters": {
+    "total_parameters": 12230,
+    "trainable_parameters": 12230,
+    "encoder_parameters": 3584,
+    "attack_head_parameters": 1221,
+    "trust_head_parameters": 1089,
+    "model_size_kb": 47.7734375
+  },
+  "computational_complexity": {
+    "num_nodes": 6,
+    "num_edges": 14,
+    "estimated_flops": 74900,
+    "estimated_macs": 37450,
+    "gflops": 7.49e-05
+  },
+  "desktop_reference_latency": {
+    "mean_ms": 0.7242654010187835,
+    "std_ms": 0.1310875902582228,
+    "median_ms": 0.6501000025309622,
+    "p95_ms": 0.970445049460977,
+    "p99_ms": 1.2759009364526717,
+    "min_ms": 0.6231999723240733,
+    "max_ms": 1.6371000092476606
+  },
+  "edge_gateway_projections": {
+    "Raspberry Pi 4B": {
+      "processor": "Quad-core ARM Cortex-A72 @ 1.5 GHz",
+      "ram_mb": 4096,
+      "deadline_ms": 100.0,
+      "projected_latency_ms": 1.609,
+      "deadline_margin_pct": 98.4,
+      "is_feasible": true,
+      "max_throughput_hz": 621.3
+    },
+    "NVIDIA Jetson Nano": {
+      "processor": "Quad-core ARM Cortex-A57 @ 1.43 GHz",
+      "ram_mb": 4096,
+      "deadline_ms": 100.0,
+      "projected_latency_ms": 1.811,
+      "deadline_margin_pct": 98.2,
+      "is_feasible": true,
+      "max_throughput_hz": 552.3
+    },
+    "Intel Industrial Edge": {
+      "processor": "Intel Core i5-1135G7 @ 2.4 GHz",
+      "ram_mb": 8192,
+      "deadline_ms": 50.0,
+      "projected_latency_ms": 0.63,
+      "deadline_margin_pct": 98.7,
+      "is_feasible": true,
+      "max_throughput_hz": 1587.8
+    },
+    "ESP32-S3 Micro-Gateway": {
+      "processor": "Dual-core Xtensa LX7 @ 240 MHz (PSRAM)",
+      "ram_mb": 8,
+      "deadline_ms": 500.0,
+      "projected_latency_ms": 12.071,
+      "deadline_margin_pct": 97.6,
+      "is_feasible": true,
+      "max_throughput_hz": 82.8
+    }
+  }
+}

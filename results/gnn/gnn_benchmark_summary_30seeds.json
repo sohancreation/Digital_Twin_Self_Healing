@@ -1,0 +1,37 @@
+{
+  "n_seeds": 30,
+  "n_attacks": 4,
+  "n_runs_per_strategy": 120,
+  "baseline4_gnn_standalone": {
+    "pdr_mean": 96.65731536635477,
+    "pdr_sd": 1.8042531429898547,
+    "pdr_med": 97.41717240250756,
+    "part_mean": 46.875,
+    "part_sd": 27.063293868263706,
+    "part_med": 62.5,
+    "mttd_mean": 0.0,
+    "mttd_sd": 0.0,
+    "mttr_mean": 0.0,
+    "mttr_sd": 0.0,
+    "resilience_mean": 0.986299136391375,
+    "resilience_sd": 0.018410746357039334,
+    "lat_mean": 26.514268007005146,
+    "lat_sd": 1.1521371068943802
+  },
+  "proposed_gnn_fused": {
+    "pdr_mean": 95.50428677142314,
+    "pdr_sd": 0.7580557089569054,
+    "pdr_med": 95.45738793796892,
+    "part_mean": 0.0,
+    "part_sd": 0.0,
+    "part_med": 0.0,
+    "mttd_mean": 0.0,
+    "mttd_sd": 0.0,
+    "mttr_mean": 4.5,
+    "mttr_sd": 0.0,
+    "resilience_mean": 0.965,
+    "resilience_sd": 0.0,
+    "lat_mean": 22.295261299109857,
+    "lat_sd": 1.135334812061401
+  }
+}

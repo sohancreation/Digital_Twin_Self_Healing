@@ -1,0 +1,178 @@
+{
+  "horizon_ablation": [
+    {
+      "horizon_s": 10,
+      "mean_pdr": 0.912,
+      "mttr_s": 8.5,
+      "prediction_rmse": 0.082,
+      "solve_latency_ms": 2.277,
+      "resilience_score": 0.884
+    },
+    {
+      "horizon_s": 20,
+      "mean_pdr": 0.938,
+      "mttr_s": 7.2,
+      "prediction_rmse": 0.046,
+      "solve_latency_ms": 3.29,
+      "resilience_score": 0.911
+    },
+    {
+      "horizon_s": 30,
+      "mean_pdr": 0.954,
+      "mttr_s": 6.4,
+      "prediction_rmse": 0.024,
+      "solve_latency_ms": 6.455,
+      "resilience_score": 0.932
+    },
+    {
+      "horizon_s": 45,
+      "mean_pdr": 0.951,
+      "mttr_s": 6.6,
+      "prediction_rmse": 0.028,
+      "solve_latency_ms": 5.982,
+      "resilience_score": 0.929
+    },
+    {
+      "horizon_s": 60,
+      "mean_pdr": 0.948,
+      "mttr_s": 6.9,
+      "prediction_rmse": 0.035,
+      "solve_latency_ms": 7.721,
+      "resilience_score": 0.925
+    }
+  ],
+  "weight_sensitivity": [
+    {
+      "profile_name": "BALANCED",
+      "weights": [
+        0.25,
+        0.4,
+        0.25,
+        0.1
+      ],
+      "mean_pdr": 0.955,
+      "mean_latency_ms": 18.1,
+      "total_energy_consumed_j": 98.7,
+      "signaling_overhead_bytes": 80,
+      "selected_action": "NO_ACTION",
+      "resilience_score": 0.932
+    },
+    {
+      "profile_name": "SECURITY_FIRST",
+      "weights": [
+        0.15,
+        0.65,
+        0.1,
+        0.1
+      ],
+      "mean_pdr": 0.972,
+      "mean_latency_ms": 24.8,
+      "total_energy_consumed_j": 114.2,
+      "signaling_overhead_bytes": 96,
+      "selected_action": "NO_ACTION",
+      "resilience_score": 0.938
+    },
+    {
+      "profile_name": "ENERGY_CONSTRAINED",
+      "weights": [
+        0.15,
+        0.25,
+        0.5,
+        0.1
+      ],
+      "mean_pdr": 0.931,
+      "mean_latency_ms": 19.5,
+      "total_energy_consumed_j": 88.6,
+      "signaling_overhead_bytes": 64,
+      "selected_action": "NO_ACTION",
+      "resilience_score": 0.912
+    },
+    {
+      "profile_name": "LATENCY_CRITICAL",
+      "weights": [
+        0.5,
+        0.3,
+        0.1,
+        0.1
+      ],
+      "mean_pdr": 0.948,
+      "mean_latency_ms": 14.2,
+      "total_energy_consumed_j": 108.4,
+      "signaling_overhead_bytes": 80,
+      "selected_action": "NO_ACTION",
+      "resilience_score": 0.927
+    }
+  ],
+  "channel_loss_ablation": [
+    {
+      "channel_loss_rate": 0.0,
+      "downlink_delivery_rate": 1.0,
+      "mean_retries": 0.0,
+      "verification_delay_s": 1.0,
+      "resilience_score": 0.935,
+      "final_pdr": 0.96
+    },
+    {
+      "channel_loss_rate": 0.05,
+      "downlink_delivery_rate": 1.0,
+      "mean_retries": 0.04,
+      "verification_delay_s": 1.6,
+      "resilience_score": 0.914,
+      "final_pdr": 0.9425
+    },
+    {
+      "channel_loss_rate": 0.1,
+      "downlink_delivery_rate": 1.0,
+      "mean_retries": 0.1,
+      "verification_delay_s": 2.2,
+      "resilience_score": 0.893,
+      "final_pdr": 0.925
+    },
+    {
+      "channel_loss_rate": 0.2,
+      "downlink_delivery_rate": 1.0,
+      "mean_retries": 0.2,
+      "verification_delay_s": 3.4,
+      "resilience_score": 0.851,
+      "final_pdr": 0.89
+    },
+    {
+      "channel_loss_rate": 0.3,
+      "downlink_delivery_rate": 1.0,
+      "mean_retries": 0.34,
+      "verification_delay_s": 4.6,
+      "resilience_score": 0.809,
+      "final_pdr": 0.855
+    }
+  ],
+  "trust_penalty_ablation": [
+    {
+      "penalty_ratio": 2.0,
+      "mttd_s": 4.2,
+      "false_alarm_rate": 0.005,
+      "evasion_suppression_rate": 0.45,
+      "resilience_score": 0.865
+    },
+    {
+      "penalty_ratio": 4.0,
+      "mttd_s": 3.1,
+      "false_alarm_rate": 0.008,
+      "evasion_suppression_rate": 0.72,
+      "resilience_score": 0.902
+    },
+    {
+      "penalty_ratio": 8.0,
+      "mttd_s": 2.2,
+      "false_alarm_rate": 0.012,
+      "evasion_suppression_rate": 0.985,
+      "resilience_score": 0.933
+    },
+    {
+      "penalty_ratio": 16.0,
+      "mttd_s": 1.8,
+      "false_alarm_rate": 0.065,
+      "evasion_suppression_rate": 0.995,
+      "resilience_score": 0.914
+    }
+  ]
+}

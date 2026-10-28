@@ -1,0 +1,123 @@
+{
+  "title": "GNN Phase 8: Federated Edge Learning & Multi-Twin Collaborative Resilience",
+  "timestamp": "2026-10-02T13:31:59Z",
+  "federated_setup": {
+    "num_edge_gateways": 4,
+    "clients": [
+      "Gateway_1_Industrial",
+      "Gateway_2_Hospital",
+      "Gateway_3_Microgrid",
+      "Gateway_4_SmartCity"
+    ],
+    "communication_rounds": 15
+  },
+  "convergence_comparison": {
+    "rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "fedavg_accuracy": [
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      86.9,
+      88.1,
+      86.9,
+      88.1,
+      85.71
+    ],
+    "fedprox_accuracy": [
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      86.9,
+      86.9,
+      86.9,
+      88.1
+    ],
+    "fedgraphbridge_accuracy": [
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      86.9,
+      88.1,
+      88.1,
+      88.1
+    ],
+    "final_fedavg_accuracy": 85.71,
+    "final_fedprox_accuracy": 88.1,
+    "final_fedgraphbridge_accuracy": 88.1,
+    "collaborative_gain_vs_fedavg": 2.39
+  },
+  "privacy_utility_tradeoff": {
+    "noise_multipliers": [
+      0.0,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "epsilons_dp": [
+      10.0,
+      8.0,
+      4.0,
+      2.0,
+      1.0
+    ],
+    "accuracies": [
+      85.71,
+      85.71,
+      85.71,
+      85.71,
+      40.48
+    ],
+    "trust_maes": [
+      0.2042,
+      0.1769,
+      0.1651,
+      0.1286,
+      0.1374
+    ]
+  },
+  "communication_efficiency": {
+    "raw_fp32_kb_per_round": 76.8,
+    "quantized_int8_kb_per_round": 9.6,
+    "bandwidth_reduction_pct": 87.5
+  }
+}

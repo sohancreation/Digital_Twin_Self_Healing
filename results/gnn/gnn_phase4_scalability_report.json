@@ -1,0 +1,414 @@
+{
+  "title": "GNN Phase 4 Enhanced: Ultra-Large Network Scalability & Graph Perforation Benchmark",
+  "computational_scaling": [
+    {
+      "nodes": 6,
+      "edges": 7,
+      "directed_edges": 14,
+      "density": "medium",
+      "latency_mean_ms": 1.798,
+      "latency_std_ms": 0.388,
+      "latency_p95_ms": 2.773,
+      "memory_mb": 0.051,
+      "throughput_graphs_s": 556.1,
+      "deadline_margin_pct": 82.0
+    },
+    {
+      "nodes": 12,
+      "edges": 17,
+      "directed_edges": 34,
+      "density": "medium",
+      "latency_mean_ms": 1.737,
+      "latency_std_ms": 0.402,
+      "latency_p95_ms": 2.55,
+      "memory_mb": 0.056,
+      "throughput_graphs_s": 575.7,
+      "deadline_margin_pct": 82.6
+    },
+    {
+      "nodes": 24,
+      "edges": 35,
+      "directed_edges": 70,
+      "density": "medium",
+      "latency_mean_ms": 1.696,
+      "latency_std_ms": 0.299,
+      "latency_p95_ms": 2.284,
+      "memory_mb": 0.064,
+      "throughput_graphs_s": 589.6,
+      "deadline_margin_pct": 83.0
+    },
+    {
+      "nodes": 48,
+      "edges": 71,
+      "directed_edges": 142,
+      "density": "medium",
+      "latency_mean_ms": 2.201,
+      "latency_std_ms": 0.324,
+      "latency_p95_ms": 2.622,
+      "memory_mb": 0.079,
+      "throughput_graphs_s": 454.4,
+      "deadline_margin_pct": 78.0
+    },
+    {
+      "nodes": 100,
+      "edges": 150,
+      "directed_edges": 300,
+      "density": "medium",
+      "latency_mean_ms": 2.705,
+      "latency_std_ms": 0.138,
+      "latency_p95_ms": 2.95,
+      "memory_mb": 0.114,
+      "throughput_graphs_s": 369.7,
+      "deadline_margin_pct": 73.0
+    },
+    {
+      "nodes": 200,
+      "edges": 299,
+      "directed_edges": 598,
+      "density": "medium",
+      "latency_mean_ms": 2.847,
+      "latency_std_ms": 0.281,
+      "latency_p95_ms": 3.253,
+      "memory_mb": 0.179,
+      "throughput_graphs_s": 351.3,
+      "deadline_margin_pct": 71.5
+    },
+    {
+      "nodes": 500,
+      "edges": 749,
+      "directed_edges": 1498,
+      "density": "medium",
+      "latency_mean_ms": 4.159,
+      "latency_std_ms": 0.453,
+      "latency_p95_ms": 5.0,
+      "memory_mb": 0.376,
+      "throughput_graphs_s": 240.5,
+      "deadline_margin_pct": 58.4
+    }
+  ],
+  "density_scaling_N100": [
+    {
+      "nodes": 100,
+      "edges": 131,
+      "directed_edges": 262,
+      "density": "sparse",
+      "latency_mean_ms": 2.624,
+      "latency_std_ms": 0.255,
+      "latency_p95_ms": 3.187,
+      "memory_mb": 0.109,
+      "throughput_graphs_s": 381.1,
+      "deadline_margin_pct": 73.8,
+      "density_level": "sparse"
+    },
+    {
+      "nodes": 100,
+      "edges": 150,
+      "directed_edges": 300,
+      "density": "medium",
+      "latency_mean_ms": 2.706,
+      "latency_std_ms": 0.14,
+      "latency_p95_ms": 2.961,
+      "memory_mb": 0.114,
+      "throughput_graphs_s": 369.5,
+      "deadline_margin_pct": 72.9,
+      "density_level": "medium"
+    },
+    {
+      "nodes": 100,
+      "edges": 181,
+      "directed_edges": 362,
+      "density": "dense",
+      "latency_mean_ms": 2.775,
+      "latency_std_ms": 0.386,
+      "latency_p95_ms": 3.519,
+      "memory_mb": 0.121,
+      "throughput_graphs_s": 360.4,
+      "deadline_margin_pct": 72.3,
+      "density_level": "dense"
+    }
+  ],
+  "coordinated_multi_target_stress": {
+    "K=1": {
+      "unmitigated": {
+        "pdr_mean": 81.62,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.8328,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 61.63,
+        "pdr_sd": 0.0,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.6289,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 64.96,
+        "pdr_sd": 0.0,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.6629,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 58.3,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.5949,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    },
+    "K=2": {
+      "unmitigated": {
+        "pdr_mean": 62.38,
+        "pdr_sd": 0.02,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.6366,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 58.26,
+        "pdr_sd": 0.02,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.5945,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 61.72,
+        "pdr_sd": 0.03,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.6298,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 54.83,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.5595,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    },
+    "K=3": {
+      "unmitigated": {
+        "pdr_mean": 43.96,
+        "pdr_sd": 0.02,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4486,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 58.05,
+        "pdr_sd": 0.03,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.5923,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 61.27,
+        "pdr_sd": 0.04,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.6252,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 54.83,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.5595,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    },
+    "K=4": {
+      "unmitigated": {
+        "pdr_mean": 29.16,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.2975,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 42.08,
+        "pdr_sd": 0.03,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4294,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 46.69,
+        "pdr_sd": 0.04,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4764,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 37.48,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.3825,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    },
+    "K=5": {
+      "unmitigated": {
+        "pdr_mean": 29.16,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.2975,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 41.93,
+        "pdr_sd": 0.02,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4278,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 46.39,
+        "pdr_sd": 0.02,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4734,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 37.48,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.3825,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    },
+    "K=6": {
+      "unmitigated": {
+        "pdr_mean": 29.16,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.2975,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "static_rule": {
+        "pdr_mean": 38.5,
+        "pdr_sd": 0.03,
+        "part_mean": 76.67,
+        "part_sd": 0.0,
+        "resilience_mean": 0.3929,
+        "mttd_mean": 2.0,
+        "path_stretch_mean": 1.0
+      },
+      "bayesian_only": {
+        "pdr_mean": 43.01,
+        "pdr_sd": 0.04,
+        "part_mean": 70.0,
+        "part_sd": 0.0,
+        "resilience_mean": 0.4389,
+        "mttd_mean": 4.0,
+        "path_stretch_mean": 1.0
+      },
+      "gnn_standalone": {
+        "pdr_mean": 34.01,
+        "pdr_sd": 0.0,
+        "part_mean": 83.33,
+        "part_sd": 0.0,
+        "resilience_mean": 0.347,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.0
+      },
+      "proposed_gnn_fused": {
+        "pdr_mean": 98.84,
+        "pdr_sd": 0.0,
+        "part_mean": 0.0,
+        "part_sd": 0.0,
+        "resilience_mean": 1.0,
+        "mttd_mean": 0.0,
+        "path_stretch_mean": 1.5
+      }
+    }
+  }
+}

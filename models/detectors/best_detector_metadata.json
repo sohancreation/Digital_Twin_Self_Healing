@@ -1,0 +1,15 @@
+{
+  "champion_binary_model": {
+    "name": "logistic_regression",
+    "f1": 0.9833729216152018,
+    "roc_auc": 0.9999550498665543,
+    "latency_us": 65.69600023794919,
+    "model_path": "E:\\G_Publication\\models\\detectors\\detector_binary_logistic_regression.joblib"
+  },
+  "champion_multiclass_model": {
+    "name": "logistic_regression",
+    "macro_f1": 0.9824151171570912,
+    "latency_us": 57.05800198484212,
+    "model_path": "E:\\G_Publication\\models\\detectors\\detector_multiclass_logistic_regression.joblib"
+  }
+}
